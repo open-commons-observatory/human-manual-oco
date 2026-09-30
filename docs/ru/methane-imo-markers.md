@@ -39,6 +39,23 @@ ACG (2020) прямо рекомендует тестирование на ме�
 Источники
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
 
+<a id="methane-reduces-gas-volume"></a>
+### Почему метановый вариант «тише» водородного
+
+На производство одной молекулы метана метаногены расходуют четыре молекулы водорода, поэтому итоговый объём газа в кишечнике при метановом варианте физически меньше, чем был бы при том же брожении без них — отсюда более тихая, но тяжёлая, распирающая картина, а не частое громкое отхождение газов.
+
+Статус
+: подтверждено
+
+Цитата (источник)
+: «methane is detected in 30%-50% of the healthy adult population worldwide»
+
+Перевод
+: «метан обнаруживается у 30-50% здоровых взрослых людей в мире»
+
+Источники
+: [Methanogens, Methane and Gastrointestinal Motility](https://pmc.ncbi.nlm.nih.gov/articles/PMC3895606/)
+
 ---
 
-[← Предыдущая: Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }}) · [Следующая →: Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }})
+[← Предыдущая: Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }}) · [Следующая →: Маркеры сероводородного СИБР (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }})

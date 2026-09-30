@@ -56,6 +56,23 @@ breadcrumb:
 Источники
 : [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
 
+<a id="auto-brewery-marker"></a>
+### Редкий, но абсолютно однозначный маркер: опьянение без алкоголя
+
+В редких, но хорошо задокументированных случаях дрожжи (включая виды Candida) в тонкой кишке ферментируют съеденные углеводы в этанол прямо в кишечнике, вызывая настоящее алкогольное опьянение после богатой углеводами еды без единой капли спиртного — синдром аутоброжения. Это не самый частый симптом СИФО, но там, где он есть, спутать его с чем-то другим практически невозможно.
+
+Статус
+: подтверждено
+
+Цитата (источник)
+: «Intoxicating amounts of ethanol are produced through endogenous fermentation within the digestive system»
+
+Перевод
+: «опьяняющие количества этанола образуются в результате эндогенного брожения внутри пищеварительной системы»
+
+Источники
+: [Auto-brewery syndrome](https://en.wikipedia.org/wiki/Auto-brewery_syndrome)
+
 ---
 
-[← Предыдущая: Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }}) · [Следующая →: Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }})
+[← Предыдущая: Маркеры сероводородного СИБР (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }}) · [Следующая →: Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }})

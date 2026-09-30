@@ -53,6 +53,20 @@ Status
 Sources
 : [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
 
+<a id="auto-brewery-marker"></a>
+### A rare but completely unambiguous marker: intoxication without alcohol
+
+In rare but well-documented cases, yeast (including Candida species) in the small intestine ferments ingested carbohydrates into ethanol right there in the gut, producing genuine alcohol intoxication after a carb-heavy meal without a drop of alcohol consumed - auto-brewery syndrome. It isn't the most common SIFO symptom, but where it occurs, it is almost impossible to mistake for anything else.
+
+Status
+: confirmed
+
+Quote (original)
+: «Intoxicating amounts of ethanol are produced through endogenous fermentation within the digestive system»
+
+Sources
+: [Auto-brewery syndrome](https://en.wikipedia.org/wiki/Auto-brewery_syndrome)
+
 ---
 
-[← Previous: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }}) · [Next →: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }})
+[← Previous: Hydrogen sulfide SIBO markers (the third gas)]({{ "/en/h2s-sibo-markers.html" | relative_url }}) · [Next →: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }})

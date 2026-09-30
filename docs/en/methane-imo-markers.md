@@ -39,6 +39,20 @@ Status
 Sources
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
 
+<a id="methane-reduces-gas-volume"></a>
+### Why the methane variant is 'quieter' than the hydrogen one
+
+Methanogens consume four hydrogen molecules to produce one methane molecule, so the resulting gas volume in the gut is physically smaller than it would be from the same fermentation without them - hence a quieter but heavier, more distending picture rather than frequent, loud gas.
+
+Status
+: confirmed
+
+Quote (original)
+: «methane is detected in 30%-50% of the healthy adult population worldwide»
+
+Sources
+: [Methanogens, Methane and Gastrointestinal Motility](https://pmc.ncbi.nlm.nih.gov/articles/PMC3895606/)
+
 ---
 
-[← Previous: Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) · [Next →: SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }})
+[← Previous: Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) · [Next →: Hydrogen sulfide SIBO markers (the third gas)]({{ "/en/h2s-sibo-markers.html" | relative_url }})

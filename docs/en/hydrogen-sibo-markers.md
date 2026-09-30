@@ -54,18 +54,20 @@ Sources
 : [Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by ESNM and ANMS](https://onlinelibrary.wiley.com/doi/10.1111/nmo.14817)
 
 <a id="orocecal-transit-confound"></a>
-### 2024 caveat: fast transit gives the same pattern
+### Two different scenarios behind the same early rise
 
-A 2024 clinical practice update (ESNM/ANMS) points out that the same early hydrogen rise is explainable not only by bacterial excess in the small intestine but simply by fast transit: if contents reach the bacteria-rich colon earlier than usual, fermentation there starts early with a normal small-intestine bacterial count. Telling the two scenarios apart by symptoms alone, and sometimes even by the test itself, is not always possible.
+A 2024 clinical practice update (ESNM/ANMS) points out: formally, the test cannot tell "too many bacteria in the small intestine" apart from "contents simply reached the colon faster than usual, whole distance included." In practice, though, this isn't a dead end - it's a question of accompanying sensations. Truly accelerated transit through the entire 5-7 metres of small intestine (classically, dumping syndrome after stomach surgery) has its own, recognisable picture: sweating, flushing, a racing heart, dizziness to the point of needing to lie down - a whole-body reaction to a sudden fluid shift and hormone surge, not just gut discomfort. Isolated bloating, gurgling, and an urgent need for the toilet without those systemic symptoms points far more toward local gas overproduction than toward transit accelerated end to end.
+
+There's also a simpler explanation for the speed itself: in typical (non-total) SIBO, bacteria don't overgrow along the whole length of the small intestine - they cluster near its start, right after the stomach. Food doesn't need to race the full 5-7 metres in 15 minutes; it only has to reach a colony sitting close by, a fraction of the standard distance to the colon. "Suspiciously fast" here doesn't mean superhuman overall speed - it means a short distance to the source of fermentation.
 
 Status
-: disputed / overstated in popular sources
+: mechanism known, not clinically proven
 
 Quote (original)
-: «wide variation in transit time through the stomach and small intestine to the cecum»
+: «food moves too quickly from your stomach to your duodenum»
 
 Sources
-: [Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by ESNM and ANMS](https://onlinelibrary.wiley.com/doi/10.1111/nmo.14817)
+: [Symptoms & Causes of Dumping Syndrome](https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome/symptoms-causes)
 
 ---
 

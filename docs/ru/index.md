@@ -16,6 +16,7 @@ breadcrumb:
 - [Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html" | relative_url }})
   - [Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
   - [Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})
+  - [Маркеры сероводородного СИБР (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }})
   - [Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }})
   - [Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }})
   - [Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }})

@@ -46,6 +46,7 @@ Relations
 : ← belongs-to: [acg-definition](facts.md#acg-definition)
 : ← subtopic-of: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
 : ← subtopic-of: [methane-imo-markers](topics.md#methane-imo-markers)
+: ← subtopic-of: [h2s-sibo-markers](topics.md#h2s-sibo-markers)
 : ← subtopic-of: [sifo-candida-markers](topics.md#sifo-candida-markers)
 : ← subtopic-of: [belching-differential](topics.md#belching-differential)
 : ← subtopic-of: [systemic-consequences](topics.md#systemic-consequences)
@@ -75,7 +76,7 @@ Narrative ru
 
 Сама скорость реакции здесь не случайна и не преувеличена — она прямо отражает то, что и измеряет тест. У здорового человека путь еды до толстой кишки, где бактерий много и они интенсивно бродят, занимает в среднем 70–90 минут; поэтому именно ранний, а не поздний подъём водорода/метана и считается признаком того, что брожение произошло раньше срока — то есть ещё в тонкой кишке. Стабильно повторяющийся день за днём быстрый (15–30 минут) отклик именно на определённые продукты, с одним и тем же характером ощущений — это не «размытый» симптом, а сигнал с понятной физиологической логикой за собой.
 
-Однако у этой логики есть важная и совсем свежая оговорка. Авторитетный клинический разбор 2024 года (одобренный европейским и американским обществами нейрогастроэнтерологии) указывает: тот же самый ранний подъём водорода можно объяснить не только избытком бактерий в тонкой кишке, но и попросту быстрым транзитом — если еда добралась до толстой кишки быстрее обычных 70–90 минут, брожение там начнётся раньше при полностью нормальном количестве бактерий в самой тонкой кишке. Отличить «бактерий много» от «транзит быстрый» по одним ощущениям, и даже по стандартному дыхательному тесту, не всегда возможно — это признанная методологическая проблема, а не придирка. Устойчивость и специфичность паттерна по-прежнему говорит в пользу того, что процесс реальный и понятный, но окончательно определить именно его причину без теста (а иногда и с тестом) непросто. [Подробнее о критериях и источниках →]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
+У этой логики есть формальная оговорка: клинический разбор 2024 года (ESNM/ANMS) отмечает, что сам тест не отличает «бактерий много в тонкой кишке» от «содержимое целиком доехало до толстой кишки быстрее обычного». Но на уровне самонаблюдения разница отлично прощупывается. У по-настоящему разогнавшегося насквозь транзита (классика — демпинг-синдром после операций на желудке) есть собственная, ни с чем не спутываемая картина: потливость, приливы к лицу, учащённое сердцебиение, головокружение вплоть до желания срочно лечь — реакция всего тела на резкий сброс жидкости в кишку и гормональный скачок, а не только дискомфорт в животе. Если вместо этого — изолированное вздутие, громкое урчание и срочный позыв в туалет без потливости и сердцебиения, это гораздо увереннее говорит именно о локальном перепроизводстве газа. К тому же при обычном, не тотальном СИБР бактерии разрастаются не по всей длине кишки, а ближе к её началу — еде и не нужно нестись все 5–7 метров за 15 минут, достаточно доехать до близкой колонии. «Подозрительно быстро» здесь означает короткую дистанцию до источника, а не нечеловеческую скорость целиком. [Подробнее о критериях и источниках →]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
 
 Narrative en
 : Closest to the picture in the opening paragraph is the hydrogen-dominant variant. The classic pattern: you eat an apple, a slice of bread, anything rich in fermentable carbohydrate - and 15-30 minutes later your stomach is visibly distended. What follows is active, sometimes painful gas production and often a sudden, urgent need for the toilet: the gut wall is overstretched by gas, and the body rushes to empty itself.
@@ -84,7 +85,7 @@ This is diagnosed with a breath test: the patient drinks a glucose or lactulose 
 
 The speed of the reaction itself isn't incidental or exaggerated - it directly reflects what the test measures. In a healthy person, food normally takes 70-90 minutes to reach the colon, where bacteria are dense and ferment actively; that's exactly why an early, not a late, rise in hydrogen or methane is taken as a sign that fermentation happened ahead of schedule - still in the small intestine. A fast (15-30 minute) response to specific foods, recurring day after day with the same character of sensation, isn't a vague symptom - it's a signal with real physiological logic behind it.
 
-But that logic comes with an important, very recent caveat. An authoritative 2024 clinical practice update (endorsed by the European and American neurogastroenterology societies) points out that the same early hydrogen rise can also be explained not by bacterial excess in the small intestine but simply by fast transit - if food reaches the colon faster than the usual 70-90 minutes, fermentation there starts early even with a completely normal bacterial count in the small intestine itself. Telling "too many bacteria" apart from "fast transit" by feel alone, or even with a standard breath test, isn't always possible - that's a recognised methodological problem, not nitpicking. The consistency and specificity of the pattern still argues that something real and identifiable is going on; pinning down exactly which cause it is, without testing (and sometimes even with it), is the harder part. [More on the criteria and sources →]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
+This logic has a formal caveat: a 2024 clinical practice update (ESNM/ANMS) notes that the test itself can't tell "too many bacteria in the small intestine" apart from "contents reached the colon faster than usual, whole distance included." But at the level of self-observation, the difference is quite palpable. Truly accelerated end-to-end transit (classically, dumping syndrome after stomach surgery) has its own, unmistakable picture: sweating, facial flushing, a racing heart, dizziness to the point of needing to lie down urgently - a whole-body reaction to a sudden fluid shift into the gut and a hormone surge, not just abdominal discomfort. If instead it's isolated bloating, loud gurgling, and an urgent need for the toilet without sweating or a racing heart, that far more confidently points to local gas overproduction. On top of that, in ordinary, non-total SIBO, bacteria don't overgrow along the whole gut - they cluster near its start; food doesn't need to race the full 5-7 metres in 15 minutes, just reach a nearby colony. "Suspiciously fast" here means a short distance to the source, not superhuman overall speed. [More on the criteria and sources →]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
 
 Order key
 : 20
@@ -116,10 +117,14 @@ Summary en
 : Why the methane variant was formally renamed IMO, and how it differs from the hydrogen variant.
 
 Narrative ru
-: Прямая противоположность по симптому — не понос, а стойкий запор, часто с ощущением тяжести в животе даже натощак и характерным «туманом в голове» по утрам. Долгое время это называли «метановым СИБР», но название оказалось неточным: газ действительно метан, но производят его не бактерии, а совсем другой домен жизни — археи-метаногены. Поэтому современные гайдлайны используют более точный термин — IMO, избыточный рост метаногенов, — и это не игра в слова: раз источник другой, логично, что и подход к лечению может отличаться. Связь между избыточным метаном и замедленным транзитом признана достаточно, чтобы тестирование на метан официально рекомендовали именно пациентам с хроническим запором. [Подробнее →]({{ "/ru/methane-imo-markers.html" | relative_url }})
+: Прямая противоположность по симптому — не понос, а стойкий запор, часто с ощущением тяжести в животе даже натощак и характерным «туманом в голове» по утрам. Долгое время это называли «метановым СИБР», но название оказалось неточным: газ действительно метан, но производят его не бактерии, а совсем другой домен жизни — археи-метаногены. Поэтому современные гайдлайны используют более точный термин — IMO, избыточный рост метаногенов, — и это не игра в слова: раз источник другой, логично, что и подход к лечению может отличаться. Связь между избыточным метаном и замедленным транзитом признана достаточно, чтобы тестирование на метан официально рекомендовали именно пациентам с хроническим запором.
+
+Есть и специфическая деталь на уровне ощущений: на образование одной молекулы метана уходит целых четыре молекулы водорода, поэтому итоговый объём газа физически меньше, чем был бы без метаногенов. Отсюда узнаваемый контраст с водородным вариантом: не частое громкое отхождение газов, а тяжёлая, распирающая, но при этом сравнительно «тихая» картина. [Подробнее →]({{ "/ru/methane-imo-markers.html" | relative_url }})
 
 Narrative en
-: The mirror image, symptom-wise: not diarrhoea but persistent constipation, often with a heavy feeling in the stomach even on an empty one, and a characteristic morning brain fog. This was long called "methane SIBO", but the name turned out to be imprecise: the gas really is methane, but it's produced not by bacteria but by an entirely different domain of life - methanogenic archaea. Modern guidelines therefore use the more accurate term IMO, intestinal methanogen overgrowth - and that's not just semantics: a different source reasonably means a different treatment logic. The link between excess methane and slow transit is recognised enough that methane testing is formally recommended specifically for patients with chronic constipation. [More →]({{ "/en/methane-imo-markers.html" | relative_url }})
+: The mirror image, symptom-wise: not diarrhoea but persistent constipation, often with a heavy feeling in the stomach even on an empty one, and a characteristic morning brain fog. This was long called "methane SIBO", but the name turned out to be imprecise: the gas really is methane, but it's produced not by bacteria but by an entirely different domain of life - methanogenic archaea. Modern guidelines therefore use the more accurate term IMO, intestinal methanogen overgrowth - and that's not just semantics: a different source reasonably means a different treatment logic. The link between excess methane and slow transit is recognised enough that methane testing is formally recommended specifically for patients with chronic constipation.
+
+There's a specific felt detail here too: producing one methane molecule uses up four hydrogen molecules, so the total gas volume ends up physically smaller than it would be without methanogens. Hence the recognisable contrast with the hydrogen variant: not frequent, loud gas, but a heavy, distending, yet comparatively "quiet" picture. [More →]({{ "/en/methane-imo-markers.html" | relative_url }})
 
 Order key
 : 30
@@ -131,6 +136,48 @@ Relations
 : → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
 : ← belongs-to: [imo-reclassification](facts.md#imo-reclassification)
 : ← belongs-to: [imo-constipation-link](facts.md#imo-constipation-link)
+: ← belongs-to: [methane-reduces-gas-volume](facts.md#methane-reduces-gas-volume)
+
+
+<a id="h2s-sibo-markers"></a>
+### h2s-sibo-markers
+
+Name ru
+: Маркеры сероводородного СИБР (третий газ)
+
+Name en
+: Hydrogen sulfide SIBO markers (the third gas)
+
+Summary ru
+: Третий, самый молодой из распознанных типов СИБР — с самым узнаваемым из всех маркеров: конкретным запахом.
+
+Summary en
+: The third, most recently recognised SIBO type - with the single most recognisable marker of all: a specific smell.
+
+Narrative ru
+: У водорода и метана есть общая слабость как у маркеров: сами по себе оба газа ничем не пахнут. Характерный «аромат» СИБР дают не они, а следовые количества серосодержащих соединений — и вот здесь нос оказывается точнее любого прибора, потому что именно на эти концентрации он и настроен эволюционно.
+
+Сероводород (H₂S) — тот самый безошибочный запах тухлых яиц или засорившейся канализации — производят отдельные, сульфат-восстанавливающие бактерии, использующие в качестве топлива тот же водород, который иначе достался бы метаногенам. До недавнего времени эту разновидность СИБР было почти невозможно подтвердить: стандартные тесты меряют водород и метан, а не серу, и у части пациентов с сероводородным типом оба показателя на тесте оставались подозрительно, «неестественно» ровными — весь водород уходил не в выдох, а в переработку сероводородными бактериями. Сейчас существует отдельный трёхгазовый тест (от лаборатории того же исследователя, что стоял у истоков теста на IMO), напрямую измеряющий сероводород, но по количеству исследований это по-прежнему самый молодой из трёх типов — с соответствующей осторожностью к выводам.
+
+Практический вывод простой: если резкий, отчётливо «тухлый» запах — не эпизодический, а стабильно узнаваемый спутник именно ваших эпизодов, это не блажь и не совпадение, а вполне конкретный, специфичный маркер этой химии, а не просто «дурно пахнущие газы вообще».
+
+Narrative en
+: Hydrogen and methane share a weakness as markers: neither gas has any smell of its own. SIBO's characteristic "aroma" comes not from them but from trace sulfur compounds - and this is exactly where the nose beats any instrument, because it's tuned by evolution to precisely these concentrations.
+
+Hydrogen sulfide (H₂S) - that unmistakable rotten-egg or blocked-sewer smell - is produced by a separate group of sulfate-reducing bacteria, which use as fuel the same hydrogen that would otherwise go to methanogens. Until recently this SIBO variant was almost impossible to confirm: standard tests measure hydrogen and methane, not sulfur, and in some patients with the hydrogen-sulfide type both readings stayed suspiciously, "unnaturally" flat on the test - all the hydrogen was being consumed by sulfide-producing bacteria rather than exhaled. A dedicated three-gas test now exists (from the lab of the same researcher behind the IMO test) that measures hydrogen sulfide directly, but by volume of research it's still the youngest of the three types, and conclusions should be held with corresponding caution.
+
+The practical takeaway is simple: if a sharp, distinctly "rotten" smell isn't an occasional fluke but a stable, recognisable companion specifically of your episodes, that's not squeamishness or coincidence - it's a genuinely specific marker of this particular chemistry, not just "smelly gas in general".
+
+Order key
+: 35
+
+Tags
+: gi, diagnosis, smell
+
+Relations
+: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: ← belongs-to: [gas-odor-chemistry](facts.md#gas-odor-chemistry)
+: ← belongs-to: [h2s-flatline-diagnostic-clue](facts.md#h2s-flatline-diagnostic-clue)
 
 
 <a id="sifo-candida-markers"></a>
@@ -149,10 +196,14 @@ Summary en
 : The least settled of the three diagnoses: what is known about it and what remains disputed.
 
 Narrative ru
-: Третий, самый спорный участник этой троицы — грибковый перерост, чаще всего дрожжами рода Candida. Узнаваемая картина: почти наркотическая тяга к сладкому и выпечке, белый налёт на языке по утрам, отрыжка без запаха, вздутие в самом низу живота. Проблема в том, что само существование этого диагноза как отдельной клинической единицы — предмет открытого спора: единого протокола диагностики нет, а симптомы почти полностью перекрываются с обычным бактериальным СИБР, так что отличить одно от другого без специфического анализа по одним ощущениям невозможно. Это не значит, что явления не существует — скорее что доказательная база здесь заметно тоньше, чем у первых двух пунктов. [Подробнее →]({{ "/ru/sifo-candida-markers.html" | relative_url }})
+: Третий, самый спорный участник этой троицы — грибковый перерост, чаще всего дрожжами рода Candida. Узнаваемая картина: почти наркотическая тяга к сладкому и выпечке, белый налёт на языке по утрам, отрыжка без запаха, вздутие в самом низу живота. Проблема в том, что само существование этого диагноза как отдельной клинической единицы — предмет открытого спора: единого протокола диагностики нет, а симптомы почти полностью перекрываются с обычным бактериальным СИБР, так что отличить одно от другого без специфического анализа по одним ощущениям невозможно. Это не значит, что явления не существует — скорее что доказательная база здесь заметно тоньше, чем у первых двух пунктов.
+
+Есть, впрочем, один редкий, но исключительно однозначный маркер именно грибкового брожения: синдром аутоброжения, при котором дрожжи в кишечнике превращают съеденные углеводы в этанол прямо на месте, вызывая настоящее опьянение после богатой углеводами еды без единой капли алкоголя. Встречается он далеко не у каждого с СИФО, но там, где встречается, спутать его с чем-то другим или списать на совпадение практически невозможно. [Подробнее →]({{ "/ru/sifo-candida-markers.html" | relative_url }})
 
 Narrative en
-: The third and most disputed member of the trio: fungal overgrowth, usually Candida yeasts. The recognisable picture: an almost compulsive craving for sugar and baked goods, a white coating on the tongue in the morning, odourless burping, bloating low in the abdomen. The catch is that the existence of this diagnosis as its own clinical entity is genuinely disputed: there's no standardised diagnostic protocol, and the symptoms overlap almost completely with ordinary bacterial SIBO, so the two can't be told apart by feel alone without specific testing. That doesn't mean the phenomenon doesn't exist - just that the evidence base here is noticeably thinner than for the first two. [More →]({{ "/en/sifo-candida-markers.html" | relative_url }})
+: The third and most disputed member of the trio: fungal overgrowth, usually Candida yeasts. The recognisable picture: an almost compulsive craving for sugar and baked goods, a white coating on the tongue in the morning, odourless burping, bloating low in the abdomen. The catch is that the existence of this diagnosis as its own clinical entity is genuinely disputed: there's no standardised diagnostic protocol, and the symptoms overlap almost completely with ordinary bacterial SIBO, so the two can't be told apart by feel alone without specific testing. That doesn't mean the phenomenon doesn't exist - just that the evidence base here is noticeably thinner than for the first two.
+
+There is, however, one rare but exceptionally unambiguous marker specifically of fungal fermentation: auto-brewery syndrome, where gut yeast turns ingested carbohydrate into ethanol on the spot, causing genuine intoxication after a carb-heavy meal without a drop of alcohol. It's far from universal in SIFO, but where it happens, it's almost impossible to mistake for anything else or write off as coincidence. [More →]({{ "/en/sifo-candida-markers.html" | relative_url }})
 
 Order key
 : 40
@@ -165,6 +216,7 @@ Relations
 : ← belongs-to: [sifo-debated](facts.md#sifo-debated)
 : ← belongs-to: [sifo-candida-dominant](facts.md#sifo-candida-dominant)
 : ← belongs-to: [sifo-symptom-overlap](facts.md#sifo-symptom-overlap)
+: ← belongs-to: [auto-brewery-marker](facts.md#auto-brewery-marker)
 
 
 <a id="belching-differential"></a>

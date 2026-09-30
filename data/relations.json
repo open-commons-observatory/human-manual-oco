@@ -7,11 +7,15 @@
 {"from_id":"supragastric-belching-mechanism","to_id":"belching-differential","relation":"belongs-to","note":null}
 {"from_id":"belching-vs-aerophagia-vs-sibo-gas","to_id":"belching-differential","relation":"belongs-to","note":null}
 {"from_id":"belching-anxiety-formal-dx","to_id":"belching-differential","relation":"belongs-to","note":null}
+{"from_id":"gas-odor-chemistry","to_id":"h2s-sibo-markers","relation":"belongs-to","note":null}
+{"from_id":"h2s-flatline-diagnostic-clue","to_id":"h2s-sibo-markers","relation":"belongs-to","note":null}
 {"from_id":"imo-reclassification","to_id":"methane-imo-markers","relation":"belongs-to","note":null}
 {"from_id":"imo-constipation-link","to_id":"methane-imo-markers","relation":"belongs-to","note":null}
+{"from_id":"methane-reduces-gas-volume","to_id":"methane-imo-markers","relation":"belongs-to","note":null}
 {"from_id":"sifo-debated","to_id":"sifo-candida-markers","relation":"belongs-to","note":null}
 {"from_id":"sifo-candida-dominant","to_id":"sifo-candida-markers","relation":"belongs-to","note":null}
 {"from_id":"sifo-symptom-overlap","to_id":"sifo-candida-markers","relation":"belongs-to","note":null}
+{"from_id":"auto-brewery-marker","to_id":"sifo-candida-markers","relation":"belongs-to","note":null}
 {"from_id":"systemic-permeability","to_id":"systemic-consequences","relation":"belongs-to","note":null}
 {"from_id":"systemic-sphincter-oddi-claim","to_id":"systemic-consequences","relation":"belongs-to","note":null}
 {"from_id":"bile-deconjugation-mechanism","to_id":"cascade-fat-vitamins","relation":"belongs-to","note":null}
@@ -41,6 +45,7 @@
 {"from_id":"course-titration-caution","to_id":"protocol-schedule","relation":"belongs-to","note":null}
 {"from_id":"hydrogen-sibo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"methane-imo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
+{"from_id":"h2s-sibo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"sifo-candida-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"belching-differential","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"systemic-consequences","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}

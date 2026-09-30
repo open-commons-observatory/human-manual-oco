@@ -177,6 +177,58 @@ Cited by
 : [secondary-lactose-intolerance](facts.md#secondary-lactose-intolerance)
 
 
+<a id="niddk-dumping-syndrome"></a>
+### Symptoms & Causes of Dumping Syndrome
+
+Url
+: https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome/symptoms-causes
+
+Cited by
+: [orocecal-transit-confound](facts.md#orocecal-transit-confound)
+
+
+<a id="methanogens-motility-review-2014"></a>
+### Methanogens, Methane and Gastrointestinal Motility
+
+Url
+: https://pmc.ncbi.nlm.nih.gov/articles/PMC3895606/
+
+Author
+: Triantafyllou K, Chang C, Pimentel M
+
+Year
+: 2013
+
+Cited by
+: [methane-reduces-gas-volume](facts.md#methane-reduces-gas-volume)
+
+
+<a id="h2s-gasotransmitter-review"></a>
+### Epithelial Electrolyte Transport Physiology and the Gasotransmitter Hydrogen Sulfide
+
+Url
+: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4745330/
+
+Author
+: Pouokam E, Althaus M
+
+Year
+: 2016
+
+Cited by
+: [gas-odor-chemistry](facts.md#gas-odor-chemistry)
+
+
+<a id="auto-brewery-wikipedia"></a>
+### Auto-brewery syndrome
+
+Url
+: https://en.wikipedia.org/wiki/Auto-brewery_syndrome
+
+Cited by
+: [auto-brewery-marker](facts.md#auto-brewery-marker)
+
+
 <a id="sibo-critical-appraisal-2024"></a>
 ### Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by ESNM and ANMS
 
@@ -190,7 +242,7 @@ Year
 : 2024
 
 Cited by
-: [rapid-onset-diagnostic-logic](facts.md#rapid-onset-diagnostic-logic), [orocecal-transit-confound](facts.md#orocecal-transit-confound)
+: [rapid-onset-diagnostic-logic](facts.md#rapid-onset-diagnostic-logic)
 
 
 <a id="aga-belching-2023"></a>
