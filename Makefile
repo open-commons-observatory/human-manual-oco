@@ -11,15 +11,16 @@ checks:           ## invariant queries in checks/*.sql
 	$(DC) checks
 canon:            ## import -> validate -> canonical export of data/
 	$(DC) canon
-render:           ## data/ -> docs/*.md
+render:           ## data/ -> docs/*.md (raw engine pages), then the bilingual manual on top
 	python3 .tad/tools/render.py
+	python3 bin/render_manual.py
 sql:              ## make sql Q="UPDATE ...; SELECT ..."
 	$(DC) sql "$(Q)"
 test:             ## tests for .tad/ itself
 	python3 .tad/tests/test_dc.py
 verify: check checks   ## what CI runs: data is valid and canonical, docs are fresh
 	@before="$$(find data docs -type f -print0 | sort -z | xargs -0 sha256sum)"; \
-	$(DC) canon && python3 .tad/tools/render.py; \
+	$(DC) canon && python3 .tad/tools/render.py && python3 bin/render_manual.py; \
 	after="$$(find data docs -type f -print0 | sort -z | xargs -0 sha256sum)"; \
 	if [ "$$before" != "$$after" ]; then \
 	  echo "data/ or docs/ was not canonical/fresh and has been rewritten. Review and commit:"; \

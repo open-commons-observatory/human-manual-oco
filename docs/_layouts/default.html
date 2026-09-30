@@ -13,6 +13,12 @@
 <header>
 <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
 <p>{{ site.description }}</p>
+{% if page.breadcrumb and page.breadcrumb.size > 0 %}
+<nav aria-label="breadcrumb">
+{% for crumb in page.breadcrumb %}{% unless forloop.first %} / {% endunless %}{% if forloop.last %}{{ crumb.name }}{% else %}<a href="{{ crumb.url | relative_url }}">{{ crumb.name }}</a>{% endif %}{% endfor %}
+{% if page.alt_path %} &middot; <a href="{{ page.alt_path | relative_url }}">{% if page.locale == "ru" %}In English{% else %}По-русски{% endif %}</a>{% endif %}
+</nav>
+{% endif %}
 </header>
 <main>
 {{ content }}

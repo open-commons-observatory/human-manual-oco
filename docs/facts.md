@@ -1,0 +1,782 @@
+<!-- Generated from data/ by .tad/tools/render.py. Do not edit by hand. -->
+
+# Facts
+
+<a id="acid-mmc-barrier"></a>
+### acid-mmc-barrier
+
+Name ru
+: Кислотный барьер и ММК
+
+Name en
+: Acid barrier and the MMC
+
+Statement ru
+: Желудочная кислота и мигрирующий моторный комплекс (ММК) — два основных механизма, ограничивающих количество бактерий в тонкой кишке; их нарушение (подавление кислотности, нарушения моторики, диабет, склеродермия, спайки после операций) — признанный фактор риска СИБР.
+
+Statement en
+: Gastric acid and the migrating motor complex (MMC) are the two principal mechanisms limiting bacterial numbers in the small intestine; their disruption (acid suppression, motility disorders, diabetes, scleroderma, post-surgical adhesions) is a recognised SIBO risk factor.
+
+Status
+: confirmed
+
+Tags
+: mechanism
+
+Relations
+: → belongs-to: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+
+Sources
+: [Small Intestinal Bacterial Overgrowth (SIBO) - Merck Manual Professional Edition](https://www.merckmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/small-intestinal-bacterial-overgrowth-sibo)
+
+
+<a id="acg-definition"></a>
+### acg-definition
+
+Name ru
+: Официальное определение СИБР
+
+Name en
+: The formal definition of SIBO
+
+Statement ru
+: СИБР официально определяется как избыточное количество бактерий в тонкой кишке, вызывающее симптомы со стороны ЖКТ; преобладают грамотрицательные бактерии, ферментирующие углеводы с образованием газа.
+
+Statement en
+: SIBO is formally defined as excessive numbers of bacteria in the small bowel causing GI symptoms; gram-negative, carbohydrate-fermenting, gas-producing organisms predominate.
+
+Quote
+: excessive numbers of bacteria in the small bowel causing GI symptoms
+
+Quote ru
+: избыточное количество бактерий в тонкой кишке, вызывающее симптомы со стороны ЖКТ
+
+Status
+: confirmed
+
+Tags
+: mechanism
+
+Relations
+: → belongs-to: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+
+Sources
+: [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+
+<a id="breath-test-diagnosis"></a>
+### breath-test-diagnosis
+
+Name ru
+: Критерий положительного водородного теста
+
+Name en
+: Positive hydrogen-test criterion
+
+Statement ru
+: Диагноз ставится дыхательным тестом: подъём водорода на ≥20 ppm от исходного уровня в первые 90 минут после приёма глюкозы или лактулозы — признанный критерий положительного результата (ACG, 2020).
+
+Statement en
+: Diagnosis is made by breath test: a rise in hydrogen of ≥20 ppm from baseline within the first 90 minutes after glucose or lactulose ingestion is the accepted positive criterion (ACG, 2020).
+
+Quote
+: A positive breath test is defined as a >20-ppm increase of hydrogen
+
+Quote ru
+: положительным тестом считается прирост водорода более чем на 20 ppm
+
+Status
+: confirmed
+
+Tags
+: diagnosis
+
+Relations
+: → belongs-to: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
+
+Sources
+: [Small Intestinal Bacterial Overgrowth (SIBO) - Merck Manual Professional Edition](https://www.merckmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/small-intestinal-bacterial-overgrowth-sibo)
+
+
+<a id="hydrogen-symptoms"></a>
+### hydrogen-symptoms
+
+Name ru
+: Симптомы водородного варианта
+
+Name en
+: Hydrogen-variant symptoms
+
+Statement ru
+: Вздутие, боль в животе, газообразование и/или диарея после еды — стандартный, признанный в гастроэнтерологии симптомокомплекс, ассоциированный с положительным водородным тестом.
+
+Statement en
+: Bloating, abdominal pain, gas and/or diarrhoea after eating form the standard symptom cluster gastroenterology associates with a positive hydrogen test.
+
+Status
+: confirmed
+
+Tags
+: symptoms
+
+Relations
+: → belongs-to: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
+
+Sources
+: [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+
+<a id="imo-reclassification"></a>
+### imo-reclassification
+
+Name ru
+: Метан образуют археи, не бактерии
+
+Name en
+: Methane comes from archaea, not bacteria
+
+Statement ru
+: Избыточный метан производят не бактерии, а археи-метаногены; поэтому ACG использует термин IMO (intestinal methanogen overgrowth) вместо «метановый СИБР». Порог положительного теста — метан ≥10 ppm.
+
+Statement en
+: Excess methane is produced by methanogenic archaea, not bacteria; ACG therefore prefers the term IMO (intestinal methanogen overgrowth) over "methane SIBO". The positive-test threshold is methane ≥10 ppm.
+
+Status
+: confirmed
+
+Tags
+: diagnosis, imo
+
+Relations
+: → belongs-to: [methane-imo-markers](topics.md#methane-imo-markers)
+
+Sources
+: [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+
+<a id="imo-constipation-link"></a>
+### imo-constipation-link
+
+Name ru
+: IMO и запор
+
+Name en
+: IMO and constipation
+
+Statement ru
+: ACG (2020) прямо рекомендует тестирование на метан/IMO у пациентов с запором — связь между избыточным метаном и замедленным транзитом признана на уровне клинической рекомендации, хотя качество доказательств оценено как очень низкое.
+
+Statement en
+: ACG (2020) explicitly recommends methane/IMO testing in patients with constipation - the link between excess methane and slow transit is recognised at guideline level, though the evidence is graded very low quality.
+
+Status
+: confirmed
+
+Tags
+: diagnosis, imo
+
+Relations
+: → belongs-to: [methane-imo-markers](topics.md#methane-imo-markers)
+
+Sources
+: [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+
+<a id="sifo-debated"></a>
+### sifo-debated
+
+Name ru
+: Существование СИФО как диагноза оспаривается
+
+Name en
+: SIFO's status as a diagnosis is disputed
+
+Statement ru
+: Существование СИФО как отдельной клинической единицы и его значимость до сих пор являются предметом дискуссии; общепринятого стандартизированного протокола диагностики нет.
+
+Statement en
+: The existence and clinical relevance of SIFO as a distinct entity remain debated in the literature, and there is no standardised diagnostic protocol.
+
+Quote
+: The existence and clinical relevance of SIFO as a distinct entity remain debated
+
+Quote ru
+: существование и клиническая значимость СИФО как отдельной единицы остаются предметом дискуссии
+
+Status
+: disputed
+
+Tags
+: candida
+
+Relations
+: → belongs-to: [sifo-candida-markers](topics.md#sifo-candida-markers)
+
+Sources
+: [Small intestinal fungal overgrowth - AMBOSS](https://www.amboss.com/us/knowledge/small-intestinal-fungal-overgrowth)
+
+
+<a id="sifo-candida-dominant"></a>
+### sifo-candida-dominant
+
+Name ru
+: 97% случаев СИФО — Candida
+
+Name en
+: 97% of SIFO cases are Candida
+
+Statement ru
+: В исследованиях пациентов с необъяснёнными жалобами ЖКТ около 97% выявленных при СИФО грибков относились к роду Candida, чаще всего Candida albicans.
+
+Statement en
+: In studies of patients with unexplained GI complaints, roughly 97% of fungi identified in SIFO cases belonged to the genus Candida, most often Candida albicans.
+
+Status
+: preliminary
+
+Tags
+: candida
+
+Relations
+: → belongs-to: [sifo-candida-markers](topics.md#sifo-candida-markers)
+
+Sources
+: [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
+
+
+<a id="sifo-symptom-overlap"></a>
+### sifo-symptom-overlap
+
+Name ru
+: Симптомы СИФО совпадают с СИБР
+
+Name en
+: SIFO symptoms overlap with SIBO
+
+Statement ru
+: Клинические проявления СИФО (боль, вздутие, газ, диарея) во многом совпадают с симптомами бактериального СИБР, что затрудняет разграничение без специфической диагностики (посев аспирата тонкой кишки).
+
+Statement en
+: SIFO's clinical picture (pain, bloating, gas, diarrhoea) largely overlaps with bacterial SIBO, which makes the two hard to tell apart without specific testing (small-bowel aspirate culture).
+
+Status
+: preliminary
+
+Tags
+: candida, diagnosis
+
+Relations
+: → belongs-to: [sifo-candida-markers](topics.md#sifo-candida-markers)
+
+Sources
+: [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
+
+
+<a id="systemic-permeability"></a>
+### systemic-permeability
+
+Name ru
+: Проницаемость: механизм правдоподобен, цепочка не доказана
+
+Name en
+: Permeability: plausible mechanism, unproven chain
+
+Statement ru
+: Цепочка «перерастяжение газом / биоплёнка → повреждение слизистого барьера → повышенная проницаемость → новые пищевые реакции» обсуждается в литературе как механизм, но убедительных клинических доказательств того, что она реализуется у типичного пациента с СИБР, недостаточно.
+
+Statement en
+: The chain "gas distension / biofilm -> damaged mucosal barrier -> increased permeability -> new food reactions" is discussed in the literature as a mechanism, but solid clinical evidence that it plays out in a typical SIBO patient is lacking.
+
+Status
+: mechanistic
+
+Tags
+: systemic
+
+Relations
+: → belongs-to: [systemic-consequences](topics.md#systemic-consequences)
+
+Sources
+: [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
+
+
+<a id="systemic-sphincter-oddi-claim"></a>
+### systemic-sphincter-oddi-claim
+
+Name ru
+: Спазм сфинктера Одди / панкреатит — не подтверждено
+
+Name en
+: Sphincter of Oddi spasm / pancreatitis - unsupported
+
+Statement ru
+: Утверждение, что вздутие при СИБР регулярно вызывает спазм сфинктера Одди и вторичный панкреатит, не нашло подтверждения в проверенной нами гастроэнтерологической литературе; это не признанное осложнение СИБР, а, судя по всему, непроверяемая экстраполяция.
+
+Statement en
+: The claim that SIBO-related bloating routinely causes sphincter of Oddi spasm and secondary pancreatitis found no support in the gastroenterology literature we checked; it is not a recognised SIBO complication, and appears to be an unsourced extrapolation.
+
+Status
+: insufficient-evidence
+
+Tags
+: systemic, correction
+
+Relations
+: → belongs-to: [systemic-consequences](topics.md#systemic-consequences)
+
+
+<a id="herx-reaction-origin"></a>
+### herx-reaction-origin
+
+Name ru
+: Классическая реакция Яриша-Герксгеймера
+
+Name en
+: The classic Jarisch-Herxheimer reaction
+
+Statement ru
+: Реакция Яриша-Герксгеймера описана и подтверждена для антибиотикотерапии спирохетозных и близких инфекций (сифилис, болезнь Лайма, лептоспироз, Ку-лихорадка) — острая воспалительная реакция на массовый распад бактерий, обычно в первые 24 часа.
+
+Statement en
+: The Jarisch-Herxheimer reaction is described and confirmed for antibiotic treatment of spirochaetal and related infections (syphilis, Lyme disease, leptospirosis, Q fever) - an acute inflammatory reaction to mass bacterial lysis, usually within the first 24 hours.
+
+Quote
+: The JHR occurs when large quantities of toxins are released
+
+Quote ru
+: реакция возникает, когда в организм высвобождается большое количество токсинов
+
+Status
+: confirmed
+
+Tags
+: die-off
+
+Relations
+: → belongs-to: [protocol-binders](topics.md#protocol-binders)
+
+Sources
+: [Recurrent Jarisch-Herxheimer reaction in a patient with Q fever pneumonia: a case report](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2621130/)
+
+
+<a id="herx-extrapolation-gut"></a>
+### herx-extrapolation-gut
+
+Name ru
+: Перенос на СИБР/кандиду не подтверждён исследованиями
+
+Name en
+: The extension to SIBO/candida is not research-backed
+
+Statement ru
+: Перенос этой концепции на приём растительных антимикробных добавок при СИБР/кандиде («детокс-реакция») — устоявшийся термин в интегративной медицине, но контролируемых клинических исследований именно этого механизма в контексте пищевых добавок нам найти не удалось; относитесь к нему как к правдоподобному, но не доказанному объяснению недомогания в начале курса.
+
+Statement en
+: Extending this concept to herbal antimicrobial supplements for SIBO/candida (a "detox reaction") is an established term in integrative medicine, but we could not find controlled clinical studies of this specific mechanism in a supplement context; treat it as a plausible, not a proven, explanation for early-course malaise.
+
+Status
+: insufficient-evidence
+
+Tags
+: die-off, correction
+
+Relations
+: → belongs-to: [protocol-binders](topics.md#protocol-binders)
+
+
+<a id="binders-general-caution"></a>
+### binders-general-caution
+
+Name ru
+: Сорбенты связывают неизбирательно
+
+Name en
+: Binders bind non-selectively
+
+Statement ru
+: Сорбенты вроде цеолита или активированного угля физически связывают вещества в просвете кишки неизбирательно — это касается не только «токсинов», но и лекарств и части нутриентов, поэтому их разносят по времени с едой и другими препаратами минимум на 1.5-2 часа; это общее фармакологическое свойство адсорбентов, а не доказательство пользы именно при «die-off».
+
+Statement en
+: Binders such as zeolite or activated charcoal adsorb substances in the gut lumen non-selectively - this affects not just "toxins" but medications and some nutrients too, which is why they are timed at least 1.5-2 hours from food and other supplements; this is a general property of adsorbents, not evidence of benefit specifically for "die-off".
+
+Status
+: mechanistic
+
+Tags
+: die-off
+
+Relations
+: → belongs-to: [protocol-binders](topics.md#protocol-binders)
+
+
+<a id="berberine-rct"></a>
+### berberine-rct
+
+Name ru
+: Берберин против рифаксимина: идёт РКИ
+
+Name en
+: Berberine vs rifaximin: an RCT is underway
+
+Statement ru
+: Берберин напрямую сравнивается с рифаксимином в зарегистрированном рандомизированном клиническом исследовании (BRIEF-SIBO, Пекинский университет); опубликован протокол исследования, гипотеза — берберин не уступает рифаксимину по эффективности эрадикации.
+
+Statement en
+: Berberine is being directly compared with rifaximin in a registered randomised controlled trial (BRIEF-SIBO, Peking University); the trial protocol has been published, with the hypothesis that berberine is non-inferior to rifaximin for eradication.
+
+Quote
+: the first clinical trial assessing the eradication effects of two weeks of berberine treatment
+
+Quote ru
+: первое клиническое испытание, оценивающее эффект двухнедельного приёма берберина
+
+Status
+: preliminary
+
+Tags
+: eradication, berberine
+
+Relations
+: → belongs-to: [protocol-eradication](topics.md#protocol-eradication)
+
+Sources
+: [Berberine and rifaximin effects on small intestinal bacterial overgrowth: study protocol (BRIEF-SIBO)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9974661/)
+
+
+<a id="herbal-vs-rifaximin-retrospective"></a>
+### herbal-vs-rifaximin-retrospective
+
+Name ru
+: «46% против 34%» — из ретроспективного, не рандомизированного исследования
+
+Name en
+: "46% vs 34%" is from a retrospective, non-randomised study
+
+Statement ru
+: Часто цитируемое сравнение «46% против 34%» в пользу трав против рифаксимина получено в ретроспективном анализе историй болезни (не в рандомизированном исследовании): пациенты сами выбирали лечение, разница статистически не значима (p=.24), а использовались запатентованные комбинированные формулы (Dysbiocide/FC-Cidal, Candibactin-AR/BR), а не отдельно орегано или берберин.
+
+Statement en
+: The widely cited "46% vs 34%" comparison favouring herbs over rifaximin comes from a retrospective chart review (not a randomised trial): patients self-selected their treatment, the difference was not statistically significant (p=.24), and the herbal arm used proprietary combination formulas (Dysbiocide/FC-Cidal, Candibactin-AR/BR), not standalone oregano or berberine.
+
+Quote
+: Herbal therapies are at least as effective as rifaximin for resolution of SIBO
+
+Quote ru
+: травяная терапия по меньшей мере не уступает рифаксимину в разрешении СИБР
+
+Status
+: disputed
+
+Tags
+: eradication, correction
+
+Relations
+: → belongs-to: [protocol-eradication](topics.md#protocol-eradication)
+
+Sources
+: [Herbal Therapy Is Equivalent to Rifaximin for the Treatment of Small Intestinal Bacterial Overgrowth](https://pmc.ncbi.nlm.nih.gov/articles/PMC4030608/)
+
+
+<a id="single-agent-evidence-gap"></a>
+### single-agent-evidence-gap
+
+Name ru
+: Отдельных испытаний одного агента почти нет
+
+Name en
+: Almost no single-agent trials exist
+
+Statement ru
+: Прямых клинических испытаний одного только масла орегано, только берберина вне BRIEF-SIBO или только аллицина против СИБР у людей практически нет; доступные данные получены либо на комбинированных формулах, либо in vitro / на животных.
+
+Statement en
+: Direct human clinical trials of oregano oil alone, of berberine alone outside BRIEF-SIBO, or of allicin alone against SIBO are essentially absent; the available data come either from combination formulas or from in vitro / animal work.
+
+Status
+: insufficient-evidence
+
+Tags
+: eradication, correction
+
+Relations
+: → belongs-to: [protocol-eradication](topics.md#protocol-eradication)
+
+
+<a id="allicin-methanogens-mechanism"></a>
+### allicin-methanogens-mechanism
+
+Name ru
+: Аллицин против метаногенов — данные из животноводства, не медицины
+
+Name en
+: Allicin vs methanogens - livestock data, not clinical data
+
+Statement ru
+: Аллицин (из чеснока) подавляет рост метаногенных архей в исследованиях, посвящённых снижению метана у жвачных животных; прямых клинических испытаний аллицина против IMO у людей найти не удалось — перенос эффекта на человека остаётся предположением, а не установленным фактом.
+
+Statement en
+: Allicin (from garlic) does suppress methanogenic archaea in research aimed at reducing ruminant methane emissions; we could not find direct human clinical trials of allicin against IMO - extrapolating the effect to people remains an assumption, not an established fact.
+
+Status
+: insufficient-evidence
+
+Tags
+: eradication, imo
+
+Relations
+: → belongs-to: [protocol-eradication](topics.md#protocol-eradication)
+
+
+<a id="caprylic-acid-invitro"></a>
+### caprylic-acid-invitro
+
+Name ru
+: Каприловая кислота: доказательства только in vitro
+
+Name en
+: Caprylic acid: in-vitro evidence only
+
+Statement ru
+: Противогрибковое действие каприловой кислоты в отношении Candida показано преимущественно in vitro; контролируемых клинических испытаний у людей с диагностированным СИФО не найдено. При подтверждённом СИФО стандартом остаются рецептурные антимикотики (например, флуконазол).
+
+Statement en
+: Caprylic acid's antifungal action against Candida has mainly been shown in vitro; no controlled human trials in diagnosed SIFO were found. Where SIFO is confirmed, prescription antifungals (e.g. fluconazole) remain the standard of care.
+
+Status
+: insufficient-evidence
+
+Tags
+: eradication, candida
+
+Relations
+: → belongs-to: [protocol-eradication](topics.md#protocol-eradication)
+
+Sources
+: [Small intestinal fungal overgrowth - AMBOSS](https://www.amboss.com/us/knowledge/small-intestinal-fungal-overgrowth)
+
+
+<a id="nac-biofilm-definition"></a>
+### nac-biofilm-definition
+
+Name ru
+: Что такое биоплёнка
+
+Name en
+: What a biofilm is
+
+Statement ru
+: Биоплёнка — структурированное сообщество микробных клеток во внеклеточном полисахаридном матриксе; её присутствие называют одним из факторов, затрудняющих лечение СИБР/IMO антимикробными средствами.
+
+Statement en
+: A biofilm is a structured community of microbial cells embedded in an extracellular polysaccharide matrix; its presence is cited as one factor that makes SIBO/IMO harder to treat with antimicrobials.
+
+Quote
+: structured communities of microbial cells embedded in an extracellular polymeric substance matrix
+
+Quote ru
+: структурированные сообщества микробных клеток во внеклеточном полимерном матриксе
+
+Status
+: confirmed
+
+Tags
+: biofilm
+
+Relations
+: → belongs-to: [protocol-biofilm](topics.md#protocol-biofilm)
+
+Sources
+: [Biofilm Disruption Enhances Antimicrobial Therapy for SIBO and Intestinal Methanogen Overgrowth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12701763/)
+
+
+<a id="biofilm-disruptor-evidence-gap"></a>
+### biofilm-disruptor-evidence-gap
+
+Name ru
+: Разрушать биоплёнку до эрадикации — рационально, но не доказано на людях
+
+Name en
+: Disrupt-then-treat is rational but not human-proven
+
+Statement ru
+: Идея «сначала разрушить биоплёнку (например, NAC), потом убивать патоген» механистически рациональна и обсуждается в свежих обзорах по СИБР/IMO, но клинических испытаний, доказывающих, что именно эта последовательность улучшает исходы у людей по сравнению с однократным приёмом антимикробных средств, пока мало.
+
+Statement en
+: The idea of "disrupt the biofilm first (e.g. with NAC), then kill the pathogen" is mechanistically rational and discussed in recent SIBO/IMO reviews, but there are still few clinical trials proving this sequence improves human outcomes compared with antimicrobials alone.
+
+Status
+: insufficient-evidence
+
+Tags
+: biofilm, correction
+
+Relations
+: → belongs-to: [protocol-biofilm](topics.md#protocol-biofilm)
+
+Sources
+: [Biofilm Disruption Enhances Antimicrobial Therapy for SIBO and Intestinal Methanogen Overgrowth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12701763/)
+
+
+<a id="prokinetic-mmc-rationale"></a>
+### prokinetic-mmc-rationale
+
+Name ru
+: Зачем нужны прокинетики после эрадикации
+
+Name en
+: Why prokinetics matter after eradication
+
+Statement ru
+: Риск рецидива СИБР во многом связан с тем, восстановилась ли моторика: ММК в фазе покоя «выметает» остатки пищи и бактерий из тонкой кишки между приёмами пищи.
+
+Statement en
+: SIBO relapse risk is closely tied to whether motility has recovered: the fasting-phase MMC "sweeps" residual food and bacteria out of the small intestine between meals.
+
+Status
+: confirmed
+
+Tags
+: prokinetics
+
+Relations
+: → belongs-to: [protocol-prokinetics](topics.md#protocol-prokinetics)
+
+Sources
+: [Complementary and alternative treatment in functional dyspepsia](https://pmc.ncbi.nlm.nih.gov/articles/PMC5802680/)
+
+
+<a id="ginger-mmc-evidence"></a>
+### ginger-mmc-evidence
+
+Name ru
+: Имбирь и III фаза ММК: подтверждено в малых исследованиях
+
+Name en
+: Ginger and MMC phase III: shown in small studies
+
+Statement ru
+: В небольших исследованиях экстракт имбиря достоверно усиливал антральную моторику именно в III фазе ММК натощак — механизм действия имеет прямое клиническое подтверждение, хотя выборки небольшие.
+
+Statement en
+: In small studies, ginger extract reliably increased antral motility specifically during fasting-state MMC phase III - the mechanism has direct clinical support, though sample sizes are small.
+
+Quote
+: oral ginger improves gastroduodenal motility in the fasting state
+
+Quote ru
+: приём имбиря улучшает гастродуоденальную моторику в состоянии натощак
+
+Status
+: preliminary
+
+Tags
+: prokinetics, ginger
+
+Relations
+: → belongs-to: [protocol-prokinetics](topics.md#protocol-prokinetics)
+
+Sources
+: [Complementary and alternative treatment in functional dyspepsia](https://pmc.ncbi.nlm.nih.gov/articles/PMC5802680/)
+
+
+<a id="artichoke-dyspepsia-not-sibo"></a>
+### artichoke-dyspepsia-not-sibo
+
+Name ru
+: Артишок доказан при диспепсии, не при СИБР
+
+Name en
+: Artichoke is proven for dyspepsia, not SIBO
+
+Statement ru
+: Экстракт артишока (Cynara scolymus) имеет РКИ-подтверждение эффективности при функциональной диспепсии, но отдельных испытаний именно для профилактики рецидива СИБР после эрадикации найти не удалось - это перенос с смежного показания.
+
+Statement en
+: Artichoke leaf extract (Cynara scolymus) has RCT support for functional dyspepsia, but no dedicated trials for preventing SIBO relapse after eradication were found - this is a carry-over from an adjacent indication.
+
+Status
+: mechanistic
+
+Tags
+: prokinetics, correction
+
+Relations
+: → belongs-to: [protocol-prokinetics](topics.md#protocol-prokinetics)
+
+Sources
+: [Complementary and alternative treatment in functional dyspepsia](https://pmc.ncbi.nlm.nih.gov/articles/PMC5802680/)
+
+
+<a id="glutamine-mixed-evidence"></a>
+### glutamine-mixed-evidence
+
+Name ru
+: L-глутамин: доказан в других контекстах, не в этом
+
+Name en
+: L-glutamine: proven elsewhere, not here
+
+Statement ru
+: L-глутамин изучен как топливо для энтероцитов и применяется у пациентов в критическом состоянии или с синдромом короткой кишки; доказательств именно для «заживления» кишечника при бытовом СИБР и повышенной проницаемости у в остальном здоровых людей значительно меньше.
+
+Statement en
+: L-glutamine is studied as an enterocyte fuel and used in critically ill patients or those with short-bowel syndrome; evidence specifically for gut "healing" in everyday SIBO and increased permeability in otherwise healthy people is considerably thinner.
+
+Status
+: mechanistic
+
+Tags
+: healing
+
+Relations
+: → belongs-to: [protocol-healing](topics.md#protocol-healing)
+
+
+<a id="pancreatic-enzyme-role"></a>
+### pancreatic-enzyme-role
+
+Name ru
+: Ферменты «на весь курс» — практика функциональной медицины, не гайдлайн
+
+Name en
+: Enzymes "for the whole course" is functional-medicine practice, not a guideline
+
+Statement ru
+: Ферментные препараты (панкреатин) — стандартное лечение при подтверждённой экзокринной недостаточности поджелудочной железы; их профилактическое применение «на время курса эрадикации СИБР» у людей без диагностированной недостаточности — практика функциональной медицины, не показание, закреплённое в гастроэнтерологических гайдлайнах.
+
+Statement en
+: Pancreatic enzyme products (pancreatin) are standard treatment for confirmed exocrine pancreatic insufficiency; using them prophylactically "for the duration of a SIBO eradication course" in people without diagnosed insufficiency is functional-medicine practice, not an indication set out in gastroenterology guidelines.
+
+Status
+: insufficient-evidence
+
+Tags
+: schedule, correction
+
+Relations
+: → belongs-to: [protocol-schedule](topics.md#protocol-schedule)
+
+
+<a id="course-titration-caution"></a>
+### course-titration-caution
+
+Name ru
+: Постепенное введение агентов — разумно, но не протестировано как протокол
+
+Name en
+: Staggered introduction is sensible, but untested as a protocol
+
+Statement ru
+: Постепенное введение агентов по одному, с паузами в 1-2 дня, — разумная практика (легче связать реакцию с конкретным веществом), но конкретный график «5 этапов за N дней» как таковой в исследованиях не тестировался; сроки индивидуальны.
+
+Statement en
+: Introducing agents one at a time with 1-2 day gaps is sensible practice (it makes a reaction easier to attribute to a specific substance), but no study has tested this specific "5 stages over N days" schedule as such; timing is individual.
+
+Status
+: mechanistic
+
+Tags
+: schedule
+
+Relations
+: → belongs-to: [protocol-schedule](topics.md#protocol-schedule)

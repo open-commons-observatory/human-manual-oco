@@ -42,6 +42,12 @@ header p {
   opacity: 0.75;
 }
 
+header nav {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
 /* Headings: distinguished by weight and a little space, not by size - h1/h2/h3 all read close
    to body text, the way a numbered RFC section title does, not a magazine headline. */
 h1, h2, h3, h4 {

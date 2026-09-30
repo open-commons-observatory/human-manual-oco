@@ -1,46 +1,55 @@
-# text-as-data-template
+# human-manual-oco
 
-A GitHub template for keeping a small dataset as plain, versioned files: SQL schema, JSON-lines
-data, a Markdown site rendered from it, and CI that enforces both stay valid and canonical.
+Личный "человеческий мануал": проверяемые факты о теле, здоровье и физиологии, с прямыми
+короткими цитатами из первоисточников, переводом на русский и статусом доказательности у
+каждого факта (`confirmed` / `preliminary` / `mechanistic` / `disputed` / `insufficient-evidence`).
+Двуязычный (RU/EN), опубликован на GitHub Pages как навигируемый мануал с хлебными крошками.
 
-**Use this template** (the button above, or `gh repo create --template creation-guidelines/text-as-data-template`)
-to start a new content repo, then run `./bin/adopt-engine.sh` once - GitHub's template generation
-gives you a fresh, historyless copy of `.tad/`, not a `git`-connected one, so this one-time step is
-what makes `git subrepo pull` (see [`.tad/README.md`](.tad/README.md)) work from then on; it needs
-[`git-subrepo`](https://github.com/ingydotnet/git-subrepo) installed, which the script checks for.
-The example content in `data/` and `checks/` is a placeholder - replace it with your own schema and
-delete the `EXAMPLE:` rows. The example includes two standing tables every project built this way
-should keep, alongside its actual content:
-- `backlog` (status: open / in-progress / done, optionally linked to a concept via `relations`) -
-  rendered to [`docs/backlog.md`](docs/backlog.md) here.
-- `session_log` (one row per significant decision: what was done, what was considered, what was
-  rejected and why) - rendered to [`docs/session_log.md`](docs/session_log.md) here, and, in this
-  repo, populated with the real decisions behind this template and its engine (also home to
-  [`tad-engine`](https://github.com/creation-guidelines/tad-engine)'s own backlog, since that repo
-  has no `data/` of its own to keep one in).
+- **Читать мануал:** после включения Pages (Settings -> Pages -> Deploy from a branch -> `main` /
+  `/docs`) - `https://open-commons-observatory.github.io/human-manual-oco/`.
+- **Работать с данными (люди или агенты):** прочитать [`AGENTS.md`](AGENTS.md), затем `make setup`
+  и `make verify`.
+- **Коммиты и релизы:** [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-- **Read the example site:** published to GitHub Pages once you enable it (Settings -> Pages -> Deploy from a branch -> `main` / `/docs`).
-- **Working on it (humans or agents):** read [`AGENTS.md`](AGENTS.md), run `make setup`, then `make verify`.
-- **Commit convention and how releases work:** [`CONTRIBUTING.md`](CONTRIBUTING.md).
+## Как это устроено
+`data/` - источник истины: SQL-схема (`schema.sql`), сгенерированные `COPY`-выражения
+(`load.sql`) и по одному JSON-lines файлу на таблицу. Схема (см. `data/schema.sql`):
 
-## How it works
-`data/` is the source of truth: a SQL schema (`schema.sql`), the load statements DuckDB writes
-(`load.sql`), and one JSON-lines file per table. DuckDB loads it in memory, SQL edits it, and it
-is written back in canonical form, so a one-row change is a one-line diff. `checks/*.sql` holds
-invariants you write for your own schema (ids unique, relations resolve, and so on). CI runs
-`make verify`: the data must be valid, canonical, and the rendered `docs/` must be current.
+- `topics` - разделы и подразделы мануала (`name_ru`/`name_en`, `summary_ru`/`summary_en`,
+  `order_key`); иерархия задаётся строками `relations` с `relation = 'subtopic-of'`.
+- `facts` - собственно факты: `statement_ru`/`statement_en` (проверенное, переформулированное
+  утверждение), `quote`/`quote_ru` (короткая прямая цитата из источника и перевод, опционально),
+  `status` (см. выше). Привязка факта к разделу - строка `relations` с `relation = 'belongs-to'`.
+- `sources` - источники (`title`, `url`, `author`, `year`). Цитирование - таблица `fact_sources`.
+- `backlog`, `session_log` - стандартные для TAD-репозиториев таблицы: что запланировано и что
+  реально решалось по ходу работы (и что было отвергнуто и почему).
 
-All of the reusable machinery lives in [`.tad/`](.tad/README.md), vendored as a `git subrepo`
-from [creation-guidelines/tad-engine](https://github.com/creation-guidelines/tad-engine) - see that
-file for how to pull engine updates, and fix or extend the engine itself over there, not here
-(a local edit to `.tad/` is what turns the next pull into a merge conflict).
+`checks/*.sql` проверяет инварианты (уникальность id, разрешимость связей). CI (`make verify`)
+гоняет два прохода рендера:
 
-## Releases
-Commits follow [Conventional Commits](https://www.conventionalcommits.org/) and are linted on
-every PR. [release-please](https://github.com/googleapis/release-please) reads them on `main` and
-opens a release PR with an updated `CHANGELOG.md`; merging it tags a release. See
-[`CONTRIBUTING.md`](CONTRIBUTING.md) for the type/scope convention.
+1. `.tad/tools/render.py` - общий движок (вендорится из
+   [`creation-guidelines/tad-engine`](https://github.com/creation-guidelines/tad-engine) как
+   `git subrepo`, см. [`.tad/README.md`](.tad/README.md)) - плоские "сырые" страницы по одной на
+   таблицу (`docs/topics.md`, `docs/facts.md`, `docs/sources.md` и т.д.), полезны для отладки
+   данных напрямую.
+2. `bin/render_manual.py` - репо-локальный скрипт (не часть движка, поэтому правки в нём не
+   мешают будущим `git subrepo pull` обновлениям `.tad/`), который по той же иерархии `topics`
+   строит человекочитаемый двуязычный мануал: `docs/ru/*.md` и `docs/en/*.md`, с хлебными
+   крошками и переключателем языка в шапке каждой страницы. `docs/index.md` он же перезаписывает
+   в простую страницу выбора языка.
 
-## Status
-No license has been chosen. Add one appropriate to your content before using this for anything
-you intend other people to reuse.
+Оформление - оригинальный минимализм этого шаблона (`docs/assets/css/style.css`): моноширинный
+шрифт, структура через отступы и `dl`-списки (kramdown), без цветных плашек и жирных ярлыков -
+ближе к тексту RFC, чем к типичной документационной теме.
+
+## Добавление новой темы
+`bin/seed.py` - пример того, как одной Python-сессией (параметризованные `INSERT`, без проблем с
+кириллицей/апострофами в SQL-литералах) наполнить `topics`/`facts`/`sources`/`relations`/
+`fact_sources` и канонически экспортировать их через `EXPORT DATABASE 'data' (FORMAT json)` -
+тот же механизм, что использует `.tad/tools/dc.py canon`. Для новой темы естественно написать
+второй такой скрипт (или расширить `seed.py`), затем `python3 .tad/tools/render.py && python3
+bin/render_manual.py` и `make verify`.
+
+## Статус
+Лицензия не выбрана. Контент - личные заметки с проверкой источников, не медицинская
+рекомендация; см. дисклеймер на титульной странице мануала.

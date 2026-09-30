@@ -1,5 +1,5 @@
 {
-  "name": "text-as-data-template",
+  "name": "human-manual-oco",
   "private": true,
   "description": "Commit-linting config only; this repo's content is data + SQL, not JS.",
   "devDependencies": {
