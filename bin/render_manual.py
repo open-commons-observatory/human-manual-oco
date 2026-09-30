@@ -182,6 +182,14 @@ def link(url, text):
     return f'[{text}]({{{{ "{url}" | relative_url }}}})'
 
 
+def anchor_link(fragment, text):
+    """Same-page link (e.g. a story page's own table of contents). Deliberately NOT passed
+    through the relative_url filter link() uses - relative_url prepends site.baseurl to
+    whatever it's given, which is correct for a root-relative page path but wrong for a bare
+    '#id' fragment (it would point at the site root's own anchor, not stay on this page)."""
+    return f"[{text}]({fragment})"
+
+
 # ---------------------------------------------------------------- glossary auto-linking
 # Longest term name first, so e.g. a hypothetical "СИБР водородного типа" would be tried before
 # bare "СИБР" - avoids a short term swallowing part of a longer, unrelated phrase.
@@ -349,7 +357,7 @@ def render_story(locale, root):
               "---", "", GENERATED, "", L["story_intro"], "", f"## {L['toc']}", ""]
     order = READING_ORDER[root]
     for tid in order:
-        lines.append(f"- {link(topic_url(locale, tid) + f'#story-{tid}', display_title(locale, tid))}")
+        lines.append(f"- {anchor_link(f'#story-{tid}', display_title(locale, tid))}")
     lines.append("")
     page_terms = set()
     for tid in order:

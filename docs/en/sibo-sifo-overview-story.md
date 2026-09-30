@@ -17,26 +17,26 @@ The same material as the sections above, assembled into one continuous read from
 
 ## Contents
 
-- [Overview: SIBO and SIFO]({{ "/en/sibo-sifo-overview.html#story-sibo-sifo-overview" | relative_url }})
-- [Self-observation: clear markers]({{ "/en/self-observation-markers.html#story-self-observation-markers" | relative_url }})
-- [SIBO markers: Hydrogen]({{ "/en/hydrogen-sibo-markers.html#story-hydrogen-sibo-markers" | relative_url }})
-- [SIBO markers: Methane (IMO)]({{ "/en/methane-imo-markers.html#story-methane-imo-markers" | relative_url }})
-- [SIBO markers: Hydrogen sulfide (the third gas)]({{ "/en/h2s-sibo-markers.html#story-h2s-sibo-markers" | relative_url }})
-- [SIFO markers: Fungal (Candida)]({{ "/en/sifo-candida-markers.html#story-sifo-candida-markers" | relative_url }})
-- [Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html#story-belching-differential" | relative_url }})
-- [Systemic consequences]({{ "/en/systemic-consequences.html#story-systemic-consequences" | relative_url }})
-- [Cascades: from bacteria to malnutrition and fatigue]({{ "/en/malabsorption-cascades.html#story-malabsorption-cascades" | relative_url }})
-- [Fat and fat-soluble vitamins (A, D, E, K)]({{ "/en/cascade-fat-vitamins.html#story-cascade-fat-vitamins" | relative_url }})
-- [Vitamin B12 and folate]({{ "/en/cascade-b12-folate.html#story-cascade-b12-folate" | relative_url }})
-- [Carbs, calories, and secondary lactose intolerance]({{ "/en/cascade-carb-calories.html#story-cascade-carb-calories" | relative_url }})
-- [Chronic fatigue]({{ "/en/cascade-fatigue.html#story-cascade-fatigue" | relative_url }})
-- [Eradication protocol: stage overview]({{ "/en/protocol-overview.html#story-protocol-overview" | relative_url }})
-- [Stage 1 - biofilm disruption]({{ "/en/protocol-biofilm.html#story-protocol-biofilm" | relative_url }})
-- [Stage 2 - eradication agents]({{ "/en/protocol-eradication.html#story-protocol-eradication" | relative_url }})
-- [Stage 3 - binders & die-off]({{ "/en/protocol-binders.html#story-protocol-binders" | relative_url }})
-- [Stage 4 - prokinetics]({{ "/en/protocol-prokinetics.html#story-protocol-prokinetics" | relative_url }})
-- [Stage 5 - mucosal healing]({{ "/en/protocol-healing.html#story-protocol-healing" | relative_url }})
-- [Dosing schedule & course rules]({{ "/en/protocol-schedule.html#story-protocol-schedule" | relative_url }})
+- [Overview: SIBO and SIFO](#story-sibo-sifo-overview)
+- [Self-observation: clear markers](#story-self-observation-markers)
+- [SIBO markers: Hydrogen](#story-hydrogen-sibo-markers)
+- [SIBO markers: Methane (IMO)](#story-methane-imo-markers)
+- [SIBO markers: Hydrogen sulfide (the third gas)](#story-h2s-sibo-markers)
+- [SIFO markers: Fungal (Candida)](#story-sifo-candida-markers)
+- [Odorless belching - usually a different mechanism](#story-belching-differential)
+- [Systemic consequences](#story-systemic-consequences)
+- [Cascades: from bacteria to malnutrition and fatigue](#story-malabsorption-cascades)
+- [Fat and fat-soluble vitamins (A, D, E, K)](#story-cascade-fat-vitamins)
+- [Vitamin B12 and folate](#story-cascade-b12-folate)
+- [Carbs, calories, and secondary lactose intolerance](#story-cascade-carb-calories)
+- [Chronic fatigue](#story-cascade-fatigue)
+- [Eradication protocol: stage overview](#story-protocol-overview)
+- [Stage 1 - biofilm disruption](#story-protocol-biofilm)
+- [Stage 2 - eradication agents](#story-protocol-eradication)
+- [Stage 3 - binders & die-off](#story-protocol-binders)
+- [Stage 4 - prokinetics](#story-protocol-prokinetics)
+- [Stage 5 - mucosal healing](#story-protocol-healing)
+- [Dosing schedule & course rules](#story-protocol-schedule)
 
 <a id="story-sibo-sifo-overview"></a>
 ### Overview: SIBO and SIFO
@@ -109,7 +109,7 @@ One specific claim deserves a firmer word: that bloating routinely causes spasm 
 
 The previous section covered things that are plausible but not yet proven. This one is the opposite: it's the most studied, most textbook part of the whole topic, straight from the Merck Manual and specialist malabsorption reviews, not integrative-medicine blogs.
 
-The logic is simple once you recall the normal digestion sequence (see the [organ chain]({{ "/en/story.html" | relative_url }})). The small intestine isn't just a tube - it's a sequence of specialised zones: the duodenum is where bile and pancreatic enzymes get added to food, the jejunum absorbs most nutrients, and right at the far end, the ileum - and only there - absorbs vitamin B12. When foreign bacteria move into this tube, they don't just "make gas" - they physically intercept part of this work at different points along it, each in its own way. What follows goes through each intercepted stage in turn.
+The logic is simple once you recall the normal digestion sequence (see the [organ chain]({{ "/en/sibo-sifo-overview-story.html#story-sibo-sifo-overview" | relative_url }})). The small intestine isn't just a tube - it's a sequence of specialised zones: the duodenum is where bile and pancreatic enzymes get added to food, the jejunum absorbs most nutrients, and right at the far end, the ileum - and only there - absorbs vitamin B12. When foreign bacteria move into this tube, they don't just "make gas" - they physically intercept part of this work at different points along it, each in its own way. What follows goes through each intercepted stage in turn.
 
 <a id="story-cascade-fat-vitamins"></a>
 ### Fat and fat-soluble vitamins (A, D, E, K)

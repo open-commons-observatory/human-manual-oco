@@ -17,26 +17,26 @@ breadcrumb:
 
 ## Содержание
 
-- [Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html#story-sibo-sifo-overview" | relative_url }})
-- [Самонаблюдения: чёткие маркеры]({{ "/ru/self-observation-markers.html#story-self-observation-markers" | relative_url }})
-- [Маркеры СИБР: Водородный]({{ "/ru/hydrogen-sibo-markers.html#story-hydrogen-sibo-markers" | relative_url }})
-- [Маркеры СИБР: Метановый (IMO)]({{ "/ru/methane-imo-markers.html#story-methane-imo-markers" | relative_url }})
-- [Маркеры СИБР: Сероводородный (третий газ)]({{ "/ru/h2s-sibo-markers.html#story-h2s-sibo-markers" | relative_url }})
-- [Маркеры СИФО: Грибковый (Candida)]({{ "/ru/sifo-candida-markers.html#story-sifo-candida-markers" | relative_url }})
-- [Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html#story-belching-differential" | relative_url }})
-- [Системные последствия]({{ "/ru/systemic-consequences.html#story-systemic-consequences" | relative_url }})
-- [Каскады: от бактерий к недоеданию и усталости]({{ "/ru/malabsorption-cascades.html#story-malabsorption-cascades" | relative_url }})
-- [Жиры и жирорастворимые витамины (A, D, E, K)]({{ "/ru/cascade-fat-vitamins.html#story-cascade-fat-vitamins" | relative_url }})
-- [Витамин B12 и фолиевая кислота]({{ "/ru/cascade-b12-folate.html#story-cascade-b12-folate" | relative_url }})
-- [Углеводы, калории и вторичная непереносимость лактозы]({{ "/ru/cascade-carb-calories.html#story-cascade-carb-calories" | relative_url }})
-- [Постоянная усталость]({{ "/ru/cascade-fatigue.html#story-cascade-fatigue" | relative_url }})
-- [Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html#story-protocol-overview" | relative_url }})
-- [Этап 1 — разрушение биоплёнки]({{ "/ru/protocol-biofilm.html#story-protocol-biofilm" | relative_url }})
-- [Этап 2 — эрадикация]({{ "/ru/protocol-eradication.html#story-protocol-eradication" | relative_url }})
-- [Этап 3 — сорбенты и реакция на распад]({{ "/ru/protocol-binders.html#story-protocol-binders" | relative_url }})
-- [Этап 4 — прокинетики]({{ "/ru/protocol-prokinetics.html#story-protocol-prokinetics" | relative_url }})
-- [Этап 5 — заживление слизистой]({{ "/ru/protocol-healing.html#story-protocol-healing" | relative_url }})
-- [Порядок приёма и правила курса]({{ "/ru/protocol-schedule.html#story-protocol-schedule" | relative_url }})
+- [Обзор: СИБР и СИФО](#story-sibo-sifo-overview)
+- [Самонаблюдения: чёткие маркеры](#story-self-observation-markers)
+- [Маркеры СИБР: Водородный](#story-hydrogen-sibo-markers)
+- [Маркеры СИБР: Метановый (IMO)](#story-methane-imo-markers)
+- [Маркеры СИБР: Сероводородный (третий газ)](#story-h2s-sibo-markers)
+- [Маркеры СИФО: Грибковый (Candida)](#story-sifo-candida-markers)
+- [Отрыжка без запаха — чаще другой механизм](#story-belching-differential)
+- [Системные последствия](#story-systemic-consequences)
+- [Каскады: от бактерий к недоеданию и усталости](#story-malabsorption-cascades)
+- [Жиры и жирорастворимые витамины (A, D, E, K)](#story-cascade-fat-vitamins)
+- [Витамин B12 и фолиевая кислота](#story-cascade-b12-folate)
+- [Углеводы, калории и вторичная непереносимость лактозы](#story-cascade-carb-calories)
+- [Постоянная усталость](#story-cascade-fatigue)
+- [Протокол эрадикации: обзор этапов](#story-protocol-overview)
+- [Этап 1 — разрушение биоплёнки](#story-protocol-biofilm)
+- [Этап 2 — эрадикация](#story-protocol-eradication)
+- [Этап 3 — сорбенты и реакция на распад](#story-protocol-binders)
+- [Этап 4 — прокинетики](#story-protocol-prokinetics)
+- [Этап 5 — заживление слизистой](#story-protocol-healing)
+- [Порядок приёма и правила курса](#story-protocol-schedule)
 
 <a id="story-sibo-sifo-overview"></a>
 ### Обзор: СИБР и СИФО
@@ -109,7 +109,7 @@ breadcrumb:
 
 Предыдущий раздел говорил о вещах, которые правдоподобны, но пока не доказаны. Здесь — противоположный случай: это самая изученная, самая учебниковая часть всей темы, прямо из Merck Manual и профильных обзоров по мальабсорбции, а не из блогов о интегративной медицине.
 
-Логика простая, если вспомнить нормальную схему пищеварения (см. [цепочку органов]({{ "/ru/story.html" | relative_url }})). Тонкая кишка — это не просто труба, а последовательность узкоспециализированных участков: в двенадцатиперстной кишке в еду добавляются желчь и ферменты поджелудочной, в тощей кишке всасывается большая часть нутриентов, а в самом конце, в подвздошной кишке, — и только там — всасывается витамин B12. Когда в этой трубе поселяются чужие бактерии, они не просто «создают газы» — они физически перехватывают часть этой работы на разных её участках, каждый раз по-своему. Дальше — по каждому перехваченному участку отдельно.
+Логика простая, если вспомнить нормальную схему пищеварения (см. [цепочку органов]({{ "/ru/sibo-sifo-overview-story.html#story-sibo-sifo-overview" | relative_url }})). Тонкая кишка — это не просто труба, а последовательность узкоспециализированных участков: в двенадцатиперстной кишке в еду добавляются желчь и ферменты поджелудочной, в тощей кишке всасывается большая часть нутриентов, а в самом конце, в подвздошной кишке, — и только там — всасывается витамин B12. Когда в этой трубе поселяются чужие бактерии, они не просто «создают газы» — они физически перехватывают часть этой работы на разных её участках, каждый раз по-своему. Дальше — по каждому перехваченному участку отдельно.
 
 <a id="story-cascade-fat-vitamins"></a>
 ### Жиры и жирорастворимые витамины (A, D, E, K)
