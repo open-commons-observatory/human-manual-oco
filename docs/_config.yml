@@ -1,5 +1,5 @@
-title: text-as-data-template
-description: A versioned, SQL-queryable dataset kept as plain files, rendered to a docs site.
+title: human-manual-oco
+description: Человеческий мануал / The Human Manual - проверенные факты, короткие цитаты, статус доказательности.
 theme: null
 markdown: kramdown
 plugins:
