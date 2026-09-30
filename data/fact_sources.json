@@ -2,6 +2,11 @@
 {"fact_id":"acg-definition","source_id":"acg-sibo-2020"}
 {"fact_id":"breath-test-diagnosis","source_id":"merck-sibo"}
 {"fact_id":"hydrogen-symptoms","source_id":"acg-sibo-2020"}
+{"fact_id":"rapid-onset-diagnostic-logic","source_id":"sibo-critical-appraisal-2024"}
+{"fact_id":"orocecal-transit-confound","source_id":"sibo-critical-appraisal-2024"}
+{"fact_id":"supragastric-belching-mechanism","source_id":"aga-belching-2023"}
+{"fact_id":"belching-vs-aerophagia-vs-sibo-gas","source_id":"aga-belching-2023"}
+{"fact_id":"belching-anxiety-formal-dx","source_id":"sgb-pathogenesis-review"}
 {"fact_id":"imo-reclassification","source_id":"acg-sibo-2020"}
 {"fact_id":"imo-constipation-link","source_id":"acg-sibo-2020"}
 {"fact_id":"sifo-debated","source_id":"amboss-sifo"}

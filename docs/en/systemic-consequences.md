@@ -38,4 +38,4 @@ Status
 
 ---
 
-[← Previous: SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }}) · [Next →: Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }})
+[← Previous: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }}) · [Next →: Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }})

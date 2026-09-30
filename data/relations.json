@@ -2,6 +2,11 @@
 {"from_id":"acg-definition","to_id":"sibo-sifo-overview","relation":"belongs-to","note":null}
 {"from_id":"breath-test-diagnosis","to_id":"hydrogen-sibo-markers","relation":"belongs-to","note":null}
 {"from_id":"hydrogen-symptoms","to_id":"hydrogen-sibo-markers","relation":"belongs-to","note":null}
+{"from_id":"rapid-onset-diagnostic-logic","to_id":"hydrogen-sibo-markers","relation":"belongs-to","note":null}
+{"from_id":"orocecal-transit-confound","to_id":"hydrogen-sibo-markers","relation":"belongs-to","note":null}
+{"from_id":"supragastric-belching-mechanism","to_id":"belching-differential","relation":"belongs-to","note":null}
+{"from_id":"belching-vs-aerophagia-vs-sibo-gas","to_id":"belching-differential","relation":"belongs-to","note":null}
+{"from_id":"belching-anxiety-formal-dx","to_id":"belching-differential","relation":"belongs-to","note":null}
 {"from_id":"imo-reclassification","to_id":"methane-imo-markers","relation":"belongs-to","note":null}
 {"from_id":"imo-constipation-link","to_id":"methane-imo-markers","relation":"belongs-to","note":null}
 {"from_id":"sifo-debated","to_id":"sifo-candida-markers","relation":"belongs-to","note":null}
@@ -28,6 +33,7 @@
 {"from_id":"hydrogen-sibo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"methane-imo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"sifo-candida-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
+{"from_id":"belching-differential","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"systemic-consequences","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"protocol-overview","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"protocol-biofilm","to_id":"protocol-overview","relation":"subtopic-of","note":null}

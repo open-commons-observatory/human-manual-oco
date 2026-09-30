@@ -17,6 +17,7 @@ Personal, source-checked notes, not medical advice; an evidence status is given 
   - [Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
   - [Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }})
   - [SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }})
+  - [Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }})
   - [Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }})
   - [Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }})
     - [Stage 1 - biofilm disruption]({{ "/en/protocol-biofilm.html" | relative_url }})

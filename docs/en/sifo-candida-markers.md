@@ -55,4 +55,4 @@ Sources
 
 ---
 
-[← Previous: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }}) · [Next →: Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }})
+[← Previous: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }}) · [Next →: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }})

@@ -38,4 +38,4 @@ breadcrumb:
 
 ---
 
-[← Предыдущая: Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }}) · [Следующая →: Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html" | relative_url }})
+[← Предыдущая: Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }}) · [Следующая →: Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html" | relative_url }})

@@ -126,3 +126,42 @@ Year
 
 Cited by
 : [herx-reaction-origin](facts.md#herx-reaction-origin)
+
+
+<a id="sibo-critical-appraisal-2024"></a>
+### Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by ESNM and ANMS
+
+Url
+: https://onlinelibrary.wiley.com/doi/10.1111/nmo.14817
+
+Author
+: Kashyap PC, et al.
+
+Year
+: 2024
+
+Cited by
+: [rapid-onset-diagnostic-logic](facts.md#rapid-onset-diagnostic-logic), [orocecal-transit-confound](facts.md#orocecal-transit-confound)
+
+
+<a id="aga-belching-2023"></a>
+### AGA Clinical Practice Update on Evaluation and Management of Belching, Abdominal Bloating, and Distention: Expert Review
+
+Url
+: https://www.gastrojournal.org/article/S0016-5085(23)00823-5/fulltext
+
+Year
+: 2023
+
+Cited by
+: [supragastric-belching-mechanism](facts.md#supragastric-belching-mechanism), [belching-vs-aerophagia-vs-sibo-gas](facts.md#belching-vs-aerophagia-vs-sibo-gas)
+
+
+<a id="sgb-pathogenesis-review"></a>
+### Supragastric belching: Pathogenesis, diagnostic issues and treatment
+
+Url
+: https://pmc.ncbi.nlm.nih.gov/articles/PMC9212115/
+
+Cited by
+: [belching-anxiety-formal-dx](facts.md#belching-anxiety-formal-dx)

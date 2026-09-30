@@ -47,6 +47,7 @@ Relations
 : ← subtopic-of: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
 : ← subtopic-of: [methane-imo-markers](topics.md#methane-imo-markers)
 : ← subtopic-of: [sifo-candida-markers](topics.md#sifo-candida-markers)
+: ← subtopic-of: [belching-differential](topics.md#belching-differential)
 : ← subtopic-of: [systemic-consequences](topics.md#systemic-consequences)
 : ← subtopic-of: [protocol-overview](topics.md#protocol-overview)
 
@@ -69,12 +70,20 @@ Summary en
 Narrative ru
 : Ближе всего к описанию из первого абзаца — вариант с преобладанием водородобразующих бактерий. Классическая картина: съели яблоко, кусок хлеба или что-то ещё, богатое ферментируемыми углеводами — и через 15–30 минут живот заметно раздуло. Дальше — активное, иногда болезненное газообразование и нередко резкий, срочный позыв в туалет: стенки кишки перерастянуты газом, и организм торопится всё сбросить.
 
-Диагностируется это дыхательным тестом: пациент выпивает раствор глюкозы или лактулозы, и если водород в выдыхаемом воздухе поднимается достаточно резко в первые полтора часа — это и есть искомый маркер. Симптомокомплекс (вздутие, боль, газы, диарея после еды) настолько устойчиво с этим ассоциируется, что вошёл в официальные гастроэнтерологические рекомендации, а не только в блоги о питании. [Подробнее о критериях и источниках →]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
+Диагностируется это дыхательным тестом: пациент выпивает раствор глюкозы или лактулозы, и если водород в выдыхаемом воздухе поднимается достаточно резко в первые полтора часа — это и есть искомый маркер. Симптомокомплекс (вздутие, боль, газы, диарея после еды) настолько устойчиво с этим ассоциируется, что вошёл в официальные гастроэнтерологические рекомендации, а не только в блоги о питании.
+
+Сама скорость реакции здесь не случайна и не преувеличена — она прямо отражает то, что и измеряет тест. У здорового человека путь еды до толстой кишки, где бактерий много и они интенсивно бродят, занимает в среднем 70–90 минут; поэтому именно ранний, а не поздний подъём водорода/метана и считается признаком того, что брожение произошло раньше срока — то есть ещё в тонкой кишке. Стабильно повторяющийся день за днём быстрый (15–30 минут) отклик именно на определённые продукты, с одним и тем же характером ощущений — это не «размытый» симптом, а сигнал с понятной физиологической логикой за собой.
+
+Однако у этой логики есть важная и совсем свежая оговорка. Авторитетный клинический разбор 2024 года (одобренный европейским и американским обществами нейрогастроэнтерологии) указывает: тот же самый ранний подъём водорода можно объяснить не только избытком бактерий в тонкой кишке, но и попросту быстрым транзитом — если еда добралась до толстой кишки быстрее обычных 70–90 минут, брожение там начнётся раньше при полностью нормальном количестве бактерий в самой тонкой кишке. Отличить «бактерий много» от «транзит быстрый» по одним ощущениям, и даже по стандартному дыхательному тесту, не всегда возможно — это признанная методологическая проблема, а не придирка. Устойчивость и специфичность паттерна по-прежнему говорит в пользу того, что процесс реальный и понятный, но окончательно определить именно его причину без теста (а иногда и с тестом) непросто. [Подробнее о критериях и источниках →]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
 
 Narrative en
 : Closest to the picture in the opening paragraph is the hydrogen-dominant variant. The classic pattern: you eat an apple, a slice of bread, anything rich in fermentable carbohydrate - and 15-30 minutes later your stomach is visibly distended. What follows is active, sometimes painful gas production and often a sudden, urgent need for the toilet: the gut wall is overstretched by gas, and the body rushes to empty itself.
 
-This is diagnosed with a breath test: the patient drinks a glucose or lactulose solution, and if exhaled hydrogen rises sharply enough within the first ninety minutes, that's the marker being looked for. The symptom cluster - bloating, pain, gas, diarrhoea after eating - is consistently enough associated with it to have made it into formal gastroenterology guidelines, not just nutrition blogs. [More on the criteria and sources →]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
+This is diagnosed with a breath test: the patient drinks a glucose or lactulose solution, and if exhaled hydrogen rises sharply enough within the first ninety minutes, that's the marker being looked for. The symptom cluster - bloating, pain, gas, diarrhoea after eating - is consistently enough associated with it to have made it into formal gastroenterology guidelines, not just nutrition blogs.
+
+The speed of the reaction itself isn't incidental or exaggerated - it directly reflects what the test measures. In a healthy person, food normally takes 70-90 minutes to reach the colon, where bacteria are dense and ferment actively; that's exactly why an early, not a late, rise in hydrogen or methane is taken as a sign that fermentation happened ahead of schedule - still in the small intestine. A fast (15-30 minute) response to specific foods, recurring day after day with the same character of sensation, isn't a vague symptom - it's a signal with real physiological logic behind it.
+
+But that logic comes with an important, very recent caveat. An authoritative 2024 clinical practice update (endorsed by the European and American neurogastroenterology societies) points out that the same early hydrogen rise can also be explained not by bacterial excess in the small intestine but simply by fast transit - if food reaches the colon faster than the usual 70-90 minutes, fermentation there starts early even with a completely normal bacterial count in the small intestine itself. Telling "too many bacteria" apart from "fast transit" by feel alone, or even with a standard breath test, isn't always possible - that's a recognised methodological problem, not nitpicking. The consistency and specificity of the pattern still argues that something real and identifiable is going on; pinning down exactly which cause it is, without testing (and sometimes even with it), is the harder part. [More on the criteria and sources →]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
 
 Order key
 : 20
@@ -86,6 +95,8 @@ Relations
 : → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
 : ← belongs-to: [breath-test-diagnosis](facts.md#breath-test-diagnosis)
 : ← belongs-to: [hydrogen-symptoms](facts.md#hydrogen-symptoms)
+: ← belongs-to: [rapid-onset-diagnostic-logic](facts.md#rapid-onset-diagnostic-logic)
+: ← belongs-to: [orocecal-transit-confound](facts.md#orocecal-transit-confound)
 
 
 <a id="methane-imo-markers"></a>
@@ -153,6 +164,44 @@ Relations
 : ← belongs-to: [sifo-debated](facts.md#sifo-debated)
 : ← belongs-to: [sifo-candida-dominant](facts.md#sifo-candida-dominant)
 : ← belongs-to: [sifo-symptom-overlap](facts.md#sifo-symptom-overlap)
+
+
+<a id="belching-differential"></a>
+### belching-differential
+
+Name ru
+: Отрыжка без запаха — чаще другой механизм
+
+Name en
+: Odorless belching - usually a different mechanism
+
+Summary ru
+: Почему повторяющаяся весь день отрыжка воздухом без запаха обычно объясняется не бактериями кишечника, а отдельным пищеводным механизмом.
+
+Summary en
+: Why all-day, odorless air belching is usually explained not by gut bacteria but by a separate oesophageal mechanism.
+
+Narrative ru
+: Второй симптом стоит разобрать отдельно, потому что интуитивно он кажется частью той же картины, а по механизму обычно ей не является. Отрыжка воздухом без запаха, повторяющаяся весь день и усиливающаяся через 20–30 минут после еды, — это не типичный портрет бактериального брожения. У брожения (что водородного, что метанового) газ движется вниз и наружу — вздутие, флатуленция, при водородном варианте нередко диарея; путь газа вверх и через рот при этом не главный.
+
+Повторяющаяся отрыжка — отдельно классифицированный в современной гастроэнтерологии феномен, супрагастральная отрыжка: воздух засасывается в пищевод и тут же выталкивается обратно, не успевая дойти ни до желудка, ни тем более до кишечника. Это не переваривание и не брожение — это, по сути, мышечный паттерн пищевода, который может закрепляться как привычка и чаще встречается у людей с тревожностью. От истинного заглатывания воздуха (аэрофагии, при которой воздух всё же доходит до кишечника и даёт вздутие и флатуленцию, а не отрыжку как главный симптом) и тем более от бактериального брожения это отличается и по ощущению, и по происхождению, хотя со стороны выглядит похоже. Официально отличить одно от другого можно только импедансометрией пищевода, но сам факт, что жалоба — преимущественно отрыжка, а не вздутие и не изменения стула, — уже смещает вероятность в сторону этого, а не кишечного механизма. [Подробнее →]({{ "/ru/belching-differential.html" | relative_url }})
+
+Narrative en
+: This second symptom deserves separate treatment, because intuitively it feels part of the same picture, but mechanistically it usually isn't. Odorless air belching, recurring all day and picking up 20-30 minutes after eating, isn't a typical portrait of bacterial fermentation. With fermentation (hydrogen or methane variant alike), gas moves down and out - bloating, flatulence, often diarrhoea in the hydrogen variant; the route up and out through the mouth isn't the main one.
+
+Recurring belching is its own, separately classified phenomenon in current gastroenterology: supragastric belching. Air is sucked into the oesophagus and pushed straight back out, without ever really reaching the stomach, let alone the intestine. It isn't digestion or fermentation at all - it's essentially an oesophageal muscular pattern that can become a learned habit, more common in people with anxiety. It differs, both in how it feels and in where it comes from, from true air-swallowing (aerophagia, where the air does reach the intestine and produces bloating and flatulence rather than belching as the main symptom) and even more so from bacterial fermentation, even though from the outside they can look alike. Formally telling them apart requires oesophageal impedance monitoring, but the fact that the complaint is mainly belching, not bloating or altered stools, already shifts the odds toward this mechanism rather than a gut one. [More →]({{ "/en/belching-differential.html" | relative_url }})
+
+Order key
+: 45
+
+Tags
+: gi, diagnosis, differential
+
+Relations
+: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: ← belongs-to: [supragastric-belching-mechanism](facts.md#supragastric-belching-mechanism)
+: ← belongs-to: [belching-vs-aerophagia-vs-sibo-gas](facts.md#belching-vs-aerophagia-vs-sibo-gas)
+: ← belongs-to: [belching-anxiety-formal-dx](facts.md#belching-anxiety-formal-dx)
 
 
 <a id="systemic-consequences"></a>

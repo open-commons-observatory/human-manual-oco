@@ -15,9 +15,10 @@ The mechanism by which colon-dwelling bacteria and fungi colonise the normally s
 
 ## Sections
 
-- [Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) (2)
+- [Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) (4)
 - [Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }}) (2)
 - [SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }}) (3)
+- [Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }}) (3)
 - [Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }}) (2)
 - [Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }}) (16)
 

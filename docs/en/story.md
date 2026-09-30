@@ -19,6 +19,7 @@ The same material as the sections above, assembled into one continuous read from
 - [Hydrogen-dominant SIBO markers](#hydrogen-sibo-markers)
 - [Methane / IMO markers](#methane-imo-markers)
 - [SIFO (fungal overgrowth) markers](#sifo-candida-markers)
+- [Odorless belching - usually a different mechanism](#belching-differential)
 - [Systemic consequences](#systemic-consequences)
 - [Eradication protocol: stage overview](#protocol-overview)
 - [Stage 1 - biofilm disruption](#protocol-biofilm)
@@ -44,7 +45,11 @@ When either barrier weakens - acid suppressed, motility disrupted, post-surgical
 
 Closest to the picture in the opening paragraph is the hydrogen-dominant variant. The classic pattern: you eat an apple, a slice of bread, anything rich in fermentable carbohydrate - and 15-30 minutes later your stomach is visibly distended. What follows is active, sometimes painful gas production and often a sudden, urgent need for the toilet: the gut wall is overstretched by gas, and the body rushes to empty itself.
 
-This is diagnosed with a breath test: the patient drinks a glucose or lactulose solution, and if exhaled hydrogen rises sharply enough within the first ninety minutes, that's the marker being looked for. The symptom cluster - bloating, pain, gas, diarrhoea after eating - is consistently enough associated with it to have made it into formal gastroenterology guidelines, not just nutrition blogs. [More on the criteria and sources →]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
+This is diagnosed with a breath test: the patient drinks a glucose or lactulose solution, and if exhaled hydrogen rises sharply enough within the first ninety minutes, that's the marker being looked for. The symptom cluster - bloating, pain, gas, diarrhoea after eating - is consistently enough associated with it to have made it into formal gastroenterology guidelines, not just nutrition blogs.
+
+The speed of the reaction itself isn't incidental or exaggerated - it directly reflects what the test measures. In a healthy person, food normally takes 70-90 minutes to reach the colon, where bacteria are dense and ferment actively; that's exactly why an early, not a late, rise in hydrogen or methane is taken as a sign that fermentation happened ahead of schedule - still in the small intestine. A fast (15-30 minute) response to specific foods, recurring day after day with the same character of sensation, isn't a vague symptom - it's a signal with real physiological logic behind it.
+
+But that logic comes with an important, very recent caveat. An authoritative 2024 clinical practice update (endorsed by the European and American neurogastroenterology societies) points out that the same early hydrogen rise can also be explained not by bacterial excess in the small intestine but simply by fast transit - if food reaches the colon faster than the usual 70-90 minutes, fermentation there starts early even with a completely normal bacterial count in the small intestine itself. Telling "too many bacteria" apart from "fast transit" by feel alone, or even with a standard breath test, isn't always possible - that's a recognised methodological problem, not nitpicking. The consistency and specificity of the pattern still argues that something real and identifiable is going on; pinning down exactly which cause it is, without testing (and sometimes even with it), is the harder part. [More on the criteria and sources →]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
 
 <a id="methane-imo-markers"></a>
 ### Methane / IMO markers
@@ -55,6 +60,13 @@ The mirror image, symptom-wise: not diarrhoea but persistent constipation, often
 ### SIFO (fungal overgrowth) markers
 
 The third and most disputed member of the trio: fungal overgrowth, usually Candida yeasts. The recognisable picture: an almost compulsive craving for sugar and baked goods, a white coating on the tongue in the morning, odourless burping, bloating low in the abdomen. The catch is that the existence of this diagnosis as its own clinical entity is genuinely disputed: there's no standardised diagnostic protocol, and the symptoms overlap almost completely with ordinary bacterial SIBO, so the two can't be told apart by feel alone without specific testing. That doesn't mean the phenomenon doesn't exist - just that the evidence base here is noticeably thinner than for the first two. [More →]({{ "/en/sifo-candida-markers.html" | relative_url }})
+
+<a id="belching-differential"></a>
+### Odorless belching - usually a different mechanism
+
+This second symptom deserves separate treatment, because intuitively it feels part of the same picture, but mechanistically it usually isn't. Odorless air belching, recurring all day and picking up 20-30 minutes after eating, isn't a typical portrait of bacterial fermentation. With fermentation (hydrogen or methane variant alike), gas moves down and out - bloating, flatulence, often diarrhoea in the hydrogen variant; the route up and out through the mouth isn't the main one.
+
+Recurring belching is its own, separately classified phenomenon in current gastroenterology: supragastric belching. Air is sucked into the oesophagus and pushed straight back out, without ever really reaching the stomach, let alone the intestine. It isn't digestion or fermentation at all - it's essentially an oesophageal muscular pattern that can become a learned habit, more common in people with anxiety. It differs, both in how it feels and in where it comes from, from true air-swallowing (aerophagia, where the air does reach the intestine and produces bloating and flatulence rather than belching as the main symptom) and even more so from bacterial fermentation, even though from the outside they can look alike. Formally telling them apart requires oesophageal impedance monitoring, but the fact that the complaint is mainly belching, not bloating or altered stools, already shifts the odds toward this mechanism rather than a gut one. [More →]({{ "/en/belching-differential.html" | relative_url }})
 
 <a id="systemic-consequences"></a>
 ### Systemic consequences

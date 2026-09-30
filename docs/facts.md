@@ -126,6 +126,164 @@ Sources
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
 
 
+<a id="rapid-onset-diagnostic-logic"></a>
+### rapid-onset-diagnostic-logic
+
+Name ru
+: Почему именно быстрая реакция считается специфичной
+
+Name en
+: Why a fast reaction specifically counts as specific
+
+Statement ru
+: У здорового человека путь еды до толстой кишки занимает в среднем 70–90 минут; поэтому ранний, а не поздний подъём водорода/метана в дыхательном тесте и считается признаком брожения в тонкой, а не толстой кишке. Быстрый (15–30 минут), стабильно повторяющийся отклик именно на определённые продукты воспроизводит эту же логику на уровне самонаблюдения, а не по одним ощущениям без физиологической опоры.
+
+Statement en
+: In a healthy person, food takes 70-90 minutes on average to reach the colon; that is exactly why an early, not a late, rise in breath hydrogen/methane is taken as a sign of fermentation in the small rather than the large intestine. A fast (15-30 minute), consistently repeating response to specific foods reproduces that same logic at the level of self-observation, not a feeling without physiological grounding.
+
+Status
+: mechanistic
+
+Tags
+: symptoms, timing
+
+Relations
+: → belongs-to: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
+
+Sources
+: [Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by ESNM and ANMS](https://onlinelibrary.wiley.com/doi/10.1111/nmo.14817)
+
+
+<a id="orocecal-transit-confound"></a>
+### orocecal-transit-confound
+
+Name ru
+: Оговорка 2024: быстрый транзит даёт тот же паттерн
+
+Name en
+: 2024 caveat: fast transit gives the same pattern
+
+Statement ru
+: Клинический разбор 2024 года (ESNM/ANMS) указывает, что тот же ранний подъём водорода объясним не только избытком бактерий в тонкой кишке, но и просто быстрым транзитом: если содержимое доходит до богатой бактериями толстой кишки раньше обычного, брожение там начинается раньше при нормальном количестве бактерий в самой тонкой кишке. Отличить один сценарий от другого по одним симптомам, а иногда и по самому тесту, не всегда возможно.
+
+Statement en
+: A 2024 clinical practice update (ESNM/ANMS) points out that the same early hydrogen rise is explainable not only by bacterial excess in the small intestine but simply by fast transit: if contents reach the bacteria-rich colon earlier than usual, fermentation there starts early with a normal small-intestine bacterial count. Telling the two scenarios apart by symptoms alone, and sometimes even by the test itself, is not always possible.
+
+Quote
+: wide variation in transit time through the stomach and small intestine to the cecum
+
+Quote ru
+: существенный разброс во времени прохождения пищи через желудок и тонкую кишку до слепой кишки
+
+Status
+: disputed
+
+Tags
+: symptoms, timing, correction
+
+Relations
+: → belongs-to: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
+
+Sources
+: [Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by ESNM and ANMS](https://onlinelibrary.wiley.com/doi/10.1111/nmo.14817)
+
+
+<a id="supragastric-belching-mechanism"></a>
+### supragastric-belching-mechanism
+
+Name ru
+: Механизм супрагастральной отрыжки
+
+Name en
+: The supragastric belching mechanism
+
+Statement ru
+: При супрагастральной отрыжке воздух засасывается в пищевод и почти сразу выталкивается обратно, не доходя ни до желудка, ни до кишечника; это, по сути, мышечный паттерн пищевода, а не пищеварительный процесс и не бактериальное брожение.
+
+Statement en
+: In supragastric belching, air is sucked into the oesophagus and pushed straight back out without reaching the stomach or intestine; it is essentially an oesophageal muscular pattern, not a digestive process and not bacterial fermentation.
+
+Quote
+: the supragastric air flow occurs more quickly and is independent of esophageal peristalsis
+
+Quote ru
+: поток воздуха при супрагастральной отрыжке возникает быстрее и не зависит от перистальтики пищевода
+
+Status
+: confirmed
+
+Tags
+: belching
+
+Relations
+: → belongs-to: [belching-differential](topics.md#belching-differential)
+
+Sources
+: [AGA Clinical Practice Update on Evaluation and Management of Belching, Abdominal Bloating, and Distention: Expert Review](https://www.gastrojournal.org/article/S0016-5085(23)00823-5/fulltext)
+
+
+<a id="belching-vs-aerophagia-vs-sibo-gas"></a>
+### belching-vs-aerophagia-vs-sibo-gas
+
+Name ru
+: Отрыжка, аэрофагия и кишечный газ — разные картины
+
+Name en
+: Belching, aerophagia and gut gas - different pictures
+
+Statement ru
+: При аэрофагии воздух всё же доходит до кишечника, и главные симптомы — вздутие и флатуленция, а не отрыжка. При бактериальном брожении (водородном или метановом варианте) газ тоже движется преимущественно вниз. Картина, где именно отрыжка — основная и доминирующая жалоба, а не вздутие или изменения стула, статистически смещена в сторону супрагастрального механизма, а не кишечного.
+
+Statement en
+: In aerophagia, air does reach the intestine, and the main symptoms are bloating and flatulence, not belching. In bacterial fermentation (hydrogen or methane variant), gas also moves mostly downward. A picture where belching itself is the main, dominant complaint, not bloating or altered stools, is statistically weighted toward a supragastric mechanism rather than a gut one.
+
+Status
+: mechanistic
+
+Tags
+: belching, correction
+
+Relations
+: → belongs-to: [belching-differential](topics.md#belching-differential)
+
+Sources
+: [AGA Clinical Practice Update on Evaluation and Management of Belching, Abdominal Bloating, and Distention: Expert Review](https://www.gastrojournal.org/article/S0016-5085(23)00823-5/fulltext)
+
+
+<a id="belching-anxiety-formal-dx"></a>
+### belching-anxiety-formal-dx
+
+Name ru
+: Связь с тревожностью и формальная диагностика
+
+Name en
+: The anxiety link and formal diagnosis
+
+Statement ru
+: Супрагастральная отрыжка чаще встречается у людей с тревожностью и официально диагностируется только импедансометрией пищевода, а не по одним ощущениям - в этом смысле она, как и остальные пункты этой темы, требует объективного теста для окончательного подтверждения, а не только характерной клинической картины.
+
+Statement en
+: Supragastric belching is more common in people with anxiety and is formally diagnosed only by oesophageal impedance monitoring, not by sensation alone - in that sense, like everything else in this topic, it needs an objective test for final confirmation, not just a characteristic clinical picture.
+
+Quote
+: Nevertheless, intraluminal impedance measurement is required to distinguish supragastric from gastric belching
+
+Quote ru
+: тем не менее, для различения супрагастральной и желудочной отрыжки требуется импедансометрия
+
+Status
+: preliminary
+
+Tags
+: belching
+
+Relations
+: → belongs-to: [belching-differential](topics.md#belching-differential)
+
+Sources
+: [Supragastric belching: Pathogenesis, diagnostic issues and treatment](https://pmc.ncbi.nlm.nih.gov/articles/PMC9212115/)
+
+
 <a id="imo-reclassification"></a>
 ### imo-reclassification
 
