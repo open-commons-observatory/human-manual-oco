@@ -26,4 +26,4 @@ The overall structure of the five-stage phytotherapy protocol, and how well-evid
 
 ---
 
-[← Previous: Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }}) · [Next →: Stage 1 - biofilm disruption]({{ "/en/protocol-biofilm.html" | relative_url }})
+[← Previous: Chronic fatigue]({{ "/en/cascade-fatigue.html" | relative_url }}) · [Next →: Stage 1 - biofilm disruption]({{ "/en/protocol-biofilm.html" | relative_url }})

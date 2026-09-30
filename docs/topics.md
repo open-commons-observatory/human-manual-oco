@@ -18,7 +18,7 @@ Summary en
 : The mechanism by which colon-dwelling bacteria and fungi colonise the normally sparsely populated small intestine, and why that changes what happens to food.
 
 Narrative ru
-: Наверное, вы замечали за собой что-то из этого. Живот раздувается почти сразу после еды — будто внутри надули шарик. Изжога возвращается снова и снова, хотя вы вроде бы не ели ничего «такого». То запор на несколько дней, то, наоборот, внезапный жидкий стул через полчаса после завтрака. А иногда к этому добавляются вещи, которые на первый взгляд вообще ни при чём: скачки сахара без видимой причины, новая аллергия на еду, которую вы всю жизнь ели без проблем, туман в голове, который списывают на «стресс» и «недосып».
+: Наверное, вы замечали за собой что-то из этого. Живот раздувается почти сразу после еды — будто внутри надули шарик. Изжога возвращается снова и снова, хотя вы вроде бы не ели ничего «такого». То запор на несколько дней, то, наоборот, внезапный жидкий стул через полчаса после завтрака. А иногда к этому добавляются вещи, которые на первый взгляд вообще ни при чём: скачки сахара без видимой причины, новая аллергия на еду, которую вы всю жизнь ели без проблем, туман в голове, который списывают на «стресс» и «недосып». И ещё одна группа жалоб, которую реже всего связывают с животом: вес, который не растёт и не падает так, как должен бы при вашем питании, анализы с погранично низким B12 или железом без внятной причины, и усталость, которая не проходит после нормального ночного сна — то, что подробно разбирается в [разделе про каскады недоедания и усталости]({{ "/ru/malabsorption-cascades.html" | relative_url }}).
 
 Стандартный маршрут в такой ситуации — это хождение по разным кабинетам. Гастроэнтеролог смотрит на изжогу отдельно, аллерголог — на новую аллергию отдельно, эндокринолог — на сахар отдельно, и каждый честно лечит свой кусочек, потому что именно из его кабинета проблема выглядит изолированной. На выходе — набор диагнозов, которые не складываются в одну картину.
 
@@ -27,7 +27,7 @@ Narrative ru
 Если один из этих барьеров ослаблен — подавлена кислотность, нарушена моторика, есть спайки после операций, диабет или другие факторы риска, — бактерии и грибки из толстой кишки постепенно заселяют тонкую. И еда, которая должна всасываться вами, начинает частично сбраживаться ими же.
 
 Narrative en
-: You've probably noticed some of this in yourself. Your stomach bloats almost right after eating, like a balloon inflating inside you. Heartburn keeps coming back even though you haven't eaten anything unusual. Constipation for days, then, just as suddenly, urgent loose stools half an hour after breakfast. And sometimes things that seem entirely unrelated pile on top: blood-sugar swings with no obvious cause, a new allergy to a food you'd eaten your whole life without trouble, brain fog that gets written off as "stress" or "not enough sleep".
+: You've probably noticed some of this in yourself. Your stomach bloats almost right after eating, like a balloon inflating inside you. Heartburn keeps coming back even though you haven't eaten anything unusual. Constipation for days, then, just as suddenly, urgent loose stools half an hour after breakfast. And sometimes things that seem entirely unrelated pile on top: blood-sugar swings with no obvious cause, a new allergy to a food you'd eaten your whole life without trouble, brain fog that gets written off as "stress" or "not enough sleep". And one more group of complaints that's least often connected to the gut at all: weight that won't move the way your diet suggests it should, bloodwork with borderline-low B12 or iron for no clear reason, and fatigue that doesn't lift even after a normal night's sleep - covered in detail in the [section on malnutrition and fatigue cascades]({{ "/en/malabsorption-cascades.html" | relative_url }}).
 
 The standard route from here is a tour of specialists. A gastroenterologist looks at the heartburn on its own, an allergist at the new allergy on its own, an endocrinologist at the sugar on its own - and each of them treats their own slice honestly, because from their chair the problem genuinely looks isolated. What you end up with is a pile of diagnoses that never quite add up to one picture.
 
@@ -49,6 +49,7 @@ Relations
 : ← subtopic-of: [sifo-candida-markers](topics.md#sifo-candida-markers)
 : ← subtopic-of: [belching-differential](topics.md#belching-differential)
 : ← subtopic-of: [systemic-consequences](topics.md#systemic-consequences)
+: ← subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
 : ← subtopic-of: [protocol-overview](topics.md#protocol-overview)
 
 
@@ -239,6 +240,202 @@ Relations
 : → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
 : ← belongs-to: [systemic-permeability](facts.md#systemic-permeability)
 : ← belongs-to: [systemic-sphincter-oddi-claim](facts.md#systemic-sphincter-oddi-claim)
+
+
+<a id="malabsorption-cascades"></a>
+### malabsorption-cascades
+
+Name ru
+: Каскады: от бактерий к недоеданию и усталости
+
+Name en
+: Cascades: from bacteria to malnutrition and fatigue
+
+Summary ru
+: Как избыточный рост бактерий ломает конкретные, физиологически понятные этапы пищеварения — и почему итог виден не животом, а телом целиком.
+
+Summary en
+: How bacterial overgrowth breaks specific, physiologically understood stages of digestion - and why the result shows up not in the stomach but in the whole body.
+
+Narrative ru
+: Предыдущий раздел говорил о вещах, которые правдоподобны, но пока не доказаны. Здесь — противоположный случай: это самая изученная, самая учебниковая часть всей темы, прямо из Merck Manual и профильных обзоров по мальабсорбции, а не из блогов о интегративной медицине.
+
+Логика простая, если вспомнить нормальную схему пищеварения (см. [цепочку органов]({{ "/ru/story.html" | relative_url }})). Тонкая кишка — это не просто труба, а последовательность узкоспециализированных участков: в двенадцатиперстной кишке в еду добавляются желчь и ферменты поджелудочной, в тощей кишке всасывается большая часть нутриентов, а в самом конце, в подвздошной кишке, — и только там — всасывается витамин B12. Когда в этой трубе поселяются чужие бактерии, они не просто «создают газы» — они физически перехватывают часть этой работы на разных её участках, каждый раз по-своему. Дальше — по каждому перехваченному участку отдельно.
+
+Narrative en
+: The previous section covered things that are plausible but not yet proven. This one is the opposite: it's the most studied, most textbook part of the whole topic, straight from the Merck Manual and specialist malabsorption reviews, not integrative-medicine blogs.
+
+The logic is simple once you recall the normal digestion sequence (see the [organ chain]({{ "/en/story.html" | relative_url }})). The small intestine isn't just a tube - it's a sequence of specialised zones: the duodenum is where bile and pancreatic enzymes get added to food, the jejunum absorbs most nutrients, and right at the far end, the ileum - and only there - absorbs vitamin B12. When foreign bacteria move into this tube, they don't just "make gas" - they physically intercept part of this work at different points along it, each in its own way. What follows goes through each intercepted stage in turn.
+
+Order key
+: 55
+
+Tags
+: gi, systemic, malabsorption
+
+Relations
+: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: ← subtopic-of: [cascade-fat-vitamins](topics.md#cascade-fat-vitamins)
+: ← subtopic-of: [cascade-b12-folate](topics.md#cascade-b12-folate)
+: ← subtopic-of: [cascade-carb-calories](topics.md#cascade-carb-calories)
+: ← subtopic-of: [cascade-fatigue](topics.md#cascade-fatigue)
+
+
+<a id="cascade-fat-vitamins"></a>
+### cascade-fat-vitamins
+
+Name ru
+: Жиры и жирорастворимые витамины (A, D, E, K)
+
+Name en
+: Fat and fat-soluble vitamins (A, D, E, K)
+
+Summary ru
+: Почему бактерии, разрушающие желчные кислоты, обрывают усвоение жира и всех витаминов, которые едут вместе с ним.
+
+Summary en
+: Why bacteria that break down bile acids cut off fat absorption, and every vitamin that travels alongside it.
+
+Narrative ru
+: В двенадцатиперстной кишке в норме желчь берёт нерастворимый в воде жир и упаковывает его в микроскопические капсулы — мицеллы, — единственную форму, в которой жир может пройти через водную плёнку на поверхности кишки и всосаться дальше, в тощей кишке. Для этой упаковки годится не любая желчь, а именно её конъюгированная (химически «застёгнутая») форма.
+
+Бактерии в тонкой кишке эту застёжку расстёгивают — деконъюгируют желчные кислоты — просто добывая себе из них энергию. Расстёгнутая желчь мицеллы уже не строит. Падает не только усвоение самого жира (отсюда — жирный, светлый, плохо смываемый стул), но и всех четырёх витаминов, которые физически едут только внутри жировых мицелл: A, D, E и K.
+
+Есть при этом контринтуитивный нюанс: витамин K те же самые кишечные бактерии заодно и синтезируют сами. Поэтому, в отличие от A, D и E, его дефицит при СИБР — редкость, хотя логика «весь жир не усваивается» подсказывала бы обратное. [Подробнее →]({{ "/ru/cascade-fat-vitamins.html" | relative_url }})
+
+Narrative en
+: In the duodenum, bile normally takes water-insoluble fat and packages it into microscopic capsules - micelles - the only form in which fat can cross the watery film on the gut lining and be absorbed further along, in the jejunum. Only one form of bile works for this packaging: the conjugated (chemically "buttoned-up") form.
+
+Bacteria in the small intestine undo that buttoning - deconjugating the bile acids - simply to harvest energy from them. Unbuttoned bile can't build micelles. What drops isn't just fat absorption itself (hence pale, greasy, hard-to-flush stool), but all four vitamins that physically travel only inside fat micelles: A, D, E and K.
+
+There's a counterintuitive twist here: the same gut bacteria also synthesise vitamin K themselves. So unlike A, D and E, its deficiency in SIBO is uncommon, even though "all fat malabsorbs" logic would suggest otherwise. [More →]({{ "/en/cascade-fat-vitamins.html" | relative_url }})
+
+Order key
+: 56
+
+Tags
+: gi, malabsorption
+
+Relations
+: → subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
+: ← belongs-to: [bile-deconjugation-mechanism](facts.md#bile-deconjugation-mechanism)
+: ← belongs-to: [vitamin-k-exception](facts.md#vitamin-k-exception)
+
+
+<a id="cascade-b12-folate"></a>
+### cascade-b12-folate
+
+Name ru
+: Витамин B12 и фолиевая кислота
+
+Name en
+: Vitamin B12 and folate
+
+Summary ru
+: Почему при СИБР характерно сочетание низкого B12 и нормальной или повышенной фолиевой кислоты.
+
+Summary en
+: Why SIBO classically shows low B12 together with normal or high folate.
+
+Narrative ru
+: Подвздошная кишка — самый конец тонкой кишки, последний участок перед толстой, — единственное место во всём организме, где всасывается витамин B12, и только в связке со специальным белком (внутренним фактором).
+
+Бактерии вмешиваются здесь сразу двумя способами. Во-первых, они напрямую потребляют B12 для собственных нужд — конкурируют с вами за один и тот же ресурс раньше, чем он доходит до места всасывания. Во-вторых, они производят неактивные аналоги B12, которые садятся на те же рецепторы в подвздошной кишке, что и настоящий витамин, физически блокируя его прохождение, даже если в еде B12 было достаточно.
+
+С фолиевой кислотой (витамином B9) всё наоборот: часть кишечных бактерий её не потребляют, а сами производят и выделяют в просвет кишки. В результате при СИБР типична картина, которая на первый взгляд выглядит странно, а на деле — характерный лабораторный отпечаток: витамин B12 снижен, а фолиевая кислота в норме или даже повышена. [Подробнее →]({{ "/ru/cascade-b12-folate.html" | relative_url }})
+
+Narrative en
+: The ileum - the very last stretch of the small intestine, right before the colon - is the only place in the entire body where vitamin B12 is absorbed, and only when bound to a specific protein (intrinsic factor).
+
+Bacteria interfere here in two ways at once. First, they directly consume B12 for their own use - competing with you for the same resource before it ever reaches the absorption site. Second, they produce inactive B12 analogues that occupy the same ileal receptors as the real vitamin, physically blocking its passage even when dietary B12 was adequate.
+
+Folate (vitamin B9) works the opposite way: instead of consuming it, many gut bacteria actually produce and release it into the gut lumen. The result is a pattern that looks odd at first glance but is actually a recognisable lab signature of SIBO: low vitamin B12 alongside normal or even elevated folate. [More →]({{ "/en/cascade-b12-folate.html" | relative_url }})
+
+Order key
+: 57
+
+Tags
+: gi, malabsorption
+
+Relations
+: → subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
+: ← belongs-to: [b12-bacterial-competition](facts.md#b12-bacterial-competition)
+: ← belongs-to: [b12-folate-lab-pattern](facts.md#b12-folate-lab-pattern)
+
+
+<a id="cascade-carb-calories"></a>
+### cascade-carb-calories
+
+Name ru
+: Углеводы, калории и вторичная непереносимость лактозы
+
+Name en
+: Carbs, calories, and secondary lactose intolerance
+
+Summary ru
+: Почему бактерии буквально едят часть вашей еды раньше вас — и почему после этого может внезапно перестать заходить молочное.
+
+Summary en
+: Why bacteria literally eat part of your food before you do - and why dairy can suddenly stop agreeing with you.
+
+Narrative ru
+: В тощей кишке ферменты на самой поверхности клеток (щёточная кайма) в норме расщепляют углеводы до простых сахаров, которые тут же всасываются. Бактерии, поселившиеся в тонкой кишке, получают доступ к части этих же углеводов раньше кишечных клеток — и ферментируют их для собственной энергии. Это не метафора и не преувеличение: Merck Manual прямо описывает это как одну из причин потери калорий при СИБР — вы буквально кормите чужую биомассу частью своей еды, отсюда труднообъяснимая потеря или невозможность набрать вес при вроде бы нормальном или даже повышенном аппетите.
+
+Есть и второй слой того же процесса. Постоянное присутствие бактерий и продуктов их обмена в тонкой кишке способно повреждать саму щёточную кайму — точно так же, как это происходит при кишечных инфекциях или целиакии. А именно в щёточной кайме находится лактаза, фермент для молочного сахара. Повреждение даёт вторичную (приобретённую) непереносимость лактозы — не врождённую, а появившуюся на фоне СИБР, и подтверждённую отдельным клиническим исследованием: у пациентов с лактазной недостаточностью, выявленной эндоскопической биопсией, положительный тест на СИБР встречался значимо чаще. [Подробнее →]({{ "/ru/cascade-carb-calories.html" | relative_url }})
+
+Narrative en
+: In the jejunum, enzymes sitting right on the cell surface (the brush border) normally break carbohydrates down into simple sugars that are absorbed immediately. Bacteria that have colonised the small intestine get access to part of those same carbohydrates before your own cells do - and ferment them for their own energy. This isn't a metaphor: the Merck Manual explicitly describes this as one cause of caloric loss in SIBO - you are literally feeding someone else's biomass part of your food, hence the hard-to-explain weight loss or inability to gain weight despite a seemingly normal or even increased appetite.
+
+There's a second layer to the same process. The ongoing presence of bacteria and their metabolic by-products in the small intestine can damage the brush border itself, the same way gut infections or coeliac disease do. And the brush border is exactly where lactase, the enzyme for milk sugar, lives. Damage there produces secondary (acquired) lactose intolerance - not something you were born with, but something that shows up alongside SIBO, confirmed by a dedicated clinical study: patients with lactase deficiency found on endoscopic biopsy tested positive for SIBO significantly more often. [More →]({{ "/en/cascade-carb-calories.html" | relative_url }})
+
+Order key
+: 58
+
+Tags
+: gi, malabsorption
+
+Relations
+: → subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
+: ← belongs-to: [bacterial-caloric-theft](facts.md#bacterial-caloric-theft)
+: ← belongs-to: [secondary-lactose-intolerance](facts.md#secondary-lactose-intolerance)
+
+
+<a id="cascade-fatigue"></a>
+### cascade-fatigue
+
+Name ru
+: Постоянная усталость
+
+Name en
+: Chronic fatigue
+
+Summary ru
+: Как три предыдущих каскада складываются в одно ощущение постоянной, необъяснимой усталости.
+
+Summary en
+: How the three cascades above add up to one feeling of constant, unexplained fatigue.
+
+Narrative ru
+: Усталость — не отдельный, пятый каскад, а сумма трёх предыдущих. Дефицит B12 (и часто попутно железа, хотя это уже не столь специфичная для СИБР история) снижает способность крови переносить кислород — каждая клетка тела буквально получает его меньше, независимо от того, сколько вы спали. Потеря калорий бактериям означает, что даже при нормальном питании организму физически достаётся меньше энергии, чем он тратит. И к этому добавляется третий, чисто механический фактор: ночное вздутие, рефлюкс или внезапные позывы в туалет закономерно портят качество сна, а не только его отдельные эпизоды.
+
+Честности ради: есть и четвёртая версия, которую часто добавляют к этому списку — хроническое вялотекущее воспаление от постоянного присутствия бактерий и их метаболитов как самостоятельная причина усталости. Механизм правдоподобен и активно исследуется в целом для дисбиоза, но для СИБР конкретно убедительных клинических доказательств именно этого звена пока меньше, чем для первых трёх, более прямых и уже подтверждённых причин. [Подробнее →]({{ "/ru/cascade-fatigue.html" | relative_url }})
+
+Narrative en
+: Fatigue isn't a separate, fifth cascade - it's the sum of the three above. B12 deficiency (often alongside iron, though that's a less SIBO-specific story) reduces blood's capacity to carry oxygen - every cell in the body gets literally less of it, regardless of how much you slept. Calories lost to bacteria mean the body physically has less energy available than it spends, even on normal food intake. And a third, purely mechanical factor adds to this: nighttime bloating, reflux, or sudden urges to the bathroom reliably wreck sleep quality, not just isolated nights of it.
+
+In fairness, there's a fourth explanation often added to this list: chronic low-grade inflammation from the ongoing presence of bacteria and their metabolites, as a fatigue cause in its own right. The mechanism is plausible and actively studied for dysbiosis in general, but for SIBO specifically, solid clinical evidence for this particular link is thinner than for the first three, more direct and already-confirmed causes. [More →]({{ "/en/cascade-fatigue.html" | relative_url }})
+
+Order key
+: 59
+
+Tags
+: gi, malabsorption, fatigue
+
+Relations
+: → subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
+: ← belongs-to: [fatigue-anemia-link](facts.md#fatigue-anemia-link)
+: ← belongs-to: [fatigue-caloric-sleep](facts.md#fatigue-caloric-sleep)
+: ← belongs-to: [fatigue-inflammation-caveat](facts.md#fatigue-inflammation-caveat)
 
 
 <a id="protocol-overview"></a>

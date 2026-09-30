@@ -38,4 +38,4 @@ Status
 
 ---
 
-[← Previous: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }}) · [Next →: Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }})
+[← Previous: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }}) · [Next →: Cascades: from bacteria to malnutrition and fatigue]({{ "/en/malabsorption-cascades.html" | relative_url }})

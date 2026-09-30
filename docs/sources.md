@@ -28,7 +28,7 @@ Author
 : Merck Manual Professional Edition
 
 Cited by
-: [acid-mmc-barrier](facts.md#acid-mmc-barrier), [breath-test-diagnosis](facts.md#breath-test-diagnosis)
+: [acid-mmc-barrier](facts.md#acid-mmc-barrier), [breath-test-diagnosis](facts.md#breath-test-diagnosis), [bacterial-caloric-theft](facts.md#bacterial-caloric-theft)
 
 
 <a id="amboss-sifo"></a>
@@ -126,6 +126,55 @@ Year
 
 Cited by
 : [herx-reaction-origin](facts.md#herx-reaction-origin)
+
+
+<a id="malabsorption-review-2021"></a>
+### Small and Large Intestine (I): Malabsorption of Nutrients
+
+Url
+: https://pmc.ncbi.nlm.nih.gov/articles/PMC8070135/
+
+Cited by
+: [bile-deconjugation-mechanism](facts.md#bile-deconjugation-mechanism), [b12-bacterial-competition](facts.md#b12-bacterial-competition)
+
+
+<a id="practical-gastro-sibo-2003"></a>
+### Introduction to Small Intestinal Bacterial Overgrowth
+
+Url
+: https://med.virginia.edu/ginutrition/wp-content/uploads/sites/199/2015/11/zaidelarticle-July-03.pdf
+
+Year
+: 2003
+
+Cited by
+: [vitamin-k-exception](facts.md#vitamin-k-exception)
+
+
+<a id="sibo-comprehensive-review"></a>
+### Comprehensive Review - Small Intestinal Bacterial Overgrowth (SIBO)
+
+Url
+: https://iihoms.org/PediatricGastroenterology/SIBO-review.html
+
+Cited by
+: [b12-folate-lab-pattern](facts.md#b12-folate-lab-pattern), [fatigue-anemia-link](facts.md#fatigue-anemia-link)
+
+
+<a id="sibo-lactase-biopsy-2023"></a>
+### Lactase Deficiency Diagnosed by Endoscopic Biopsy-based Method Is Associated With Positivity to Glucose Breath Test
+
+Url
+: https://pmc.ncbi.nlm.nih.gov/articles/PMC9837539
+
+Author
+: Jo IH, Paik CN, Kim YJ, Lee JM, Choi SY, Hong KP
+
+Year
+: 2023
+
+Cited by
+: [secondary-lactose-intolerance](facts.md#secondary-lactose-intolerance)
 
 
 <a id="sibo-critical-appraisal-2024"></a>

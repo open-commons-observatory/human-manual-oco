@@ -483,6 +483,264 @@ Relations
 : → belongs-to: [systemic-consequences](topics.md#systemic-consequences)
 
 
+<a id="bile-deconjugation-mechanism"></a>
+### bile-deconjugation-mechanism
+
+Name ru
+: Деконъюгация желчи и мицеллы
+
+Name en
+: Bile deconjugation and micelles
+
+Statement ru
+: Бактерии деконъюгируют желчные кислоты, добывая из них энергию; деконъюгированная желчь не может формировать мицеллы, необходимые для растворения и всасывания жира.
+
+Statement en
+: Bacteria deconjugate bile acids to harvest energy from them; deconjugated bile can no longer form the micelles needed to dissolve and absorb fat.
+
+Quote
+: deconjugation of bile acids by florid small bowel bacterial overgrowth defunctionalizes the bile acids
+
+Quote ru
+: деконъюгация желчных кислот избыточной бактериальной флорой тонкой кишки делает эти кислоты функционально непригодными
+
+Status
+: confirmed
+
+Tags
+: malabsorption, fat
+
+Relations
+: → belongs-to: [cascade-fat-vitamins](topics.md#cascade-fat-vitamins)
+
+Sources
+: [Small and Large Intestine (I): Malabsorption of Nutrients](https://pmc.ncbi.nlm.nih.gov/articles/PMC8070135/)
+
+
+<a id="vitamin-k-exception"></a>
+### vitamin-k-exception
+
+Name ru
+: Витамин K — исключение из правила
+
+Name en
+: Vitamin K - the exception to the rule
+
+Statement ru
+: В отличие от A, D и E, дефицит витамина K при СИБР встречается редко, потому что те же кишечные бактерии, что мешают усвоению жира, сами же его синтезируют.
+
+Statement en
+: Unlike A, D and E, vitamin K deficiency is uncommon in SIBO, because the same gut bacteria that impair fat absorption also synthesise the vitamin themselves.
+
+Quote
+: vitamin K is synthesized by luminal bacteria, deficiency of this vitamin is rarely seen
+
+Quote ru
+: витамин K синтезируется просветной микрофлорой, поэтому его дефицит встречается редко
+
+Status
+: confirmed
+
+Tags
+: malabsorption, fat
+
+Relations
+: → belongs-to: [cascade-fat-vitamins](topics.md#cascade-fat-vitamins)
+
+Sources
+: [Introduction to Small Intestinal Bacterial Overgrowth](https://med.virginia.edu/ginutrition/wp-content/uploads/sites/199/2015/11/zaidelarticle-July-03.pdf)
+
+
+<a id="b12-bacterial-competition"></a>
+### b12-bacterial-competition
+
+Name ru
+: Как бактерии перехватывают B12
+
+Name en
+: How bacteria intercept B12
+
+Statement ru
+: Бактерии напрямую потребляют витамин B12 для собственных нужд и производят неактивные аналоги, которые конкурентно занимают рецепторы всасывания B12 в подвздошной кишке.
+
+Statement en
+: Bacteria directly consume vitamin B12 for their own use and produce inactive analogues that competitively occupy the B12 absorption receptors in the ileum.
+
+Status
+: confirmed
+
+Tags
+: malabsorption, b12
+
+Relations
+: → belongs-to: [cascade-b12-folate](topics.md#cascade-b12-folate)
+
+Sources
+: [Small and Large Intestine (I): Malabsorption of Nutrients](https://pmc.ncbi.nlm.nih.gov/articles/PMC8070135/)
+
+
+<a id="b12-folate-lab-pattern"></a>
+### b12-folate-lab-pattern
+
+Name ru
+: Низкий B12 при нормальной или высокой фолиевой кислоте
+
+Name en
+: Low B12 with normal or high folate
+
+Statement ru
+: В отличие от B12, часть кишечных бактерий синтезируют фолиевую кислоту и выделяют её в просвет кишки, поэтому типичная лабораторная картина при СИБР — сниженный B12 на фоне нормальной или повышенной фолиевой кислоты.
+
+Statement en
+: Unlike B12, many gut bacteria synthesise folate and release it into the gut lumen, so a typical SIBO lab pattern is low B12 alongside normal or elevated folate.
+
+Status
+: confirmed
+
+Tags
+: malabsorption, b12, diagnosis
+
+Relations
+: → belongs-to: [cascade-b12-folate](topics.md#cascade-b12-folate)
+
+Sources
+: [Comprehensive Review - Small Intestinal Bacterial Overgrowth (SIBO)](https://iihoms.org/PediatricGastroenterology/SIBO-review.html)
+
+
+<a id="bacterial-caloric-theft"></a>
+### bacterial-caloric-theft
+
+Name ru
+: Бактерии как конкурент за калории
+
+Name en
+: Bacteria as a calorie competitor
+
+Statement ru
+: Избыточные бактерии потребляют часть съеденных углеводов для собственной энергии раньше, чем те успевают всосаться кишечными клетками, что ведёт к потере калорий и труднообъяснимой потере веса.
+
+Statement en
+: Excess bacteria consume part of ingested carbohydrates for their own energy before intestinal cells can absorb them, leading to caloric loss and hard-to-explain weight loss.
+
+Status
+: confirmed
+
+Tags
+: malabsorption, calories
+
+Relations
+: → belongs-to: [cascade-carb-calories](topics.md#cascade-carb-calories)
+
+Sources
+: [Small Intestinal Bacterial Overgrowth (SIBO) - Merck Manual Professional Edition](https://www.merckmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/small-intestinal-bacterial-overgrowth-sibo)
+
+
+<a id="secondary-lactose-intolerance"></a>
+### secondary-lactose-intolerance
+
+Name ru
+: Вторичная непереносимость лактозы
+
+Name en
+: Secondary lactose intolerance
+
+Statement ru
+: Повреждение щёточной каймы тонкой кишки на фоне СИБР может снижать выработку лактазы; клиническое исследование показало, что у пациентов с подтверждённой биопсией лактазной недостаточностью положительный тест на СИБР встречался значимо чаще.
+
+Statement en
+: Brush-border damage from ongoing SIBO can reduce lactase output; a clinical study found that patients with biopsy-confirmed lactase deficiency tested positive for SIBO significantly more often.
+
+Status
+: confirmed
+
+Tags
+: malabsorption, lactose
+
+Relations
+: → belongs-to: [cascade-carb-calories](topics.md#cascade-carb-calories)
+
+Sources
+: [Lactase Deficiency Diagnosed by Endoscopic Biopsy-based Method Is Associated With Positivity to Glucose Breath Test](https://pmc.ncbi.nlm.nih.gov/articles/PMC9837539)
+
+
+<a id="fatigue-anemia-link"></a>
+### fatigue-anemia-link
+
+Name ru
+: Анемия как прямая причина усталости
+
+Name en
+: Anaemia as a direct cause of fatigue
+
+Statement ru
+: Дефицит B12 (реже — железа) снижает способность крови переносить кислород, что напрямую проявляется постоянной усталостью независимо от количества сна.
+
+Statement en
+: B12 deficiency (less often, iron) reduces blood's oxygen-carrying capacity, which shows up directly as constant fatigue regardless of how much sleep a person gets.
+
+Status
+: confirmed
+
+Tags
+: fatigue, b12
+
+Relations
+: → belongs-to: [cascade-fatigue](topics.md#cascade-fatigue)
+
+Sources
+: [Comprehensive Review - Small Intestinal Bacterial Overgrowth (SIBO)](https://iihoms.org/PediatricGastroenterology/SIBO-review.html)
+
+
+<a id="fatigue-caloric-sleep"></a>
+### fatigue-caloric-sleep
+
+Name ru
+: Калории и сон складываются в то же ощущение
+
+Name en
+: Calories and sleep add up to the same feeling
+
+Statement ru
+: Потеря части калорий бактериям и нарушение сна из-за ночного вздутия/рефлюкса/позывов — два независимых, чисто механических вклада в усталость, дополняющих эффект анемии.
+
+Statement en
+: Calories lost to bacteria and sleep disruption from nighttime bloating/reflux/urgency are two independent, purely mechanical contributors to fatigue, on top of the anaemia effect.
+
+Status
+: mechanistic
+
+Tags
+: fatigue
+
+Relations
+: → belongs-to: [cascade-fatigue](topics.md#cascade-fatigue)
+
+
+<a id="fatigue-inflammation-caveat"></a>
+### fatigue-inflammation-caveat
+
+Name ru
+: Хроническое воспаление как причина — менее доказано
+
+Name en
+: Chronic inflammation as a cause - less proven
+
+Statement ru
+: Идея о хроническом вялотекущем воспалении от постоянного присутствия бактерий как отдельной причине усталости правдоподобна и изучается для дисбиоза в целом, но для СИБР конкретно доказательная база тоньше, чем для анемии, потери калорий и нарушения сна.
+
+Statement en
+: The idea of chronic low-grade inflammation from ongoing bacterial presence as a separate fatigue cause is plausible and studied for dysbiosis broadly, but for SIBO specifically the evidence is thinner than for anaemia, caloric loss, and sleep disruption.
+
+Status
+: insufficient-evidence
+
+Tags
+: fatigue, correction
+
+Relations
+: → belongs-to: [cascade-fatigue](topics.md#cascade-fatigue)
+
+
 <a id="herx-reaction-origin"></a>
 ### herx-reaction-origin
 

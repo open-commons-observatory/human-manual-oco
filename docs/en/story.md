@@ -21,6 +21,11 @@ The same material as the sections above, assembled into one continuous read from
 - [SIFO (fungal overgrowth) markers](#sifo-candida-markers)
 - [Odorless belching - usually a different mechanism](#belching-differential)
 - [Systemic consequences](#systemic-consequences)
+- [Cascades: from bacteria to malnutrition and fatigue](#malabsorption-cascades)
+- [Fat and fat-soluble vitamins (A, D, E, K)](#cascade-fat-vitamins)
+- [Vitamin B12 and folate](#cascade-b12-folate)
+- [Carbs, calories, and secondary lactose intolerance](#cascade-carb-calories)
+- [Chronic fatigue](#cascade-fatigue)
 - [Eradication protocol: stage overview](#protocol-overview)
 - [Stage 1 - biofilm disruption](#protocol-biofilm)
 - [Stage 2 - eradication agents](#protocol-eradication)
@@ -32,7 +37,7 @@ The same material as the sections above, assembled into one continuous read from
 <a id="sibo-sifo-overview"></a>
 ### Overview: SIBO and SIFO
 
-You've probably noticed some of this in yourself. Your stomach bloats almost right after eating, like a balloon inflating inside you. Heartburn keeps coming back even though you haven't eaten anything unusual. Constipation for days, then, just as suddenly, urgent loose stools half an hour after breakfast. And sometimes things that seem entirely unrelated pile on top: blood-sugar swings with no obvious cause, a new allergy to a food you'd eaten your whole life without trouble, brain fog that gets written off as "stress" or "not enough sleep".
+You've probably noticed some of this in yourself. Your stomach bloats almost right after eating, like a balloon inflating inside you. Heartburn keeps coming back even though you haven't eaten anything unusual. Constipation for days, then, just as suddenly, urgent loose stools half an hour after breakfast. And sometimes things that seem entirely unrelated pile on top: blood-sugar swings with no obvious cause, a new allergy to a food you'd eaten your whole life without trouble, brain fog that gets written off as "stress" or "not enough sleep". And one more group of complaints that's least often connected to the gut at all: weight that won't move the way your diet suggests it should, bloodwork with borderline-low B12 or iron for no clear reason, and fatigue that doesn't lift even after a normal night's sleep - covered in detail in the [section on malnutrition and fatigue cascades]({{ "/en/malabsorption-cascades.html" | relative_url }}).
 
 The standard route from here is a tour of specialists. A gastroenterologist looks at the heartburn on its own, an allergist at the new allergy on its own, an endocrinologist at the sugar on its own - and each of them treats their own slice honestly, because from their chair the problem genuinely looks isolated. What you end up with is a pile of diagnoses that never quite add up to one picture.
 
@@ -74,6 +79,45 @@ Recurring belching is its own, separately classified phenomenon in current gastr
 This is where those "unrelated" complaints from your tour of specialists start to make sense. The logic you'll find in popular sources runs like this: a gut wall overstretched by gas and bacterial colonies gets damaged, becomes more permeable, undigested protein fragments enter the bloodstream, and the immune system reacts to them as foreign - hence sudden food reactions and histamine intolerance. The mechanism is plausible and actively studied, but honestly: solid evidence that this exact chain plays out in a typical SIBO patient is still lacking - it's a hypothesis, not an established fact.
 
 One specific claim deserves a firmer word: that bloating routinely causes spasm of the valve between the bile ducts and the intestine (the sphincter of Oddi) and secondary pancreatitis. We specifically looked for support for this in the gastroenterology literature we could verify - and found none. As a routine, expected SIBO complication, this claim is unsupported. [More and sources →]({{ "/en/systemic-consequences.html" | relative_url }})
+
+<a id="malabsorption-cascades"></a>
+### Cascades: from bacteria to malnutrition and fatigue
+
+The previous section covered things that are plausible but not yet proven. This one is the opposite: it's the most studied, most textbook part of the whole topic, straight from the Merck Manual and specialist malabsorption reviews, not integrative-medicine blogs.
+
+The logic is simple once you recall the normal digestion sequence (see the [organ chain]({{ "/en/story.html" | relative_url }})). The small intestine isn't just a tube - it's a sequence of specialised zones: the duodenum is where bile and pancreatic enzymes get added to food, the jejunum absorbs most nutrients, and right at the far end, the ileum - and only there - absorbs vitamin B12. When foreign bacteria move into this tube, they don't just "make gas" - they physically intercept part of this work at different points along it, each in its own way. What follows goes through each intercepted stage in turn.
+
+<a id="cascade-fat-vitamins"></a>
+### Fat and fat-soluble vitamins (A, D, E, K)
+
+In the duodenum, bile normally takes water-insoluble fat and packages it into microscopic capsules - micelles - the only form in which fat can cross the watery film on the gut lining and be absorbed further along, in the jejunum. Only one form of bile works for this packaging: the conjugated (chemically "buttoned-up") form.
+
+Bacteria in the small intestine undo that buttoning - deconjugating the bile acids - simply to harvest energy from them. Unbuttoned bile can't build micelles. What drops isn't just fat absorption itself (hence pale, greasy, hard-to-flush stool), but all four vitamins that physically travel only inside fat micelles: A, D, E and K.
+
+There's a counterintuitive twist here: the same gut bacteria also synthesise vitamin K themselves. So unlike A, D and E, its deficiency in SIBO is uncommon, even though "all fat malabsorbs" logic would suggest otherwise. [More →]({{ "/en/cascade-fat-vitamins.html" | relative_url }})
+
+<a id="cascade-b12-folate"></a>
+### Vitamin B12 and folate
+
+The ileum - the very last stretch of the small intestine, right before the colon - is the only place in the entire body where vitamin B12 is absorbed, and only when bound to a specific protein (intrinsic factor).
+
+Bacteria interfere here in two ways at once. First, they directly consume B12 for their own use - competing with you for the same resource before it ever reaches the absorption site. Second, they produce inactive B12 analogues that occupy the same ileal receptors as the real vitamin, physically blocking its passage even when dietary B12 was adequate.
+
+Folate (vitamin B9) works the opposite way: instead of consuming it, many gut bacteria actually produce and release it into the gut lumen. The result is a pattern that looks odd at first glance but is actually a recognisable lab signature of SIBO: low vitamin B12 alongside normal or even elevated folate. [More →]({{ "/en/cascade-b12-folate.html" | relative_url }})
+
+<a id="cascade-carb-calories"></a>
+### Carbs, calories, and secondary lactose intolerance
+
+In the jejunum, enzymes sitting right on the cell surface (the brush border) normally break carbohydrates down into simple sugars that are absorbed immediately. Bacteria that have colonised the small intestine get access to part of those same carbohydrates before your own cells do - and ferment them for their own energy. This isn't a metaphor: the Merck Manual explicitly describes this as one cause of caloric loss in SIBO - you are literally feeding someone else's biomass part of your food, hence the hard-to-explain weight loss or inability to gain weight despite a seemingly normal or even increased appetite.
+
+There's a second layer to the same process. The ongoing presence of bacteria and their metabolic by-products in the small intestine can damage the brush border itself, the same way gut infections or coeliac disease do. And the brush border is exactly where lactase, the enzyme for milk sugar, lives. Damage there produces secondary (acquired) lactose intolerance - not something you were born with, but something that shows up alongside SIBO, confirmed by a dedicated clinical study: patients with lactase deficiency found on endoscopic biopsy tested positive for SIBO significantly more often. [More →]({{ "/en/cascade-carb-calories.html" | relative_url }})
+
+<a id="cascade-fatigue"></a>
+### Chronic fatigue
+
+Fatigue isn't a separate, fifth cascade - it's the sum of the three above. B12 deficiency (often alongside iron, though that's a less SIBO-specific story) reduces blood's capacity to carry oxygen - every cell in the body gets literally less of it, regardless of how much you slept. Calories lost to bacteria mean the body physically has less energy available than it spends, even on normal food intake. And a third, purely mechanical factor adds to this: nighttime bloating, reflux, or sudden urges to the bathroom reliably wreck sleep quality, not just isolated nights of it.
+
+In fairness, there's a fourth explanation often added to this list: chronic low-grade inflammation from the ongoing presence of bacteria and their metabolites, as a fatigue cause in its own right. The mechanism is plausible and actively studied for dysbiosis in general, but for SIBO specifically, solid clinical evidence for this particular link is thinner than for the first three, more direct and already-confirmed causes. [More →]({{ "/en/cascade-fatigue.html" | relative_url }})
 
 <a id="protocol-overview"></a>
 ### Eradication protocol: stage overview

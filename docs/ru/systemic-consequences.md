@@ -38,4 +38,4 @@ breadcrumb:
 
 ---
 
-[← Предыдущая: Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }}) · [Следующая →: Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html" | relative_url }})
+[← Предыдущая: Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }}) · [Следующая →: Каскады: от бактерий к недоеданию и усталости]({{ "/ru/malabsorption-cascades.html" | relative_url }})

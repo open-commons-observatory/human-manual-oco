@@ -20,6 +20,7 @@ The mechanism by which colon-dwelling bacteria and fungi colonise the normally s
 - [SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }}) (3)
 - [Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }}) (3)
 - [Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }}) (2)
+- [Cascades: from bacteria to malnutrition and fatigue]({{ "/en/malabsorption-cascades.html" | relative_url }}) (9)
 - [Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }}) (16)
 
 ## Facts

@@ -14,6 +14,15 @@
 {"from_id":"sifo-symptom-overlap","to_id":"sifo-candida-markers","relation":"belongs-to","note":null}
 {"from_id":"systemic-permeability","to_id":"systemic-consequences","relation":"belongs-to","note":null}
 {"from_id":"systemic-sphincter-oddi-claim","to_id":"systemic-consequences","relation":"belongs-to","note":null}
+{"from_id":"bile-deconjugation-mechanism","to_id":"cascade-fat-vitamins","relation":"belongs-to","note":null}
+{"from_id":"vitamin-k-exception","to_id":"cascade-fat-vitamins","relation":"belongs-to","note":null}
+{"from_id":"b12-bacterial-competition","to_id":"cascade-b12-folate","relation":"belongs-to","note":null}
+{"from_id":"b12-folate-lab-pattern","to_id":"cascade-b12-folate","relation":"belongs-to","note":null}
+{"from_id":"bacterial-caloric-theft","to_id":"cascade-carb-calories","relation":"belongs-to","note":null}
+{"from_id":"secondary-lactose-intolerance","to_id":"cascade-carb-calories","relation":"belongs-to","note":null}
+{"from_id":"fatigue-anemia-link","to_id":"cascade-fatigue","relation":"belongs-to","note":null}
+{"from_id":"fatigue-caloric-sleep","to_id":"cascade-fatigue","relation":"belongs-to","note":null}
+{"from_id":"fatigue-inflammation-caveat","to_id":"cascade-fatigue","relation":"belongs-to","note":null}
 {"from_id":"herx-reaction-origin","to_id":"protocol-binders","relation":"belongs-to","note":null}
 {"from_id":"herx-extrapolation-gut","to_id":"protocol-binders","relation":"belongs-to","note":null}
 {"from_id":"binders-general-caution","to_id":"protocol-binders","relation":"belongs-to","note":null}
@@ -35,6 +44,11 @@
 {"from_id":"sifo-candida-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"belching-differential","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"systemic-consequences","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
+{"from_id":"malabsorption-cascades","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
+{"from_id":"cascade-fat-vitamins","to_id":"malabsorption-cascades","relation":"subtopic-of","note":null}
+{"from_id":"cascade-b12-folate","to_id":"malabsorption-cascades","relation":"subtopic-of","note":null}
+{"from_id":"cascade-carb-calories","to_id":"malabsorption-cascades","relation":"subtopic-of","note":null}
+{"from_id":"cascade-fatigue","to_id":"malabsorption-cascades","relation":"subtopic-of","note":null}
 {"from_id":"protocol-overview","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"protocol-biofilm","to_id":"protocol-overview","relation":"subtopic-of","note":null}
 {"from_id":"protocol-eradication","to_id":"protocol-overview","relation":"subtopic-of","note":null}

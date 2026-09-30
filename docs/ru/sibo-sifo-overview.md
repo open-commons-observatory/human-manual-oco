@@ -20,6 +20,7 @@ breadcrumb:
 - [Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }}) (3)
 - [Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }}) (3)
 - [Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }}) (2)
+- [Каскады: от бактерий к недоеданию и усталости]({{ "/ru/malabsorption-cascades.html" | relative_url }}) (9)
 - [Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html" | relative_url }}) (16)
 
 ## Факты

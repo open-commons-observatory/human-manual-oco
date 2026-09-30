@@ -26,4 +26,4 @@ breadcrumb:
 
 ---
 
-[← Предыдущая: Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }}) · [Следующая →: Этап 1 — разрушение биоплёнки]({{ "/ru/protocol-biofilm.html" | relative_url }})
+[← Предыдущая: Постоянная усталость]({{ "/ru/cascade-fatigue.html" | relative_url }}) · [Следующая →: Этап 1 — разрушение биоплёнки]({{ "/ru/protocol-biofilm.html" | relative_url }})
