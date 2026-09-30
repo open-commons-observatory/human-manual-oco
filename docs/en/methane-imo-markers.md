@@ -38,3 +38,7 @@ Status
 
 Sources
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+---
+
+[← Previous: Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) · [Next →: SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }})

@@ -55,3 +55,7 @@ breadcrumb:
 
 Источники
 : [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
+
+---
+
+[← Предыдущая: Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }}) · [Следующая →: Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }})

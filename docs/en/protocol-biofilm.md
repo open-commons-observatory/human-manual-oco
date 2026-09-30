@@ -43,3 +43,7 @@ Status
 
 Sources
 : [Biofilm Disruption Enhances Antimicrobial Therapy for SIBO and Intestinal Methanogen Overgrowth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12701763/)
+
+---
+
+[← Previous: Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }}) · [Next →: Stage 2 - eradication agents]({{ "/en/protocol-eradication.html" | relative_url }})

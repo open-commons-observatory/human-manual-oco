@@ -46,3 +46,7 @@ breadcrumb:
 
 Источники
 : [Biofilm Disruption Enhances Antimicrobial Therapy for SIBO and Intestinal Methanogen Overgrowth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12701763/)
+
+---
+
+[← Предыдущая: Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html" | relative_url }}) · [Следующая →: Этап 2 — эрадикация]({{ "/ru/protocol-eradication.html" | relative_url }})

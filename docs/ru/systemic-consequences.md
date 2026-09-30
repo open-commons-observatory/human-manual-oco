@@ -35,3 +35,7 @@ breadcrumb:
 
 Статус
 : доказательств недостаточно
+
+---
+
+[← Предыдущая: Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }}) · [Следующая →: Протокол эрадикации: обзор этапов]({{ "/ru/protocol-overview.html" | relative_url }})

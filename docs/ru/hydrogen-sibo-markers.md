@@ -44,3 +44,7 @@ breadcrumb:
 
 Источники
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+---
+
+[← Предыдущая: Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html" | relative_url }}) · [Следующая →: Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})

@@ -50,3 +50,7 @@ breadcrumb:
 
 Источники
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+---
+
+[Следующая →: Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})

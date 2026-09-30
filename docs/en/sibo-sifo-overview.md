@@ -47,3 +47,7 @@ Quote (original)
 
 Sources
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+---
+
+[Next →: Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})

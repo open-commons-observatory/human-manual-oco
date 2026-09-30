@@ -26,3 +26,7 @@ L-glutamine is studied as an enterocyte fuel and used in critically ill patients
 
 Status
 : mechanism known, not clinically proven
+
+---
+
+[← Previous: Stage 4 - prokinetics]({{ "/en/protocol-prokinetics.html" | relative_url }}) · [Next →: Dosing schedule & course rules]({{ "/en/protocol-schedule.html" | relative_url }})

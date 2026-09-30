@@ -54,3 +54,7 @@ Status
 
 Sources
 : [Complementary and alternative treatment in functional dyspepsia](https://pmc.ncbi.nlm.nih.gov/articles/PMC5802680/)
+
+---
+
+[← Previous: Stage 3 - binders & die-off]({{ "/en/protocol-binders.html" | relative_url }}) · [Next →: Stage 5 - mucosal healing]({{ "/en/protocol-healing.html" | relative_url }})

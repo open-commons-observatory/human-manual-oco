@@ -48,3 +48,7 @@ Binders such as zeolite or activated charcoal adsorb substances in the gut lumen
 
 Status
 : mechanism known, not clinically proven
+
+---
+
+[← Previous: Stage 2 - eradication agents]({{ "/en/protocol-eradication.html" | relative_url }}) · [Next →: Stage 4 - prokinetics]({{ "/en/protocol-prokinetics.html" | relative_url }})

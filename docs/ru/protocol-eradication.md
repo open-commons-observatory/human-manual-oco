@@ -79,3 +79,7 @@ breadcrumb:
 
 Источники
 : [Small intestinal fungal overgrowth - AMBOSS](https://www.amboss.com/us/knowledge/small-intestinal-fungal-overgrowth)
+
+---
+
+[← Предыдущая: Этап 1 — разрушение биоплёнки]({{ "/ru/protocol-biofilm.html" | relative_url }}) · [Следующая →: Этап 3 — сорбенты и реакция на распад]({{ "/ru/protocol-binders.html" | relative_url }})

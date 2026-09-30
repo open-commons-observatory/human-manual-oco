@@ -41,3 +41,7 @@ Status
 
 Sources
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+---
+
+[← Previous: Overview: SIBO and SIFO]({{ "/en/sibo-sifo-overview.html" | relative_url }}) · [Next →: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }})

@@ -34,3 +34,7 @@ Introducing agents one at a time with 1-2 day gaps is sensible practice (it make
 
 Status
 : mechanism known, not clinically proven
+
+---
+
+[← Previous: Stage 5 - mucosal healing]({{ "/en/protocol-healing.html" | relative_url }})

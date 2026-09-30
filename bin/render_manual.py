@@ -33,7 +33,12 @@ LOCALES = {
             "insufficient-evidence": "доказательств недостаточно",
         },
         "name_col": "name_ru", "summary_col": "summary_ru", "statement_col": "statement_ru",
-        "quote_col": "quote_ru",
+        "quote_col": "quote_ru", "narrative_col": "narrative_ru",
+        "prev": "\u2190 Предыдущая", "next": "Следующая \u2192", "story_title": "Читать как статью",
+        "story_intro": "Тот же материал, что и в разделах выше, но собран в одну сквозную статью "
+                       "для чтения от начала до конца. Каждый абзац здесь — то же поле "
+                       "`narrative_ru` того же раздела; правка в разделе меняет и статью.",
+        "toc": "Содержание",
     },
     "en": {
         "home": "Home", "sections": "Sections", "facts": "Facts", "status": "Status",
@@ -46,7 +51,13 @@ LOCALES = {
             "insufficient-evidence": "insufficient evidence",
         },
         "name_col": "name_en", "summary_col": "summary_en", "statement_col": "statement_en",
-        "quote_col": "quote",
+        "quote_col": "quote", "narrative_col": "narrative_en",
+        "prev": "\u2190 Previous", "next": "Next \u2192", "story_title": "Read as one article",
+        "story_intro": "The same material as the sections above, assembled into one continuous "
+                       "read from start to finish. Each paragraph here is the same "
+                       "`narrative_en` field of the same section; editing the section changes "
+                       "the article too.",
+        "toc": "Contents",
     },
 }
 
@@ -59,7 +70,8 @@ def q(sql, *params):
 
 
 topics = {r[0]: dict(zip(
-    ["id", "name_ru", "name_en", "summary_ru", "summary_en", "order_key", "tags"], r))
+    ["id", "name_ru", "name_en", "summary_ru", "summary_en", "narrative_ru", "narrative_en",
+     "order_key", "tags"], r))
     for r in q("SELECT * FROM topics ORDER BY rowid")}
 facts = {r[0]: dict(zip(
     ["id", "name_ru", "name_en", "statement_ru", "statement_en", "quote", "quote_ru", "status", "tags"], r))
@@ -81,6 +93,18 @@ for fid, tid, rel, _ in q("SELECT * FROM relations WHERE relation = 'belongs-to'
 sources_of_fact = {}
 for fid, sid in q("SELECT * FROM fact_sources ORDER BY rowid"):
     sources_of_fact.setdefault(fid, []).append(sid)
+
+
+def flatten_reading_order(tid):
+    """Depth-first, order_key order: the same sequence render_tree() prints the nav in, reused
+    as the book-style prev/next path and as the section order of the assembled story page."""
+    out = [tid]
+    for cid in children_of.get(tid, []):
+        out += flatten_reading_order(cid)
+    return out
+
+
+READING_ORDER = [tid for r in roots for tid in flatten_reading_order(r)]
 
 
 def breadcrumb_chain(tid):
@@ -150,6 +174,21 @@ def render_topic_page(locale, tid):
                 links = ", ".join(f"[{sources[sid]['title']}]({sources[sid]['url']})" for sid in srcs)
                 lines.append(f": {links}")
                 lines.append("")
+
+    lines.append("---")
+    lines.append("")
+    pos = READING_ORDER.index(tid)
+    pager = []
+    if pos > 0:
+        p = READING_ORDER[pos - 1]
+        pager.append(f'[{L["prev"]}: {topics[p][L["name_col"]]}]'
+                      f'({{{{ "{page_url(locale, p)}" | relative_url }}}})')
+    if pos < len(READING_ORDER) - 1:
+        n = READING_ORDER[pos + 1]
+        pager.append(f'[{L["next"]}: {topics[n][L["name_col"]]}]'
+                      f'({{{{ "{page_url(locale, n)}" | relative_url }}}})')
+    lines.append(" \u00b7 ".join(pager))
+    lines.append("")
     return lines
 
 
@@ -163,6 +202,30 @@ def render_tree(locale, tid, depth=0):
     return lines
 
 
+def render_story(locale):
+    """The 'one article' reading path. Assembled, not authored separately: every paragraph below
+    is exactly topics[tid][narrative_ru/en], the same field the topic's own page could show (it
+    doesn't, to keep that page terse) - so editing a topic's narrative in data/topics.json changes
+    both this article's matching section and, if the field is ever surfaced there too, the topic
+    page. Nothing here is hand-written prose sitting outside the database."""
+    L = LOCALES[locale]
+    lines = ["---", f'title: "{L["story_title"]}"', f"locale: {locale}",
+              f"alt_path: /{'en' if locale == 'ru' else 'ru'}/story.html", "breadcrumb:",
+              f'  - name: "{L["home"]}"', f"    url: /{locale}/",
+              f'  - name: "{L["story_title"]}"', f"    url: /{locale}/story.html",
+              "---", "", GENERATED, "", L["story_intro"], "", f"## {L['toc']}", ""]
+    for tid in READING_ORDER:
+        lines.append(f"- [{topics[tid][L['name_col']]}](#{tid})")
+    lines.append("")
+    for tid in READING_ORDER:
+        t = topics[tid]
+        text = t[L["narrative_col"]]
+        if not text:
+            continue
+        lines += [f'<a id="{tid}"></a>', f"### {t[L['name_col']]}", "", text, ""]
+    return lines
+
+
 def render_locale_index(locale):
     L = LOCALES[locale]
     disclaimer = ("Личные заметки с проверкой источников, не медицинская рекомендация; статус "
@@ -173,7 +236,8 @@ def render_locale_index(locale):
     lines = ["---", f'title: "{L["site_title"]}"', f"locale: {locale}",
               f"alt_path: /{'en' if locale == 'ru' else 'ru'}/", "breadcrumb:",
               f'  - name: "{L["home"]}"', f"    url: /{locale}/", "---", "", GENERATED, "",
-              disclaimer, ""]
+              disclaimer, "",
+              f'[{L["story_title"]} \u2192]({{{{ "/{locale}/story.html" | relative_url }}}})', ""]
     for r in roots:
         lines += render_tree(locale, r)
     return lines
@@ -188,6 +252,7 @@ def write(path, lines):
 
 for locale in LOCALES:
     write(f"{locale}/index.md", render_locale_index(locale))
+    write(f"{locale}/story.md", render_story(locale))
     for tid in topics:
         write(f"{locale}/{tid}.md", render_topic_page(locale, tid))
 

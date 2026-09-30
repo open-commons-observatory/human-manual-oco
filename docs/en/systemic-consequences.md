@@ -35,3 +35,7 @@ The claim that SIBO-related bloating routinely causes sphincter of Oddi spasm an
 
 Status
 : insufficient evidence
+
+---
+
+[← Previous: SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }}) · [Next →: Eradication protocol: stage overview]({{ "/en/protocol-overview.html" | relative_url }})

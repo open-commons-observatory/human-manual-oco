@@ -11,6 +11,8 @@ breadcrumb:
 
 Личные заметки с проверкой источников, не медицинская рекомендация; статус доказательности указан у каждого факта.
 
+[Читать как статью →]({{ "/ru/story.html" | relative_url }})
+
 - [Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html" | relative_url }})
   - [Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
   - [Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})

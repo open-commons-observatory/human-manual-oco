@@ -57,3 +57,7 @@ breadcrumb:
 
 Источники
 : [Complementary and alternative treatment in functional dyspepsia](https://pmc.ncbi.nlm.nih.gov/articles/PMC5802680/)
+
+---
+
+[← Предыдущая: Этап 3 — сорбенты и реакция на распад]({{ "/ru/protocol-binders.html" | relative_url }}) · [Следующая →: Этап 5 — заживление слизистой]({{ "/ru/protocol-healing.html" | relative_url }})

@@ -51,3 +51,7 @@ breadcrumb:
 
 Статус
 : механизм известен, клинически не доказан
+
+---
+
+[← Предыдущая: Этап 2 — эрадикация]({{ "/ru/protocol-eradication.html" | relative_url }}) · [Следующая →: Этап 4 — прокинетики]({{ "/ru/protocol-prokinetics.html" | relative_url }})

@@ -52,3 +52,7 @@ Status
 
 Sources
 : [Small Intestinal Bacterial and Fungal Overgrowth: Health Implications and Management Perspectives](https://pmc.ncbi.nlm.nih.gov/articles/PMC12030604/)
+
+---
+
+[← Previous: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }}) · [Next →: Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }})

@@ -73,3 +73,7 @@ Status
 
 Sources
 : [Small intestinal fungal overgrowth - AMBOSS](https://www.amboss.com/us/knowledge/small-intestinal-fungal-overgrowth)
+
+---
+
+[← Previous: Stage 1 - biofilm disruption]({{ "/en/protocol-biofilm.html" | relative_url }}) · [Next →: Stage 3 - binders & die-off]({{ "/en/protocol-binders.html" | relative_url }})

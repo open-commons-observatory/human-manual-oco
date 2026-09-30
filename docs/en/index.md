@@ -11,6 +11,8 @@ breadcrumb:
 
 Personal, source-checked notes, not medical advice; an evidence status is given for every fact.
 
+[Read as one article →]({{ "/en/story.html" | relative_url }})
+
 - [Overview: SIBO and SIFO]({{ "/en/sibo-sifo-overview.html" | relative_url }})
   - [Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }})
   - [Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }})

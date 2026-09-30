@@ -38,3 +38,7 @@ ACG (2020) прямо рекомендует тестирование на ме�
 
 Источники
 : [ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth](https://doi.org/10.14309/ajg.0000000000000501)
+
+---
+
+[← Предыдущая: Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }}) · [Следующая →: Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }})
