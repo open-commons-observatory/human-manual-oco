@@ -7,6 +7,8 @@ breadcrumb:
     url: /en/
   - name: "Overview: SIBO and SIFO"
     url: /en/sibo-sifo-overview.html
+  - name: "Self-observation: clear markers"
+    url: /en/self-observation-markers.html
   - name: "Hydrogen-dominant SIBO markers"
     url: /en/hydrogen-sibo-markers.html
 ---
@@ -71,4 +73,4 @@ Sources
 
 ---
 
-[← Previous: Overview: SIBO and SIFO]({{ "/en/sibo-sifo-overview.html" | relative_url }}) · [Next →: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }})
+[← Previous: Self-observation: clear markers]({{ "/en/self-observation-markers.html" | relative_url }}) · [Next →: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }})

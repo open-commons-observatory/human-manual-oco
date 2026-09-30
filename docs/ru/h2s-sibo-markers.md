@@ -7,6 +7,8 @@ breadcrumb:
     url: /ru/
   - name: "Обзор: СИБР и СИФО"
     url: /ru/sibo-sifo-overview.html
+  - name: "Самонаблюдения: чёткие маркеры"
+    url: /ru/self-observation-markers.html
   - name: "Маркеры сероводородного СИБР (третий газ)"
     url: /ru/h2s-sibo-markers.html
 ---

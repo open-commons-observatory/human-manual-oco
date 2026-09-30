@@ -7,6 +7,8 @@ breadcrumb:
     url: /ru/
   - name: "Обзор: СИБР и СИФО"
     url: /ru/sibo-sifo-overview.html
+  - name: "Самонаблюдения: чёткие маркеры"
+    url: /ru/self-observation-markers.html
   - name: "Маркеры СИФО (грибковый перерост)"
     url: /ru/sifo-candida-markers.html
 ---

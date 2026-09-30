@@ -7,6 +7,8 @@ breadcrumb:
     url: /en/
   - name: "Overview: SIBO and SIFO"
     url: /en/sibo-sifo-overview.html
+  - name: "Self-observation: clear markers"
+    url: /en/self-observation-markers.html
   - name: "Odorless belching - usually a different mechanism"
     url: /en/belching-differential.html
 ---

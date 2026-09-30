@@ -43,11 +43,12 @@
 {"from_id":"glutamine-mixed-evidence","to_id":"protocol-healing","relation":"belongs-to","note":null}
 {"from_id":"pancreatic-enzyme-role","to_id":"protocol-schedule","relation":"belongs-to","note":null}
 {"from_id":"course-titration-caution","to_id":"protocol-schedule","relation":"belongs-to","note":null}
-{"from_id":"hydrogen-sibo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
-{"from_id":"methane-imo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
-{"from_id":"h2s-sibo-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
-{"from_id":"sifo-candida-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
-{"from_id":"belching-differential","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
+{"from_id":"self-observation-markers","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
+{"from_id":"hydrogen-sibo-markers","to_id":"self-observation-markers","relation":"subtopic-of","note":null}
+{"from_id":"methane-imo-markers","to_id":"self-observation-markers","relation":"subtopic-of","note":null}
+{"from_id":"h2s-sibo-markers","to_id":"self-observation-markers","relation":"subtopic-of","note":null}
+{"from_id":"sifo-candida-markers","to_id":"self-observation-markers","relation":"subtopic-of","note":null}
+{"from_id":"belching-differential","to_id":"self-observation-markers","relation":"subtopic-of","note":null}
 {"from_id":"systemic-consequences","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"malabsorption-cascades","to_id":"sibo-sifo-overview","relation":"subtopic-of","note":null}
 {"from_id":"cascade-fat-vitamins","to_id":"malabsorption-cascades","relation":"subtopic-of","note":null}

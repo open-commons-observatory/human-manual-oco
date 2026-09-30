@@ -7,6 +7,8 @@ breadcrumb:
     url: /en/
   - name: "Overview: SIBO and SIFO"
     url: /en/sibo-sifo-overview.html
+  - name: "Self-observation: clear markers"
+    url: /en/self-observation-markers.html
   - name: "Hydrogen sulfide SIBO markers (the third gas)"
     url: /en/h2s-sibo-markers.html
 ---

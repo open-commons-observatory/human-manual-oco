@@ -7,6 +7,8 @@ breadcrumb:
     url: /ru/
   - name: "Обзор: СИБР и СИФО"
     url: /ru/sibo-sifo-overview.html
+  - name: "Самонаблюдения: чёткие маркеры"
+    url: /ru/self-observation-markers.html
   - name: "Маркеры водородного СИБР"
     url: /ru/hydrogen-sibo-markers.html
 ---
@@ -77,4 +79,4 @@ breadcrumb:
 
 ---
 
-[← Предыдущая: Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html" | relative_url }}) · [Следующая →: Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})
+[← Предыдущая: Самонаблюдения: чёткие маркеры]({{ "/ru/self-observation-markers.html" | relative_url }}) · [Следующая →: Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})

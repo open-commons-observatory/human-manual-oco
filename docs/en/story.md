@@ -16,6 +16,7 @@ The same material as the sections above, assembled into one continuous read from
 ## Contents
 
 - [Overview: SIBO and SIFO](#sibo-sifo-overview)
+- [Self-observation: clear markers](#self-observation-markers)
 - [Hydrogen-dominant SIBO markers](#hydrogen-sibo-markers)
 - [Methane / IMO markers](#methane-imo-markers)
 - [Hydrogen sulfide SIBO markers (the third gas)](#h2s-sibo-markers)
@@ -45,6 +46,13 @@ The standard route from here is a tour of specialists. A gastroenterologist look
 A meaningful part of that cluster is explained by one physiological hinge: an overgrowth of microorganisms somewhere that's normally almost empty - the small intestine. The colon is densely, deliberately populated with bacteria; that's a normal part of digestion. The small intestine is a different story: in a healthy person it's nearly sterile, kept that way by two barriers. The first is stomach acid, which sterilises whatever passes further down (and here's the irony worth sitting with: long-term use of heartburn medication suppresses exactly this barrier). The second is the [migrating motor complex]({{ "/en/protocol-prokinetics.html" | relative_url }}) (MMC), a wave of contractions that sweeps the small intestine clean between meals.
 
 When either barrier weakens - acid suppressed, motility disrupted, post-surgical adhesions, diabetes, or other risk factors - bacteria and fungi from the colon gradually colonise the small intestine. And food that should be absorbed by you starts being partly fermented by them instead.
+
+<a id="self-observation-markers"></a>
+### Self-observation: clear markers
+
+What follows isn't an abstract classification of diagnoses - it's a self-observation toolkit. Each subsection here is a reasonably clear pattern, recognisable by the combination of timing, character of sensation, and smell, that points with high confidence to a specific process rather than something "vague".
+
+Most of these subsections really are different SIBO types: hydrogen, methane (IMO), hydrogen sulfide, fungal (SIFO). But one section here is deliberately not about SIBO. Recurring odourless belching looks, at first glance, like it belongs on the same list, but mechanistically it belongs to the oesophagus, not the gut. It's included here not because the topic is SIBO, but because it's exactly the same kind of clear, self-contained marker - just pointing to a different process. The goal isn't "diagnose yourself from one symptom" but learning to read a combination of signs as a single, informative pattern.
 
 <a id="hydrogen-sibo-markers"></a>
 ### Hydrogen-dominant SIBO markers

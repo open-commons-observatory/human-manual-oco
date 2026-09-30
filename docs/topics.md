@@ -44,14 +44,50 @@ Tags
 Relations
 : ← belongs-to: [acid-mmc-barrier](facts.md#acid-mmc-barrier)
 : ← belongs-to: [acg-definition](facts.md#acg-definition)
+: ← subtopic-of: [self-observation-markers](topics.md#self-observation-markers)
+: ← subtopic-of: [systemic-consequences](topics.md#systemic-consequences)
+: ← subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
+: ← subtopic-of: [protocol-overview](topics.md#protocol-overview)
+
+
+<a id="self-observation-markers"></a>
+### self-observation-markers
+
+Name ru
+: Самонаблюдения: чёткие маркеры
+
+Name en
+: Self-observation: clear markers
+
+Summary ru
+: Набор паттернов по тайминга, ощущениям и запаху, каждый из которых с высокой вероятностью указывает на конкретный, понятный процесс — не всегда СИБР.
+
+Summary en
+: A set of timing, sensation and smell patterns, each of which points with high confidence to a specific, understood process - not always SIBO.
+
+Narrative ru
+: Дальше — не абстрактная классификация диагнозов, а инструментарий самонаблюдения. Каждый подраздел здесь — достаточно чёткий, узнаваемый по сочетанию тайминга, характера ощущений и запаха паттерн, который с высокой вероятностью указывает на конкретный процесс, а не на что-то «размытое».
+
+Большая часть подразделов — это действительно разные типы СИБР: водородный, метановый (IMO), сероводородный, грибковый (СИФО). Но один раздел здесь — намеренно не про СИБР. Повторяющаяся отрыжка без запаха на первый взгляд просится в тот же список, но по механизму относится к пищеводу, а не к кишечнику. Она в этом разделе не потому, что тема — СИБР, а потому что это ровно такой же по духу чёткий, самостоятельный маркер, просто указывающий на другой процесс. Цель — не «поставить себе диагноз по одному симптому», а научиться читать сочетание признаков как единый, информативный узор.
+
+Narrative en
+: What follows isn't an abstract classification of diagnoses - it's a self-observation toolkit. Each subsection here is a reasonably clear pattern, recognisable by the combination of timing, character of sensation, and smell, that points with high confidence to a specific process rather than something "vague".
+
+Most of these subsections really are different SIBO types: hydrogen, methane (IMO), hydrogen sulfide, fungal (SIFO). But one section here is deliberately not about SIBO. Recurring odourless belching looks, at first glance, like it belongs on the same list, but mechanistically it belongs to the oesophagus, not the gut. It's included here not because the topic is SIBO, but because it's exactly the same kind of clear, self-contained marker - just pointing to a different process. The goal isn't "diagnose yourself from one symptom" but learning to read a combination of signs as a single, informative pattern.
+
+Order key
+: 15
+
+Tags
+: gi, markers
+
+Relations
+: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
 : ← subtopic-of: [hydrogen-sibo-markers](topics.md#hydrogen-sibo-markers)
 : ← subtopic-of: [methane-imo-markers](topics.md#methane-imo-markers)
 : ← subtopic-of: [h2s-sibo-markers](topics.md#h2s-sibo-markers)
 : ← subtopic-of: [sifo-candida-markers](topics.md#sifo-candida-markers)
 : ← subtopic-of: [belching-differential](topics.md#belching-differential)
-: ← subtopic-of: [systemic-consequences](topics.md#systemic-consequences)
-: ← subtopic-of: [malabsorption-cascades](topics.md#malabsorption-cascades)
-: ← subtopic-of: [protocol-overview](topics.md#protocol-overview)
 
 
 <a id="hydrogen-sibo-markers"></a>
@@ -94,7 +130,7 @@ Tags
 : gi, diagnosis
 
 Relations
-: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: → subtopic-of: [self-observation-markers](topics.md#self-observation-markers)
 : ← belongs-to: [breath-test-diagnosis](facts.md#breath-test-diagnosis)
 : ← belongs-to: [hydrogen-symptoms](facts.md#hydrogen-symptoms)
 : ← belongs-to: [rapid-onset-diagnostic-logic](facts.md#rapid-onset-diagnostic-logic)
@@ -133,7 +169,7 @@ Tags
 : gi, diagnosis
 
 Relations
-: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: → subtopic-of: [self-observation-markers](topics.md#self-observation-markers)
 : ← belongs-to: [imo-reclassification](facts.md#imo-reclassification)
 : ← belongs-to: [imo-constipation-link](facts.md#imo-constipation-link)
 : ← belongs-to: [methane-reduces-gas-volume](facts.md#methane-reduces-gas-volume)
@@ -175,7 +211,7 @@ Tags
 : gi, diagnosis, smell
 
 Relations
-: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: → subtopic-of: [self-observation-markers](topics.md#self-observation-markers)
 : ← belongs-to: [gas-odor-chemistry](facts.md#gas-odor-chemistry)
 : ← belongs-to: [h2s-flatline-diagnostic-clue](facts.md#h2s-flatline-diagnostic-clue)
 
@@ -212,7 +248,7 @@ Tags
 : gi, diagnosis, candida
 
 Relations
-: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: → subtopic-of: [self-observation-markers](topics.md#self-observation-markers)
 : ← belongs-to: [sifo-debated](facts.md#sifo-debated)
 : ← belongs-to: [sifo-candida-dominant](facts.md#sifo-candida-dominant)
 : ← belongs-to: [sifo-symptom-overlap](facts.md#sifo-symptom-overlap)
@@ -251,7 +287,7 @@ Tags
 : gi, diagnosis, differential
 
 Relations
-: → subtopic-of: [sibo-sifo-overview](topics.md#sibo-sifo-overview)
+: → subtopic-of: [self-observation-markers](topics.md#self-observation-markers)
 : ← belongs-to: [supragastric-belching-mechanism](facts.md#supragastric-belching-mechanism)
 : ← belongs-to: [belching-vs-aerophagia-vs-sibo-gas](facts.md#belching-vs-aerophagia-vs-sibo-gas)
 : ← belongs-to: [belching-anxiety-formal-dx](facts.md#belching-anxiety-formal-dx)
