@@ -15,7 +15,7 @@ breadcrumb:
 
 <!-- Generated from data/ by bin/render_manual.py. Do not edit by hand. -->
 
-Why SIBO classically shows low B12 together with normal or high folate.
+Why [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) classically shows low B12 together with normal or high folate.
 
 ## Facts
 

@@ -22,7 +22,7 @@ Why all-day, odorless air belching is usually explained not by gut bacteria but 
 <a id="supragastric-belching-mechanism"></a>
 ### The supragastric belching mechanism
 
-In supragastric belching, air is sucked into the oesophagus and pushed straight back out without reaching the stomach or intestine; it is essentially an oesophageal muscular pattern, not a digestive process and not bacterial fermentation.
+In [supragastric belching]({{ "/en/glossary.html#supragastric-belching-term" | relative_url }}), air is sucked into the oesophagus and pushed straight back out without reaching the stomach or intestine; it is essentially an oesophageal muscular pattern, not a digestive process and not bacterial fermentation.
 
 Status
 : confirmed
@@ -60,4 +60,4 @@ Sources
 
 ---
 
-[← Previous: SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }}) · [Next →: Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }})
+[← Previous: SIFO markers: Fungal (Candida)]({{ "/en/sifo-candida-markers.html" | relative_url }}) · [Next →: Systemic consequences]({{ "/en/systemic-consequences.html" | relative_url }})

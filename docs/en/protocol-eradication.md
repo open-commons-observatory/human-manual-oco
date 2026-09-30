@@ -22,7 +22,7 @@ The evidence base for berberine, oregano oil, allicin and caprylic acid, individ
 <a id="berberine-rct"></a>
 ### Berberine vs rifaximin: an RCT is underway
 
-Berberine is being directly compared with rifaximin in a registered randomised controlled trial (BRIEF-SIBO, Peking University); the trial protocol has been published, with the hypothesis that berberine is non-inferior to rifaximin for eradication.
+Berberine is being directly compared with rifaximin in a registered randomised controlled trial (BRIEF-[SIBO]({{ "/en/glossary.html#sibo" | relative_url }}), Peking University); the trial protocol has been published, with the hypothesis that berberine is non-inferior to rifaximin for eradication.
 
 Status
 : preliminary, trial ongoing
@@ -58,7 +58,7 @@ Status
 <a id="allicin-methanogens-mechanism"></a>
 ### Allicin vs methanogens - livestock data, not clinical data
 
-Allicin (from garlic) does suppress methanogenic archaea in research aimed at reducing ruminant methane emissions; we could not find direct human clinical trials of allicin against IMO - extrapolating the effect to people remains an assumption, not an established fact.
+Allicin (from garlic) does suppress [methanogenic archaea]({{ "/en/glossary.html#methanogens" | relative_url }}) in research aimed at reducing ruminant methane emissions; we could not find direct human clinical trials of allicin against [IMO]({{ "/en/glossary.html#imo" | relative_url }}) - extrapolating the effect to people remains an assumption, not an established fact.
 
 Status
 : insufficient evidence
@@ -66,7 +66,7 @@ Status
 <a id="caprylic-acid-invitro"></a>
 ### Caprylic acid: in-vitro evidence only
 
-Caprylic acid's antifungal action against Candida has mainly been shown in vitro; no controlled human trials in diagnosed SIFO were found. Where SIFO is confirmed, prescription antifungals (e.g. fluconazole) remain the standard of care.
+Caprylic acid's antifungal action against Candida has mainly been shown in vitro; no controlled human trials in diagnosed [SIFO]({{ "/en/glossary.html#sifo" | relative_url }}) were found. Where SIFO is confirmed, prescription antifungals (e.g. fluconazole) remain the standard of care.
 
 Status
 : insufficient evidence

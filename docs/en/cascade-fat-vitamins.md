@@ -36,7 +36,7 @@ Sources
 <a id="vitamin-k-exception"></a>
 ### Vitamin K - the exception to the rule
 
-Unlike A, D and E, vitamin K deficiency is uncommon in SIBO, because the same gut bacteria that impair fat absorption also synthesise the vitamin themselves.
+Unlike A, D and E, vitamin K deficiency is uncommon in [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}), because the same gut bacteria that impair fat absorption also synthesise the vitamin themselves.
 
 Status
 : confirmed

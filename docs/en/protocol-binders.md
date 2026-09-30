@@ -36,7 +36,7 @@ Sources
 <a id="herx-extrapolation-gut"></a>
 ### The extension to SIBO/candida is not research-backed
 
-Extending this concept to herbal antimicrobial supplements for SIBO/candida (a "detox reaction") is an established term in integrative medicine, but we could not find controlled clinical studies of this specific mechanism in a supplement context; treat it as a plausible, not a proven, explanation for early-course malaise.
+Extending this concept to herbal antimicrobial supplements for [SIBO]({{ "/en/glossary.html#sibo" | relative_url }})/candida (a "detox reaction") is an established term in integrative medicine, but we could not find controlled clinical studies of this specific mechanism in a supplement context; treat it as a plausible, not a proven, explanation for early-course malaise.
 
 Status
 : insufficient evidence

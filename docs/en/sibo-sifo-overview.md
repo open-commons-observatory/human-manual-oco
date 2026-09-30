@@ -25,7 +25,7 @@ The mechanism by which colon-dwelling bacteria and fungi colonise the normally s
 <a id="acid-mmc-barrier"></a>
 ### Acid barrier and the MMC
 
-Gastric acid and the migrating motor complex (MMC) are the two principal mechanisms limiting bacterial numbers in the small intestine; their disruption (acid suppression, motility disorders, diabetes, scleroderma, post-surgical adhesions) is a recognised SIBO risk factor.
+Gastric acid and the migrating motor complex ([MMC]({{ "/en/glossary.html#mmc" | relative_url }})) are the two principal mechanisms limiting bacterial numbers in the small intestine; their disruption (acid suppression, motility disorders, diabetes, scleroderma, post-surgical adhesions) is a recognised [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) risk factor.
 
 Status
 : confirmed

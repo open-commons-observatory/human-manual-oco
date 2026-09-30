@@ -41,7 +41,7 @@ Status
 <a id="fatigue-inflammation-caveat"></a>
 ### Chronic inflammation as a cause - less proven
 
-The idea of chronic low-grade inflammation from ongoing bacterial presence as a separate fatigue cause is plausible and studied for dysbiosis broadly, but for SIBO specifically the evidence is thinner than for anaemia, caloric loss, and sleep disruption.
+The idea of chronic low-grade inflammation from ongoing bacterial presence as a separate fatigue cause is plausible and studied for dysbiosis broadly, but for [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) specifically the evidence is thinner than for anaemia, caloric loss, and sleep disruption.
 
 Status
 : insufficient evidence

@@ -1,5 +1,5 @@
 ---
-title: "SIFO (fungal overgrowth) markers"
+title: "SIFO markers: Fungal (Candida)"
 locale: en
 alt_path: /ru/sifo-candida-markers.html
 breadcrumb:
@@ -9,7 +9,7 @@ breadcrumb:
     url: /en/sibo-sifo-overview.html
   - name: "Self-observation: clear markers"
     url: /en/self-observation-markers.html
-  - name: "SIFO (fungal overgrowth) markers"
+  - name: "SIFO markers: Fungal (Candida)"
     url: /en/sifo-candida-markers.html
 ---
 
@@ -22,7 +22,7 @@ The least settled of the three diagnoses: what is known about it and what remain
 <a id="sifo-debated"></a>
 ### SIFO's status as a diagnosis is disputed
 
-The existence and clinical relevance of SIFO as a distinct entity remain debated in the literature, and there is no standardised diagnostic protocol.
+The existence and clinical relevance of [SIFO]({{ "/en/glossary.html#sifo" | relative_url }}) as a distinct entity remain debated in the literature, and there is no standardised diagnostic protocol.
 
 Status
 : disputed / overstated in popular sources
@@ -47,7 +47,7 @@ Sources
 <a id="sifo-symptom-overlap"></a>
 ### SIFO symptoms overlap with SIBO
 
-SIFO's clinical picture (pain, bloating, gas, diarrhoea) largely overlaps with bacterial SIBO, which makes the two hard to tell apart without specific testing (small-bowel aspirate culture).
+SIFO's clinical picture (pain, bloating, gas, diarrhoea) largely overlaps with bacterial [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}), which makes the two hard to tell apart without specific testing (small-bowel aspirate culture).
 
 Status
 : preliminary, trial ongoing
@@ -58,7 +58,7 @@ Sources
 <a id="auto-brewery-marker"></a>
 ### A rare but completely unambiguous marker: intoxication without alcohol
 
-In rare but well-documented cases, yeast (including Candida species) in the small intestine ferments ingested carbohydrates into ethanol right there in the gut, producing genuine alcohol intoxication after a carb-heavy meal without a drop of alcohol consumed - auto-brewery syndrome. It isn't the most common SIFO symptom, but where it occurs, it is almost impossible to mistake for anything else.
+In rare but well-documented cases, yeast (including Candida species) in the small intestine ferments ingested carbohydrates into ethanol right there in the gut, producing genuine alcohol intoxication after a carb-heavy meal without a drop of alcohol consumed - [auto-brewery syndrome]({{ "/en/glossary.html#auto-brewery-syndrome-term" | relative_url }}). It isn't the most common SIFO symptom, but where it occurs, it is almost impossible to mistake for anything else.
 
 Status
 : confirmed
@@ -71,4 +71,4 @@ Sources
 
 ---
 
-[← Previous: Hydrogen sulfide SIBO markers (the third gas)]({{ "/en/h2s-sibo-markers.html" | relative_url }}) · [Next →: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }})
+[← Previous: SIBO markers: Hydrogen sulfide (the third gas)]({{ "/en/h2s-sibo-markers.html" | relative_url }}) · [Next →: Odorless belching - usually a different mechanism]({{ "/en/belching-differential.html" | relative_url }})

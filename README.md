@@ -1,53 +1,59 @@
 # human-manual-oco
 
 Личный "человеческий мануал": проверяемые факты о теле, здоровье и физиологии, с прямыми
-короткими цитатами из первоисточников, переводом на русский и статусом доказательности у
-каждого факта (`confirmed` / `preliminary` / `mechanistic` / `disputed` / `insufficient-evidence`).
-Двуязычный (RU/EN), опубликован на GitHub Pages как навигируемый мануал с хлебными крошками.
+короткими цитатами из первоисточников, переводом и статусом доказательности у каждого факта
+(`confirmed` / `preliminary` / `mechanistic` / `disputed` / `insufficient-evidence`). Многоязычный
+(сейчас RU/EN), опубликован на GitHub Pages как навигируемый мануал с хлебными крошками.
 
-- **Читать мануал:** после включения Pages (Settings -> Pages -> Deploy from a branch -> `main` /
-  `/docs`) - `https://open-commons-observatory.github.io/human-manual-oco/`.
+- **Читать мануал:** `https://open-commons-observatory.github.io/human-manual-oco/`.
 - **Работать с данными (люди или агенты):** прочитать [`AGENTS.md`](AGENTS.md), затем `make setup`
   и `make verify`.
 - **Коммиты и релизы:** [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Как это устроено
 `data/` - источник истины: SQL-схема (`schema.sql`), сгенерированные `COPY`-выражения
-(`load.sql`) и по одному JSON-lines файлу на таблицу. Схема (см. `data/schema.sql`):
+(`load.sql`) и по одному JSON-lines файлу на таблицу (см. `data/schema.sql`):
 
-- `topics` - разделы и подразделы мануала (`name_ru`/`name_en`, `summary_ru`/`summary_en`,
-  `order_key`); иерархия задаётся строками `relations` с `relation = 'subtopic-of'`.
-- `facts` - собственно факты: `statement_ru`/`statement_en` (проверенное, переформулированное
-  утверждение), `quote`/`quote_ru` (короткая прямая цитата из источника и перевод, опционально),
-  `status` (см. выше). Привязка факта к разделу - строка `relations` с `relation = 'belongs-to'`.
-- `sources` - источники (`title`, `url`, `author`, `year`). Цитирование - таблица `fact_sources`.
-- `backlog`, `session_log` - стандартные для TAD-репозиториев таблицы: что запланировано и что
-  реально решалось по ходу работы (и что было отвергнуто и почему).
+- `topics` - узлы дерева мануала: только `id`, `order_key`, `tags`. **Раздел мануала - это не
+  отдельная сущность**, а любой `topic` без родителя `subtopic-of` (сейчас один - СИБР/СИФО);
+  структура готова к новым разделам без переделки схемы или кода.
+- `facts` - факты: только `id`, `status`, `quote` (короткая цитата в её исходном языке,
+  опционально), `tags`. Привязка факта к разделу - строка `relations` с `relation = 'belongs-to'`.
+- `terms` - глоссарий (только `id`). Каждое упоминание термина в тексте автоматически
+  становится ссылкой на его статью при первом появлении на странице.
+- `i18n(entity_id, field, locale, text)` - **весь** переводимый текст (`name`, `summary`,
+  `narrative`, `category` у topics; `name`, `statement`, `quote_translation` у facts; `name`,
+  `explanation` у terms). `topics`/`facts`/`terms` сами по себе locale-agnostic; **новая локаль -
+  это только новые строки `i18n`**, без правки схемы или `bin/render_manual.py`.
+- `sources` - источники (`title`, `url`, `author`, `year`) - не переводятся, это библиография.
+- `relations` - типизированные связи: `subtopic-of` (иерархия), `belongs-to` (факт → раздел),
+  `also-relevant-to` (факт → ещё один раздел, где он тоже уместен) и любые другие типы; каждая
+  связь рендерится в обе стороны, включая "Используется в:" на странице цели.
+- `backlog`, `session_log` - стандартные для TAD-репозиториев таблицы, не переводятся.
 
-`checks/*.sql` проверяет инварианты (уникальность id, разрешимость связей). CI (`make verify`)
-гоняет два прохода рендера:
+`checks/*.sql` проверяет инварианты (уникальность id через все таблицы, разрешимость `relations`
+и `fact_sources`, разрешимость `i18n.entity_id`). CI (`make verify`) гоняет два прохода рендера:
 
-1. `.tad/tools/render.py` - общий движок (вендорится из
-   [`creation-guidelines/tad-engine`](https://github.com/creation-guidelines/tad-engine) как
-   `git subrepo`, см. [`.tad/README.md`](.tad/README.md)) - плоские "сырые" страницы по одной на
-   таблицу (`docs/topics.md`, `docs/facts.md`, `docs/sources.md` и т.д.), полезны для отладки
-   данных напрямую.
-2. `bin/render_manual.py` - репо-локальный скрипт (не часть движка, поэтому правки в нём не
-   мешают будущим `git subrepo pull` обновлениям `.tad/`), который по той же иерархии `topics`
-   строит человекочитаемый двуязычный мануал: `docs/ru/*.md` и `docs/en/*.md`, с хлебными
-   крошками и переключателем языка в шапке каждой страницы. `docs/index.md` он же перезаписывает
-   в простую страницу выбора языка.
+1. `.tad/tools/render.py` - общий движок (вендорится как `git subrepo`, см.
+   [`.tad/README.md`](.tad/README.md)) - плоские "сырые" страницы по одной на таблицу
+   (`docs/topics.md`, `docs/facts.md`, `docs/terms.md` и т.д.), для отладки данных напрямую.
+2. `bin/render_manual.py` - репо-локальный скрипт (вне движка, правки в нём не мешают будущим
+   `git subrepo pull`), который по той же иерархии строит человекочитаемый мануал на каждую
+   локаль: `docs/<locale>/<topic-id>.md` (с хлебными крошками, prev/next-пейджером в пределах
+   своего раздела и обратными ссылками), `docs/<locale>/<section-id>-story.md` (раздел, собранный
+   в одну сквозную статью из полей `narrative` - у каждого раздела мануала своя, не общая на весь
+   сайт) и `docs/<locale>/glossary.md` (термины + куда они авто-связаны).
 
 Оформление - оригинальный минимализм этого шаблона (`docs/assets/css/style.css`): моноширинный
-шрифт, структура через отступы и `dl`-списки (kramdown), без цветных плашек и жирных ярлыков -
-ближе к тексту RFC, чем к типичной документационной теме.
+шрифт, структура через отступы и `dl`-списки (kramdown) - ближе к тексту RFC, чем к типичной
+документационной теме.
 
-## Добавление новой темы
-`bin/seed.py` - пример того, как одной Python-сессией (параметризованные `INSERT`, без проблем с
-кириллицей/апострофами в SQL-литералах) наполнить `topics`/`facts`/`sources`/`relations`/
-`fact_sources` и канонически экспортировать их через `EXPORT DATABASE 'data' (FORMAT json)` -
-тот же механизм, что использует `.tad/tools/dc.py canon`. Для новой темы естественно написать
-второй такой скрипт (или расширить `seed.py`), затем `python3 .tad/tools/render.py && python3
+## Добавление контента
+`bin/seed.py` - содержательный загрузчик: параметризованные `INSERT` (без проблем с кириллицей в
+SQL-литералах), затем `i18n_set()` разносит переводимые поля по `i18n`, затем канонический
+`EXPORT DATABASE 'data' (FORMAT json)` - тот же механизм, что `.tad/tools/dc.py canon`. Для новой
+темы или нового раздела: дописать `TOPICS`/`FACTS`/`SUBTOPIC_OF`/`TERMS` в `seed.py` (новый раздел
+- это просто topic без родителя), затем `python3 .tad/tools/render.py && python3
 bin/render_manual.py` и `make verify`.
 
 ## Статус

@@ -66,4 +66,4 @@ breadcrumb:
 
 ---
 
-[← Предыдущая: Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }}) · [Следующая →: Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }})
+[← Предыдущая: Маркеры СИФО: Грибковый (Candida)]({{ "/ru/sifo-candida-markers.html" | relative_url }}) · [Следующая →: Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }})

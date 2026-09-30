@@ -62,3 +62,5 @@
 {"from_id":"protocol-prokinetics","to_id":"protocol-overview","relation":"subtopic-of","note":null}
 {"from_id":"protocol-healing","to_id":"protocol-overview","relation":"subtopic-of","note":null}
 {"from_id":"protocol-schedule","to_id":"protocol-overview","relation":"subtopic-of","note":null}
+{"from_id":"orocecal-transit-confound","to_id":"protocol-prokinetics","relation":"also-relevant-to","note":null}
+{"from_id":"methane-reduces-gas-volume","to_id":"h2s-sibo-markers","relation":"also-relevant-to","note":null}

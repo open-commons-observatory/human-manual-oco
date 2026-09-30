@@ -22,7 +22,7 @@ Practical course rules, and which of them are established clinical practice vers
 <a id="pancreatic-enzyme-role"></a>
 ### Enzymes "for the whole course" is functional-medicine practice, not a guideline
 
-Pancreatic enzyme products (pancreatin) are standard treatment for confirmed exocrine pancreatic insufficiency; using them prophylactically "for the duration of a SIBO eradication course" in people without diagnosed insufficiency is functional-medicine practice, not an indication set out in gastroenterology guidelines.
+Pancreatic enzyme products (pancreatin) are standard treatment for confirmed exocrine pancreatic insufficiency; using them prophylactically "for the duration of a [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) eradication course" in people without diagnosed insufficiency is functional-medicine practice, not an indication set out in gastroenterology guidelines.
 
 Status
 : insufficient evidence
@@ -37,4 +37,4 @@ Status
 
 ---
 
-[← Previous: Stage 5 - mucosal healing]({{ "/en/protocol-healing.html" | relative_url }})
+[← Previous: Stage 5 - mucosal healing]({{ "/en/protocol-healing.html" | relative_url }}) · [Read as one article]({{ "/en/sibo-sifo-overview-story.html" | relative_url }})

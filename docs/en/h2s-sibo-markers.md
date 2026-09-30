@@ -1,5 +1,5 @@
 ---
-title: "Hydrogen sulfide SIBO markers (the third gas)"
+title: "SIBO markers: Hydrogen sulfide (the third gas)"
 locale: en
 alt_path: /ru/h2s-sibo-markers.html
 breadcrumb:
@@ -9,13 +9,16 @@ breadcrumb:
     url: /en/sibo-sifo-overview.html
   - name: "Self-observation: clear markers"
     url: /en/self-observation-markers.html
-  - name: "Hydrogen sulfide SIBO markers (the third gas)"
+  - name: "SIBO markers: Hydrogen sulfide (the third gas)"
     url: /en/h2s-sibo-markers.html
 ---
 
 <!-- Generated from data/ by bin/render_manual.py. Do not edit by hand. -->
 
-The third, most recently recognised SIBO type - with the single most recognisable marker of all: a specific smell.
+The third, most recently recognised [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) type - with the single most recognisable marker of all: a specific smell.
+
+Used in
+: [Why the methane variant is 'quieter' than the hydrogen one]({{ "/en/methane-imo-markers.html#methane-reduces-gas-volume" | relative_url }})
 
 ## Facts
 
@@ -43,4 +46,4 @@ Status
 
 ---
 
-[← Previous: Methane / IMO markers]({{ "/en/methane-imo-markers.html" | relative_url }}) · [Next →: SIFO (fungal overgrowth) markers]({{ "/en/sifo-candida-markers.html" | relative_url }})
+[← Previous: SIBO markers: Methane (IMO)]({{ "/en/methane-imo-markers.html" | relative_url }}) · [Next →: SIFO markers: Fungal (Candida)]({{ "/en/sifo-candida-markers.html" | relative_url }})

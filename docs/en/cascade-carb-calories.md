@@ -33,7 +33,7 @@ Sources
 <a id="secondary-lactose-intolerance"></a>
 ### Secondary lactose intolerance
 
-Brush-border damage from ongoing SIBO can reduce lactase output; a clinical study found that patients with biopsy-confirmed lactase deficiency tested positive for SIBO significantly more often.
+Brush-border damage from ongoing [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) can reduce lactase output; a clinical study found that patients with biopsy-confirmed lactase deficiency tested positive for SIBO significantly more often.
 
 Status
 : confirmed

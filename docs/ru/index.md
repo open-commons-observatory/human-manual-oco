@@ -11,14 +11,18 @@ breadcrumb:
 
 Личные заметки с проверкой источников, не медицинская рекомендация; статус доказательности указан у каждого факта.
 
-[Читать как статью →]({{ "/ru/story.html" | relative_url }})
+## Разделы мануала
+
+- [Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html" | relative_url }}) (45) · [Читать как статью]({{ "/ru/sibo-sifo-overview-story.html" | relative_url }})
+
+[Глоссарий →]({{ "/ru/glossary.html" | relative_url }})
 
 - [Обзор: СИБР и СИФО]({{ "/ru/sibo-sifo-overview.html" | relative_url }})
   - [Самонаблюдения: чёткие маркеры]({{ "/ru/self-observation-markers.html" | relative_url }})
-    - [Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
-    - [Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})
-    - [Маркеры сероводородного СИБР (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }})
-    - [Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }})
+    - [Маркеры СИБР: Водородный]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }})
+    - [Маркеры СИБР: Метановый (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }})
+    - [Маркеры СИБР: Сероводородный (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }})
+    - [Маркеры СИФО: Грибковый (Candida)]({{ "/ru/sifo-candida-markers.html" | relative_url }})
     - [Отрыжка без запаха — чаще другой механизм]({{ "/ru/belching-differential.html" | relative_url }})
   - [Системные последствия]({{ "/ru/systemic-consequences.html" | relative_url }})
   - [Каскады: от бактерий к недоеданию и усталости]({{ "/ru/malabsorption-cascades.html" | relative_url }})

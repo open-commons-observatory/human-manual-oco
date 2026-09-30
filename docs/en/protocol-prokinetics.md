@@ -17,12 +17,15 @@ breadcrumb:
 
 Ginger and artichoke: where the evidence genuinely applies, and where it is carried over from a different diagnosis.
 
+Used in
+: [Two different scenarios behind the same early rise]({{ "/en/hydrogen-sibo-markers.html#orocecal-transit-confound" | relative_url }})
+
 ## Facts
 
 <a id="prokinetic-mmc-rationale"></a>
 ### Why prokinetics matter after eradication
 
-SIBO relapse risk is closely tied to whether motility has recovered: the fasting-phase MMC "sweeps" residual food and bacteria out of the small intestine between meals.
+[SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) relapse risk is closely tied to whether motility has recovered: the fasting-phase [MMC]({{ "/en/glossary.html#mmc" | relative_url }}) "sweeps" residual food and bacteria out of the small intestine between meals.
 
 Status
 : confirmed

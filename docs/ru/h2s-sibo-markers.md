@@ -1,5 +1,5 @@
 ---
-title: "Маркеры сероводородного СИБР (третий газ)"
+title: "Маркеры СИБР: Сероводородный (третий газ)"
 locale: ru
 alt_path: /en/h2s-sibo-markers.html
 breadcrumb:
@@ -9,13 +9,16 @@ breadcrumb:
     url: /ru/sibo-sifo-overview.html
   - name: "Самонаблюдения: чёткие маркеры"
     url: /ru/self-observation-markers.html
-  - name: "Маркеры сероводородного СИБР (третий газ)"
+  - name: "Маркеры СИБР: Сероводородный (третий газ)"
     url: /ru/h2s-sibo-markers.html
 ---
 
 <!-- Generated from data/ by bin/render_manual.py. Do not edit by hand. -->
 
-Третий, самый молодой из распознанных типов СИБР — с самым узнаваемым из всех маркеров: конкретным запахом.
+Третий, самый молодой из распознанных типов [СИБР]({{ "/ru/glossary.html#sibo" | relative_url }}) — с самым узнаваемым из всех маркеров: конкретным запахом.
+
+Используется в
+: [Почему метановый вариант «тише» водородного]({{ "/ru/methane-imo-markers.html#methane-reduces-gas-volume" | relative_url }})
 
 ## Факты
 
@@ -46,4 +49,4 @@ breadcrumb:
 
 ---
 
-[← Предыдущая: Маркеры метанового СИБР (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }}) · [Следующая →: Маркеры СИФО (грибковый перерост)]({{ "/ru/sifo-candida-markers.html" | relative_url }})
+[← Предыдущая: Маркеры СИБР: Метановый (IMO)]({{ "/ru/methane-imo-markers.html" | relative_url }}) · [Следующая →: Маркеры СИФО: Грибковый (Candida)]({{ "/ru/sifo-candida-markers.html" | relative_url }})

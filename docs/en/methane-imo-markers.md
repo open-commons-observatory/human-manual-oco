@@ -1,5 +1,5 @@
 ---
-title: "Methane / IMO markers"
+title: "SIBO markers: Methane (IMO)"
 locale: en
 alt_path: /ru/methane-imo-markers.html
 breadcrumb:
@@ -9,20 +9,20 @@ breadcrumb:
     url: /en/sibo-sifo-overview.html
   - name: "Self-observation: clear markers"
     url: /en/self-observation-markers.html
-  - name: "Methane / IMO markers"
+  - name: "SIBO markers: Methane (IMO)"
     url: /en/methane-imo-markers.html
 ---
 
 <!-- Generated from data/ by bin/render_manual.py. Do not edit by hand. -->
 
-Why the methane variant was formally renamed IMO, and how it differs from the hydrogen variant.
+Why the methane variant was formally renamed [IMO]({{ "/en/glossary.html#imo" | relative_url }}), and how it differs from the hydrogen variant.
 
 ## Facts
 
 <a id="imo-reclassification"></a>
 ### Methane comes from archaea, not bacteria
 
-Excess methane is produced by methanogenic archaea, not bacteria; ACG therefore prefers the term IMO (intestinal methanogen overgrowth) over "methane SIBO". The positive-test threshold is methane ≥10 ppm.
+Excess methane is produced by [methanogenic archaea]({{ "/en/glossary.html#methanogens" | relative_url }}), not bacteria; ACG therefore prefers the term IMO (intestinal methanogen overgrowth) over "methane [SIBO]({{ "/en/glossary.html#sibo" | relative_url }})". The positive-test threshold is methane ≥10 ppm.
 
 Status
 : confirmed
@@ -57,4 +57,4 @@ Sources
 
 ---
 
-[← Previous: Hydrogen-dominant SIBO markers]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) · [Next →: Hydrogen sulfide SIBO markers (the third gas)]({{ "/en/h2s-sibo-markers.html" | relative_url }})
+[← Previous: SIBO markers: Hydrogen]({{ "/en/hydrogen-sibo-markers.html" | relative_url }}) · [Next →: SIBO markers: Hydrogen sulfide (the third gas)]({{ "/en/h2s-sibo-markers.html" | relative_url }})

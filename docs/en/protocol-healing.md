@@ -22,7 +22,7 @@ L-glutamine: its physiological role versus the evidence for this specific use ca
 <a id="glutamine-mixed-evidence"></a>
 ### L-glutamine: proven elsewhere, not here
 
-L-glutamine is studied as an enterocyte fuel and used in critically ill patients or those with short-bowel syndrome; evidence specifically for gut "healing" in everyday SIBO and increased permeability in otherwise healthy people is considerably thinner.
+L-glutamine is studied as an enterocyte fuel and used in critically ill patients or those with short-bowel syndrome; evidence specifically for gut "healing" in everyday [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) and increased permeability in otherwise healthy people is considerably thinner.
 
 Status
 : mechanism known, not clinically proven

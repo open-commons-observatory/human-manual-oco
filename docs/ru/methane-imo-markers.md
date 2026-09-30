@@ -1,5 +1,5 @@
 ---
-title: "Маркеры метанового СИБР (IMO)"
+title: "Маркеры СИБР: Метановый (IMO)"
 locale: ru
 alt_path: /en/methane-imo-markers.html
 breadcrumb:
@@ -9,20 +9,20 @@ breadcrumb:
     url: /ru/sibo-sifo-overview.html
   - name: "Самонаблюдения: чёткие маркеры"
     url: /ru/self-observation-markers.html
-  - name: "Маркеры метанового СИБР (IMO)"
+  - name: "Маркеры СИБР: Метановый (IMO)"
     url: /ru/methane-imo-markers.html
 ---
 
 <!-- Generated from data/ by bin/render_manual.py. Do not edit by hand. -->
 
-Почему метановый вариант официально переименован в IMO и чем он отличается от водородного.
+Почему метановый вариант официально переименован в [IMO]({{ "/ru/glossary.html#imo" | relative_url }}) и чем он отличается от водородного.
 
 ## Факты
 
 <a id="imo-reclassification"></a>
 ### Метан образуют археи, не бактерии
 
-Избыточный метан производят не бактерии, а археи-метаногены; поэтому ACG использует термин IMO (intestinal methanogen overgrowth) вместо «метановый СИБР». Порог положительного теста — метан ≥10 ppm.
+Избыточный метан производят не бактерии, а [археи-метаногены]({{ "/ru/glossary.html#methanogens" | relative_url }}); поэтому ACG использует термин IMO (intestinal methanogen overgrowth) вместо «метановый [СИБР]({{ "/ru/glossary.html#sibo" | relative_url }})». Порог положительного теста — метан ≥10 ppm.
 
 Статус
 : подтверждено
@@ -60,4 +60,4 @@ ACG (2020) прямо рекомендует тестирование на ме�
 
 ---
 
-[← Предыдущая: Маркеры водородного СИБР]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }}) · [Следующая →: Маркеры сероводородного СИБР (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }})
+[← Предыдущая: Маркеры СИБР: Водородный]({{ "/ru/hydrogen-sibo-markers.html" | relative_url }}) · [Следующая →: Маркеры СИБР: Сероводородный (третий газ)]({{ "/ru/h2s-sibo-markers.html" | relative_url }})

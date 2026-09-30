@@ -20,7 +20,7 @@ Which claims about downstream effects (permeability, pancreatitis, new allergies
 <a id="systemic-permeability"></a>
 ### Permeability: plausible mechanism, unproven chain
 
-The chain "gas distension / biofilm -> damaged mucosal barrier -> increased permeability -> new food reactions" is discussed in the literature as a mechanism, but solid clinical evidence that it plays out in a typical SIBO patient is lacking.
+The chain "gas distension / [biofilm]({{ "/en/glossary.html#biofilm" | relative_url }}) -> damaged mucosal barrier -> increased permeability -> new food reactions" is discussed in the literature as a mechanism, but solid clinical evidence that it plays out in a typical [SIBO]({{ "/en/glossary.html#sibo" | relative_url }}) patient is lacking.
 
 Status
 : mechanism known, not clinically proven

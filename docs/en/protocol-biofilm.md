@@ -15,14 +15,14 @@ breadcrumb:
 
 <!-- Generated from data/ by bin/render_manual.py. Do not edit by hand. -->
 
-What a biofilm is in this context, and how well-proven the benefit of deliberately disrupting it actually is.
+What a [biofilm]({{ "/en/glossary.html#biofilm" | relative_url }}) is in this context, and how well-proven the benefit of deliberately disrupting it actually is.
 
 ## Facts
 
 <a id="nac-biofilm-definition"></a>
 ### What a biofilm is
 
-A biofilm is a structured community of microbial cells embedded in an extracellular polysaccharide matrix; its presence is cited as one factor that makes SIBO/IMO harder to treat with antimicrobials.
+A biofilm is a structured community of microbial cells embedded in an extracellular polysaccharide matrix; its presence is cited as one factor that makes [SIBO]({{ "/en/glossary.html#sibo" | relative_url }})/[IMO]({{ "/en/glossary.html#imo" | relative_url }}) harder to treat with antimicrobials.
 
 Status
 : confirmed

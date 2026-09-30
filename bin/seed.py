@@ -10,6 +10,20 @@ import duckdb
 con = duckdb.connect()
 con.execute(open("data/schema.sql").read())
 
+
+def i18n_set(entity_id, field, locale, text):
+    """One row of translatable text for one entity/field/locale. Called directly for terms and
+    for extra fields (e.g. a topic's 'category'); the TOPICS/FACTS loops below call it in a small
+    fan-out loop instead of writing text into wide per-locale columns, so topics/facts/terms
+    themselves stay locale-agnostic and a new locale is purely more i18n rows, no schema change."""
+    if text is None:
+        return
+    con.execute(
+        "INSERT INTO i18n VALUES (?,?,?,?) "
+        "ON CONFLICT (entity_id, field, locale) DO UPDATE SET text = excluded.text",
+        [entity_id, field, locale, text])
+
+
 # ---------------------------------------------------------------- sources
 SOURCES = [
     # id, title, url, author, year
@@ -190,8 +204,38 @@ TOPICS = [
      66, ["gi", "protocol"]),
 ]
 for id_, nr, ne, sr, se, nar_r, nar_e, ok, tags in TOPICS:
-    con.execute("INSERT INTO topics VALUES (?,?,?,?,?,?,?,?,?)",
-                [id_, nr, ne, sr, se, nar_r, nar_e, ok, tags])
+    con.execute("INSERT INTO topics VALUES (?,?,?)", [id_, ok, tags])
+    i18n_set(id_, "name", "ru", nr)
+    i18n_set(id_, "name", "en", ne)
+    i18n_set(id_, "summary", "ru", sr)
+    i18n_set(id_, "summary", "en", se)
+    i18n_set(id_, "narrative", "ru", nar_r)
+    i18n_set(id_, "narrative", "en", nar_e)
+
+# category is a display grouping, deliberately not part of a topic's own name - see
+# display_title() in bin/render_manual.py. Stored as ordinary i18n rows on the same topic ids;
+# a topic with no 'category' i18n rows just renders its bare name (most topics).
+CATEGORIES = {
+    "hydrogen-sibo-markers": ("Маркеры СИБР", "SIBO markers"),
+    "methane-imo-markers": ("Маркеры СИБР", "SIBO markers"),
+    "h2s-sibo-markers": ("Маркеры СИБР", "SIBO markers"),
+    "sifo-candida-markers": ("Маркеры СИФО", "SIFO markers"),
+}
+for tid, (cat_ru, cat_en) in CATEGORIES.items():
+    i18n_set(tid, "category", "ru", cat_ru)
+    i18n_set(tid, "category", "en", cat_en)
+
+# Shortened names to go with the category prefix above, so the rendered title reads
+# "Маркеры СИБР: Водородный" rather than repeating "СИБР" in both halves.
+SHORT_NAMES = {
+    "hydrogen-sibo-markers": ("Водородный", "Hydrogen"),
+    "methane-imo-markers": ("Метановый (IMO)", "Methane (IMO)"),
+    "h2s-sibo-markers": ("Сероводородный (третий газ)", "Hydrogen sulfide (the third gas)"),
+    "sifo-candida-markers": ("Грибковый (Candida)", "Fungal (Candida)"),
+}
+for tid, (name_ru, name_en) in SHORT_NAMES.items():
+    i18n_set(tid, "name", "ru", name_ru)
+    i18n_set(tid, "name", "en", name_en)
 
 # ---------------------------------------------------------------- facts
 # id, name_ru, name_en, statement_ru, statement_en, quote, quote_ru, status, tags, topic_id, source_id_or_None
@@ -412,8 +456,16 @@ FACTS = [
 
 for f in FACTS:
     (id_, nr, ne, sr, se, quote, quote_ru, status, tags, topic_id, source_id) = f
-    con.execute("INSERT INTO facts VALUES (?,?,?,?,?,?,?,?,?)",
-                [id_, nr, ne, sr, se, quote, quote_ru, status, tags])
+    # quote is stored once, in whatever language the source actually used (here always English so
+    # far) - it is not translated per locale, because it IS that specific original wording. Its
+    # Russian rendering is a translation of that quote, so it goes in i18n as a distinct field,
+    # not as a second "the quote, but in Russian" quote.
+    con.execute("INSERT INTO facts VALUES (?,?,?,?)", [id_, status, quote, tags])
+    i18n_set(id_, "name", "ru", nr)
+    i18n_set(id_, "name", "en", ne)
+    i18n_set(id_, "statement", "ru", sr)
+    i18n_set(id_, "statement", "en", se)
+    i18n_set(id_, "quote_translation", "ru", quote_ru)
     con.execute("INSERT INTO relations VALUES (?,?,?,?)", [id_, topic_id, "belongs-to", None])
     if source_id:
         con.execute("INSERT INTO fact_sources VALUES (?,?)", [id_, source_id])
@@ -442,6 +494,64 @@ SUBTOPIC_OF = [
 ]
 for child, parent in SUBTOPIC_OF:
     con.execute("INSERT INTO relations VALUES (?,?,?,?)", [child, parent, "subtopic-of", None])
+
+# ---------------------------------------------------------------- glossary (terms)
+# id, name_ru, name_en, explanation_ru, explanation_en. Each occurrence of name_ru/name_en inside
+# rendered prose gets auto-linked (bin/render_manual.py) to this term's entry on the glossary
+# page - the term and its explanation are their own data, reusable by anything that mentions the
+# term, not prose baked into whichever fact happened to introduce it first.
+TERMS = [
+    ("sibo", "СИБР", "SIBO",
+     "Синдром избыточного бактериального роста — состояние, при котором бактерий в тонкой кишке становится намного больше нормы.",
+     "Small Intestinal Bacterial Overgrowth - a condition where the small intestine hosts far more bacteria than normal."),
+    ("sifo", "СИФО", "SIFO",
+     "Синдром избыточного грибкового роста — то же самое, но про грибки (обычно дрожжи рода Candida), а не бактерии.",
+     "Small Intestinal Fungal Overgrowth - the same idea, but with fungi (usually Candida yeast) instead of bacteria."),
+    ("imo", "IMO", "IMO",
+     "Избыточный рост архей-метаногенов (Intestinal Methanogen Overgrowth) — современное, более точное название того, что раньше называли «метановым СИБР».",
+     "Intestinal Methanogen Overgrowth - the modern, more precise name for what used to be called \"methane SIBO\"."),
+    ("mmc", "ММК", "MMC",
+     "Мигрирующий моторный комплекс — волна сокращений, которая в перерывах между едой выметает из тонкой кишки остатки пищи и бактерий.",
+     "Migrating Motor Complex - a wave of contractions that, between meals, sweeps leftover food and bacteria out of the small intestine."),
+    ("methanogens", "археи-метаногены", "methanogenic archaea",
+     "Микроорганизмы отдельного от бактерий домена жизни, которые производят метан, используя водород как топливо.",
+     "Microorganisms from a domain of life separate from bacteria, which produce methane using hydrogen as fuel."),
+    ("bile-deconjugation", "деконъюгация желчных кислот", "bile acid deconjugation",
+     "Химическое «расстёгивание» желчных кислот бактериями; в такой форме желчь больше не может упаковывать жир в мицеллы для всасывания.",
+     "Bacteria chemically \"unbuttoning\" bile acids; in that form bile can no longer package fat into micelles for absorption."),
+    ("biofilm", "биоплёнка", "biofilm",
+     "Сообщество микробных клеток, укрытое общим защитным слоем полисахаридов — город под одной крышей, который мешает антимикробным веществам добраться до клеток внутри.",
+     "A community of microbial cells sheltered under a shared protective layer of polysaccharides - a city under one roof that keeps antimicrobials from reaching the cells inside."),
+    ("supragastric-belching-term", "супрагастральная отрыжка", "supragastric belching",
+     "Отрыжка, при которой воздух засасывается в пищевод и тут же выталкивается обратно, не доходя до желудка или кишечника — мышечный паттерн пищевода, а не пищеварительный процесс.",
+     "Belching where air is sucked into the oesophagus and pushed straight back out without reaching the stomach or intestine - an oesophageal muscular pattern, not a digestive process."),
+    ("auto-brewery-syndrome-term", "синдром аутоброжения", "auto-brewery syndrome",
+     "Редкое состояние, при котором дрожжи в кишечнике превращают съеденные углеводы в этанол прямо на месте, вызывая опьянение без употребления алкоголя.",
+     "A rare condition where gut yeast converts ingested carbohydrate into ethanol on the spot, causing intoxication without drinking alcohol."),
+    ("dumping-syndrome-term", "демпинг-синдром", "dumping syndrome",
+     "Состояние, при котором еда слишком быстро проходит из желудка в кишечник, вызывая резкий сброс жидкости и гормональный всплеск — потливость, сердцебиение, головокружение.",
+     "A condition where food passes too quickly from the stomach into the intestine, causing a sudden fluid shift and hormone surge - sweating, a racing heart, dizziness."),
+    ("enterocytes", "энтероциты", "enterocytes",
+     "Клетки, которые образуют слизистую оболочку тонкой кишки и непосредственно всасывают нутриенты из переваренной пищи.",
+     "The cells that make up the small intestine's lining and directly absorb nutrients from digested food."),
+]
+for tid, name_ru, name_en, expl_ru, expl_en in TERMS:
+    con.execute("INSERT INTO terms VALUES (?)", [tid])
+    i18n_set(tid, "name", "ru", name_ru)
+    i18n_set(tid, "name", "en", name_en)
+    i18n_set(tid, "explanation", "ru", expl_ru)
+    i18n_set(tid, "explanation", "en", expl_en)
+
+# ---------------------------------------------------------------- cross-references
+# "also-relevant-to" points a fact at a topic it did not come from, so it stays reachable from
+# both places, exactly what the belongs-to relation alone couldn't give it: a marker described
+# once under one topic is still just a marker, not welded into that topic's identity.
+CROSS_REFERENCES = [
+    ("orocecal-transit-confound", "protocol-prokinetics"),
+    ("methane-reduces-gas-volume", "h2s-sibo-markers"),
+]
+for fact_id, topic_id in CROSS_REFERENCES:
+    con.execute("INSERT INTO relations VALUES (?,?,?,?)", [fact_id, topic_id, "also-relevant-to", None])
 
 # ---------------------------------------------------------------- backlog & session_log
 con.execute("INSERT INTO backlog VALUES (?,?,?,?,?)",
@@ -513,6 +623,28 @@ con.execute("INSERT INTO session_log VALUES (?,?,?,?,?,?)", [
     "не вынесена отдельно, потому что смысл именно в привязке запаха к конкретному газу/процессу, "
     "а не в отдельном каталоге запахов без контекста.",
     None,
+])
+con.execute("INSERT INTO session_log VALUES (?,?,?,?,?,?)", [
+    "i18n-normalization", "2026-09-30", "Схема переведена на нормализованную i18n-таблицу",
+    "По запросу пользователя схема переработана под четыре требования: (1) СИБР/СИФО - лишь один "
+    "раздел мануала, не весь мануал; структура должна поддерживать другие разделы без переделки - "
+    "решено тем, что 'раздел' не отдельная таблица, а любой topic без subtopic-of родителя "
+    "(корень дерева), поэтому 'читать как статью' и пейджер должны быть per-section, а не "
+    "глобальными; (2) обратные ссылки у фактов на то, где они используются - добавлена таблица "
+    "relations с типом also-relevant-to и генерик-рендер 'Используется в:' на странице факта; "
+    "(3) глоссарий - новая таблица terms (id + i18n name/explanation), авто-связывание первого "
+    "вхождения термина в тексте на странице со ссылкой на его статью в глоссарии; (4) безлимитные "
+    "локали - topics/facts/terms сами по себе locale-agnostic (id, status/order_key, tags), весь "
+    "переводимый текст (name, summary, narrative, statement, quote_translation, category, "
+    "explanation) вынесен в i18n(entity_id, field, locale, text); новая локаль = только новые "
+    "строки i18n, без правки схемы или кода рендера.",
+    "Рассматривался вариант с таблицей sections отдельно от topics и вынос UI-строк рендерера "
+    "(Главная, Разделы, статусы) в i18n тоже.",
+    "Отдельная таблица sections отклонена: любой корневой topic и так является разделом по "
+    "построению дерева (roots в render_manual.py), отдельная таблица дублировала бы это. "
+    "UI-строки в i18n отклонены для этой правки: это словарь интерфейса инструмента, а не "
+    "содержимое базы, которое пользователь имел в виду; остаётся python-словарём в "
+    "bin/render_manual.py, добавление локали требует одной новой записи там же.",
 ])
 
 con.execute(f"EXPORT DATABASE 'data' (FORMAT json)")
